@@ -11,7 +11,7 @@
     background-image: url(../images/lp/image_view/image_view_bg_pc.jpg);
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: initial;
+    background-size: 200rem;
     overflow-x: clip;
   }
   .image_view_wrap {
@@ -80,7 +80,7 @@
     }
     .movie {
       position: relative;
-
+      width: 64rem;
       @include pc() {
         position: absolute;
       }
@@ -117,7 +117,6 @@
       &.movie-a {
         top: 0;
         right: 0;
-        width: 64rem;
         text-align: right;
       }
       &.movie-b {
@@ -193,12 +192,15 @@
     .plan_design_txt {
       margin-right: 0;
       margin-left: auto;
-      margin-top: -1rem;
+      margin-top: -2rem;
       text-align: right;
       @include sp {
         img {
           width: 49.6rem;
         }
+      }
+      @include pc {
+        width: 53.7rem;
       }
     }
     .plan_design_imgs {

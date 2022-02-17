@@ -1,0 +1,191 @@
+.location {
+    .img-heading {
+        padding-left: 2.5rem;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .location-ttl {
+        margin-top: -7.5rem;
+        margin-left: 3.5rem;
+
+        img {
+            width: 40rem;
+        }
+    }
+
+    .location-content {
+        margin-top: 6.0rem;
+
+        .location-dir {
+            font-family: 'Noto Serif JP', sans-serif;
+            font-size: 4.8rem;
+            text-align: center;
+            line-height: 1.4;
+
+            .dr-big {
+                font-size: 10.0rem;
+                font-weight: 600;
+                margin-right: -2.7rem;
+            }
+
+            .num-7 {
+                font-weight: 500;
+                font-size: 10.0rem;
+                width: 6.7rem;
+                height: 10.5rem;
+                background: url(../images/lp/location/number7.svg) no-repeat center/contain;
+                // display: inline-block;
+                // text-indent: -999em;
+            }
+        }
+
+        .location-snip {
+            margin-top: 4.0rem;
+
+            .txt-01 {
+                font-size: 3.0rem;
+                line-height: 1.67;
+                text-align: center;
+                font-family: 'Noto Serif JP', sans-serif;
+            }
+
+            .txt-02 {
+                font-size: 2.4rem;
+                text-align: center;
+                line-height: 1.41;
+                font-weight: 500;
+                margin-top: 5.1rem;
+            }
+        }
+
+        .location-map {
+            margin-top: 5.0rem;
+
+        }
+
+        .list-station {
+            margin-top: 7rem;
+
+            .station-item {
+                &:not(:first-child) {
+                    margin-top: 4.0rem;
+                }
+
+                .img {
+                    margin-inline: auto;
+                }
+
+                .text {
+                    margin-top: 5.0rem;
+                    text-align: center;
+                    font-size: 2.4rem;
+                    font-weight: 300;
+                    line-height: 1.17;
+                }
+            }
+        }
+
+        .train-station-note {
+            margin-top: 2.4rem;
+            text-align: center;
+            font-size: 2.4rem;
+            font-weight: 300;
+            line-height: 1.17;
+        }
+    }
+    @include pc{
+        position: relative;
+        .img-heading {
+            max-width: 2000px;
+            margin-inline: auto;
+            img{
+                max-width: 1200px;
+            margin-left: auto;
+            display: block;
+            }
+            
+        }
+    
+        .location-ttl {
+            margin-top: -25.5rem;
+            margin-left: -17.5rem;
+        }
+    
+        .location-content {
+            margin-top: -3.2rem;
+            .location-dir {
+               font-size: 6.0rem;
+               line-height: 1;
+                .dr-big {
+                font-size: 9.0rem;
+                }
+    
+                .num-7 {
+                    width: 6.1rem;
+                    height: 9.5rem;
+                }
+            }
+    
+            .location-snip {
+                margin-top: 5.0rem;
+    
+                .txt-01 {
+                   font-size: 2.4rem;
+                   line-height: 1.9;
+                }
+    
+                .txt-02 {
+                    margin-top: 5.1rem;
+                    font-size: 1.6rem;
+                    line-height: 1.75;
+                }
+            }
+    
+            .location-map {
+                margin-top: 3.2rem;
+            }
+    
+            .list-station {
+                margin-top: 3.9rem;
+                max-width: 850px;
+                margin-inline: auto;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .station-item {
+                    width: calc(50% - 75px);
+                   /*  &__in{
+                        max-width: 350px;
+                    } */
+                    &:not(:first-child) {
+                        margin-top:0;
+                    }
+                    &:not(:nth-child(-n+2)) {
+                        margin-top: 3.7rem;
+                    }
+                    .img {
+                     
+                    }
+    
+                    .text {
+                      font-size: 14px;
+                      margin-top: 29px;
+                    }
+                }
+            }
+    
+            .train-station-note {
+               font-size: 14px;
+               line-height: 1.41;
+            }
+        }
+    }
+    @include sp{
+        .location-content .list-station .station-item .img{
+            width: 50rem;
+        }
+    }
+}

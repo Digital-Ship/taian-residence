@@ -1,0 +1,211 @@
+.security-gua {
+    background: url(../images/lp/security/security-bg.jpg) no-repeat center/cover;
+    padding-bottom: 5.0rem;
+
+    .secrurity-ttl {
+        font-weight: bold;
+        font-size: 4rem;
+        line-height: 1;
+        text-align: center;
+        background-color: #F5BCB7;
+        padding: 2.6rem 0;
+    }
+
+    .security-content {
+        margin-top: 2.5rem;
+
+        .secu-col {
+            .secu-name {
+                text-align: center;
+                font-size: 2.4rem;
+                background-color: #000000;
+                line-height: 1;
+                padding: 1.2rem 4.9rem;
+                width: fit-content;
+                margin-inline: auto;
+                border-radius: 2.4rem;
+            }
+
+            .secu-logo {
+                text-align: center;
+                margin-top: 2.52rem;
+
+                img {
+                    width: 60.0rem;
+                }
+            }
+
+            .img01 {
+                margin-top: 2.52rem;
+                text-align: center;
+
+
+            }
+        }
+
+        .secu-support {
+            margin-top: 3.1rem;
+
+            .list-support {
+                max-width: 80%;
+                margin-inline: auto;
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                .support-item {
+                    background-color: #FFFFFF;
+                    border-radius: 3.1rem;
+                    width: calc(50% - 1rem);
+                    padding: 3rem 2.6rem 2.6rem;
+
+                    &:not(:nth-child(-n+2)) {
+                        margin-top: 2.0rem;
+                    }
+
+                    .img {
+                        text-align: center;
+
+                        img {
+                            width: 18.4rem;
+                        }
+                    }
+
+                    .text {
+                        font-size: 2.4rem;
+                        line-height: 1.17;
+                        font-weight: 500;
+                        color: #000000;
+                        margin-top: 1.56rem;
+                    }
+                }
+            }
+        }
+    }
+
+    @include pc {
+        position: relative;
+
+        .secrurity-ttl {
+            position: absolute;
+            width: calc(50% + 50px);
+            left: -50px;
+            top: 0;
+            transform: translateY(-50%);
+            text-align: right;
+            font-size: 34px;
+            padding: 28px 0;
+            padding-right: 100px;
+            border-radius: 50px;
+        }
+
+        .security-content {
+            margin-top: 2.5rem;
+            display: flex;
+
+            .secu-col {
+                width: 50%;
+
+                .secu-info {
+                    max-width: 500px;
+                }
+
+                .secu-name {
+                    font-size: 2rem;
+                }
+
+                .secu-logo {
+                    text-align: left;
+                    margin-top: 28px;
+
+                    img {
+                        width: 500px;
+                    }
+                }
+
+                .img01 {
+                    margin-top: 30px;
+
+
+                    img {}
+                }
+            }
+
+
+
+            .secu-support {
+                .list-support {
+                    max-width: 575px;
+
+                    .support-item {
+                        width: calc(50% - 12px);
+                        padding: 3.5rem 2.5rem 2.5rem;
+
+                        &:not(:nth-child(-n+2)) {
+                            margin-top: 2.5rem;
+                        }
+
+                        .img {
+
+
+                            img {
+                                width: 140px;
+                            }
+                        }
+
+                        .text {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @include sp {
+        .security-content {
+
+
+            .secu-col {
+                .secu-name {}
+
+                .secu-name {}
+
+                .secu-logo {
+
+                    img {}
+                }
+
+                .img01 {
+
+
+                    img {
+                        width: 20.2rem;
+                        height: auto;
+                    }
+                }
+            }
+
+            .secu-support {
+                .list-support {
+
+
+                    .support-item {
+
+
+
+
+                        .img {
+
+
+                            img {}
+                        }
+
+                        .text {}
+                    }
+                }
+            }
+        }
+    }
+}
