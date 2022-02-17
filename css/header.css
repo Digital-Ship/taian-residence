@@ -1,0 +1,42 @@
+#site-header {
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+}
+@media screen and (min-width: 751px) {
+  #site-header {
+    min-width: 160rem;
+  }
+}
+#site-header .site-header__inner {
+  max-width: 153rem;
+  display: flex;
+  justify-content: end;
+}
+#site-header .site-header__inner .site-header__contact-box {
+  display: none;
+}
+@media screen and (min-width: 751px) {
+  #site-header .site-header__inner .site-header__contact-box {
+    line-height: 2.4rem;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    display: block;
+  }
+  #site-header .site-header__inner .site-header__contact-box .site-header__tel {
+    overflow: hidden;
+    text-indent: -999px;
+    display: block;
+    width: 318px;
+    height: 54px;
+    background-image: url(../images/common/txt-tel_number.svg);
+    background-size: 318px;
+    background-repeat: no-repeat;
+  }
+  #site-header .site-header__inner .site-header__contact-box .contact-box__txt {
+    text-align: right;
+  }
+  #site-header .site-header__inner .site-header__contact-box .contact-box__txt-small {
+    font-size: 1.4rem;
+  }
+}/*# sourceMappingURL=header.css.map */

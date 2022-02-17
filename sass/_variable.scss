@@ -1,0 +1,11 @@
+$font-noto-serif: "Noto Serif JP", sans-serif;
+@mixin sp {
+  @media screen and (max-width: 750px) {
+    @content;
+  }
+}
+@mixin pc {
+  @media screen and (min-width: 751px) {
+    @content;
+  }
+}

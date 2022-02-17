@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="350" viewBox="0 0 350 350">
+  <g id="Group_619" data-name="Group 619" transform="translate(-200 -4059.996)">
+    <rect id="Rectangle_308" data-name="Rectangle 308" width="350" height="350" transform="translate(200 4059.996)"/>
+    <g id="Group_618" data-name="Group 618">
+      <path id="Path_2270" data-name="Path 2270" d="M312.031,4154.734h85.224v19.173H312.031Z" fill="#fff"/>
+      <path id="Path_2271" data-name="Path 2271" d="M227.632,4173.907v-95.114H200V4060h99.526v18.8H246.8v95.114Z" fill="#fff"/>
+      <path id="Path_2272" data-name="Path 2272" d="M227.632,4173.907,287.6,4060H306.58l24.812,113.911H312.031l-5.451-25.376H261.091l-13.158,25.376Zm42.857-43.8h32.144l-9.4-43.8Z" fill="#fff"/>
+      <path id="Path_2273" data-name="Path 2273" d="M332.108,4268.645l59.963-113.911h18.985l24.812,113.911H416.507l-5.451-25.376H365.567l-13.158,25.376Zm42.857-43.8h32.143l-9.4-43.8Z" fill="#fff"/>
+      <path id="Path_2274" data-name="Path 2274" d="M333.987,4382.556l-52.632-78.4v78.4h-20.3V4268.645h19.173l51.881,77.638v-77.638h20.3V4410Z" fill="#fff"/>
+    </g>
+    <text id="RESIDENCE" transform="translate(376.268 4323.057)" fill="#fff" font-size="24.231" font-family="SegoeUI, Segoe UI"><tspan x="0" y="26">RESIDENCE</tspan></text>
+  </g>
+</svg>

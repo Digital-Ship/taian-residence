@@ -1,0 +1,239 @@
+@charset "UTF-8";
+@import "variable";
+#footer {
+  background-color: #000;
+  background-image: url(../images/common/footer-background.png);
+  background-size: contain;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  @include pc() {
+    min-width: 160rem;
+    background-image: url(../images/common/footer-background__pc.png);
+    background-position: bottom center;
+    background-size: inherit;
+  }
+  .footer-wrap {
+    position: relative;
+    max-width: 136rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .menu-group {
+    @include pc() {
+      width: 30rem;
+      width: fit-content;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+    #back_to_top {
+      width: 5.06rem;
+      display: block;
+      margin: 5rem auto;
+      @include pc() {
+        width: 3.8rem;
+      }
+    }
+  }
+  .menu-footer ul {
+    text-align: center;
+    li {
+      &:not(:last-child) {
+        margin-bottom: 4.2rem;
+        @include pc() {
+          margin-bottom: 2rem;
+        }
+      }
+      a {
+        color: #fff;
+        display: block;
+        img {
+          height: 2.8rem;
+          margin-bottom: 1.65rem;
+          @include pc() {
+            height: 2rem;
+            margin-bottom: 0.5rem;
+          }
+        }
+        span {
+          display: block;
+          font-size: 2.4rem;
+          line-height: 2.88rem;
+          letter-spacing: 0.025em;
+          @include pc() {
+            font-size: 1.4rem;
+            line-height: 2.4rem;
+          }
+        }
+        &.equipment {
+          img {
+            height: 4.137rem;
+
+            @include pc() {
+              height: 2.896rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer-logo {
+    position: relative;
+
+    @include pc() {
+      position: absolute;
+      top: 0;
+      width: 40.434rem;
+    }
+    .footer-logo__img {
+      width: 28.575rem;
+      @include pc() {
+        width: 40.434rem;
+        margin-left: -7rem;
+      }
+    }
+    .residence {
+      width: 45rem;
+      position: absolute;
+      top: 11rem;
+      right: 0;
+      font-size: 2.2rem;
+      line-height: 3.6rem;
+      text-align: center;
+      display: inline-block;
+      font-family: "Noto Serif JP", sans-serif;
+
+      @include pc() {
+        position: relative;
+        top: 3rem;
+        right: 3rem;
+        width: 38rem;
+      }
+      .residence__txt {
+        font-size: 2.6rem;
+        letter-spacing: 0.2em;
+        @include pc() {
+          font-size: 2.2rem;
+        }
+      }
+      .residence__txt-small {
+        font-size: 2.15rem;
+        letter-spacing: 0.025em;
+        @include pc() {
+          font-size: 1.8rem;
+        }
+      }
+      .residence__img {
+        margin-top: 1rem;
+        img {
+          width: 40.8rem;
+          @include pc() {
+            width: 34rem;
+          }
+        }
+      }
+    }
+  }
+  .footer-content {
+    margin-top: -11.3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: right;
+    @include pc() {
+      position: absolute;
+      top: 5rem;
+      right: 0;
+      margin-top: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .phone-email {
+      width: 40.8rem;
+      margin-left: auto;
+      margin-right: 0;
+      margin-bottom: 1.5rem;
+      @include pc() {
+        width: 32rem;
+        margin-bottom: 1.8rem;
+      }
+      a.footer__tel {
+        overflow: hidden;
+        display: block;
+        height: 5rem;
+        text-align: left;
+        text-indent: -999px;
+        background-image: url(../images/common/txt-tel_number.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-bottom: 1rem;
+        @include pc() {
+          height: 3.961rem;
+          margin-bottom: 1.79rem;
+        }
+      }
+      a.footer__mailto {
+        font-size: 2.53rem;
+        line-height: 4.2rem;
+        font-weight: bold;
+        color: #fff;
+        @include pc() {
+          font-size: 1.8rem;
+          line-height: 3.15rem;
+          text-align: left;
+          letter-spacing: 0.055em;
+        }
+      }
+    }
+    .footer-info {
+      font-size: 2.4rem;
+      font-weight: 500;
+      color: #fff;
+      line-height: 3.4rem;
+      @include pc() {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+      }
+      .txt__underline {
+        text-decoration: underline;
+      }
+      .txt__small {
+        font-size: 2.2rem;
+        letter-spacing: -0.01em;
+        @include pc() {
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+  .privacy {
+    margin-top: 3rem;
+    text-align: right;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    @include pc() {
+      margin-top: 3rem;
+    }
+    a {
+      color: #fff;
+      font-size: 2.2rem;
+      text-decoration: underline;
+      @include pc() {
+        font-size: 1.4rem;
+        line-height: 2.45rem;
+      }
+    }
+  }
+  .copyright {
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.025em;
+    @include pc() {
+      font-size: 1rem;
+      line-height: 1.2rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+  }
+}

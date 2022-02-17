@@ -1,0 +1,219 @@
+#image-view {
+  position: relative;
+  background-color: #3466ff;
+  background-image: url(../images/lp/image_view/image_view_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  overflow-x: clip;
+
+  @include pc() {
+    background-image: url(../images/lp/image_view/image_view_bg_pc.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: initial;
+    overflow-x: clip;
+  }
+  .image_view_wrap {
+    margin-left: 5.5rem;
+    margin-right: 5.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    height: 267rem;
+    position: relative;
+    @include pc() {
+      height: 155.9rem;
+      width: 100%;
+      max-width: 120rem;
+      margin: 0 auto;
+      .image_view_content {
+        position: relative;
+      }
+    }
+    .image_view__title {
+      margin-bottom: 5rem;
+      img {
+        width: 47.1rem;
+      }
+    }
+    .image_view__subtitle {
+      font-size: 2.6rem;
+      line-height: 3.8rem;
+      position: absolute;
+      left: 0;
+      @include pc() {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        letter-spacing: 0.025em;
+      }
+    }
+    .image_view__txt_jp {
+      width: 15.3rem;
+      display: block;
+      margin: 0 auto;
+      padding-top: 3rem;
+      margin-bottom: 5rem;
+      @include pc() {
+        width: 13.52rem;
+        margin-left: 18.32rem;
+        padding-top: 0;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    .taian-logo {
+      width: 35rem;
+      height: 35rem;
+      background-color: #000;
+      margin: -6rem auto;
+      position: relative;
+      z-index: 1;
+      @include pc() {
+        width: 26rem;
+        height: 26rem;
+        position: absolute;
+        top: 30rem;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+    .movie {
+      position: relative;
+
+      @include pc() {
+        position: absolute;
+      }
+      p {
+        font-size: 1.4rem;
+      }
+      .movie-box {
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          background-color: #b0b0b0bd;
+        }
+      }
+      .movie_content {
+        cursor: pointer;
+        width: 20rem;
+        height: 21rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-image: url(../images/lp/image_view/btn-play.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        .movie_name {
+          margin-bottom: 1.5rem;
+        }
+      }
+      &.movie-a {
+        top: 0;
+        right: 0;
+        width: 64rem;
+        text-align: right;
+      }
+      &.movie-b {
+        @include pc() {
+          top: 39rem;
+        }
+      }
+      p.sp_txt {
+        font-size: 2rem;
+        line-height: 3.2rem;
+        letter-spacing: -0.03em;
+        margin-top: 2rem;
+      }
+    }
+
+    .note-bottom {
+      font-family: $font-noto-serif;
+      font-size: 3rem;
+      line-height: 5rem;
+      letter-spacing: -0.075em;
+      position: absolute;
+      top: -15rem;
+      @include pc() {
+        font-size: 3rem;
+        line-height: 5rem;
+        top: 15rem;
+      }
+    }
+  }
+  .layer {
+    position: absolute;
+    user-select: none;
+    &.circle {
+      top: -6rem;
+      right: -9rem;
+      width: 21.7rem;
+      height: 21.7rem;
+      opacity: 0.25;
+      background-image: url(../images/lp/image_view/circle.svg);
+      background-size: cover;
+      @include pc() {
+        top: -39rem;
+        right: -18rem;
+        width: 49.5rem;
+        height: 49.5rem;
+      }
+    }
+    &.rhomb {
+      display: none;
+      background-image: url(../images/lp/image_view/rhomb.svg);
+      background-size: cover;
+      @include pc() {
+        display: block;
+        top: -16rem;
+        left: 50%;
+        transform: translateX(-6rem);
+        width: 40.787rem;
+        height: 39.623rem;
+      }
+    }
+  }
+
+  .plan_design {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 77rem;
+    display: block;
+    @include pc() {
+      height: 58.5rem;
+    }
+    .plan_design_txt {
+      margin-right: 0;
+      margin-left: auto;
+      margin-top: -1rem;
+      text-align: right;
+      @include sp {
+        img {
+          width: 49.6rem;
+        }
+      }
+    }
+    .plan_design_imgs {
+      @include sp() {
+        display: none;
+      }
+      @include pc() {
+        margin-top: 3.8rem;
+        position: absolute;
+        left: -40rem;
+        display: flex;
+        img {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@import "variable";
+#site-header {
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  @include pc() {
+    min-width: 160rem;
+  }
+  .site-header__inner {
+    max-width: 153rem;
+    display: flex;
+    justify-content: end;
+    .site-header__contact-box {
+      display: none;
+      @include pc() {
+        line-height: 2.4rem;
+        margin-top: 1.5rem;
+        margin-right: 1.5rem;
+        display: block;
+        .site-header__tel {
+          overflow: hidden;
+          text-indent: -999px;
+          display: block;
+          width: 318px;
+          height: 54px;
+          background-image: url(../images/common/txt-tel_number.svg);
+          background-size: 318px;
+          background-repeat: no-repeat;
+        }
+        .contact-box__txt {
+          text-align: right;
+        }
+        .contact-box__txt-small {
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+}

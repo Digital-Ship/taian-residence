@@ -1,0 +1,142 @@
+#equipment-structure-wrap {
+  height: 1121rem;
+  background-image: url(../images/lp/equipment-structure-bg.jpg);
+  background-size: 75rem;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  overflow-x: clip;
+}
+#equipment {
+  padding-top: 2.5rem;
+  .equipment-wrap {
+    width: 70rem;
+    margin: 0 auto;
+    padding-top: 5rem;
+    .equipment__title {
+      text-align: center;
+      img {
+        height: 7.1rem;
+        margin: 0 auto;
+      }
+      span {
+        display: block;
+        font-size: 2.8rem;
+        line-height: 3.36rem;
+        letter-spacing: 0.2em;
+      }
+    }
+    .equipment-top {
+      .top__content {
+        margin-top: 2rem;
+        margin-bottom: 15.5rem;
+        font-size: 3rem;
+        letter-spacing: 0.05em;
+        line-height: 4.6rem;
+        text-align: center;
+        font-family: "Noto Serif JP", sans-serif;
+        font-weight: bold;
+      }
+    }
+    .equipment-box {
+      position: relative;
+      background-color: #000;
+      &:not(.last) {
+        margin-bottom: 16rem;
+      }
+      .box__title {
+        position: absolute;
+        z-index: 2;
+        img {
+          width: 42rem;
+          transform: translateY(-18.5rem);
+        }
+      }
+      .box__img {
+        position: relative;
+        ._txt {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          left: 50%;
+          transform: translateX(-50%);
+          font-weight: bold;
+          font-size: 2.4rem;
+          line-height: 4.2rem;
+          text-align: center;
+          margin-bottom: 2rem;
+        }
+      }
+      .box__desc {
+        padding: 5rem;
+        .desc_logo {
+          text-align: center;
+          margin-bottom: 3rem;
+          img {
+            height: 4.5rem;
+            &.panasonic {
+              height: 3rem;
+            }
+          }
+        }
+        .sub__title {
+          text-align: center;
+          font-size: 3.4rem;
+          font-weight: 500;
+          letter-spacing: 0.05em;
+          line-height: 6rem;
+        }
+        p {
+          font-size: 2.4rem;
+          line-height: 2.8rem;
+        }
+        .btn__group {
+          margin-top: 3rem;
+          margin-left: -1rem;
+          margin-right: -1rem;
+          display: flex;
+          flex-wrap: wrap;
+          .btn_item {
+            width: 50%;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            margin-bottom: 2rem;
+            .btn {
+              background-color: #ffff00;
+              color: #000;
+              border-radius: 0.5rem;
+              font-weight: 500;
+              font-size: 2rem;
+              line-height: 2.8rem;
+              text-align: center;
+              height: 4.55rem;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+        }
+      }
+
+      &.left {
+        border-top-right-radius: 10rem;
+        border-bottom-right-radius: 5rem;
+        transform: translateX(-2.5rem);
+        .box__title {
+          right: 0;
+        }
+        .box__desc {
+          padding-left: 10rem;
+        }
+      }
+      &.right {
+        border-top-left-radius: 5rem;
+        border-bottom-left-radius: 5rem;
+        transform: translateX(2.5rem);
+        .box__desc {
+          padding-right: 10rem;
+        }
+      }
+    }
+  }
+}

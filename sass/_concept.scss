@@ -1,0 +1,107 @@
+#concept {
+  @include pc() {
+    background-image: url(../images/lp/concept/concept-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 78rem;
+    position: relative;
+  }
+  @include sp() {
+    .container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  .concept-title__img {
+    background-color: #ffff00;
+
+    @include pc {
+      height: 11rem;
+      text-indent: -2000px;
+      background-image: url(../images/lp/concept/concept-pc-txt.svg);
+      background-position-x: right;
+      background-position-y: 1px;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      width: 89.3rem;
+      position: relative;
+      span {
+        display: block;
+        overflow: hidden;
+      }
+      .icon {
+        position: absolute;
+        top: 11rem;
+        right: -44rem;
+        z-index: 2;
+        width: 16.613rem;
+        height: 4.7rem;
+        user-select: none;
+        img {
+          width: 100%;
+          height: 100%;
+          display: block;
+        }
+      }
+    }
+  }
+  .concept-title__txt {
+    text-align: center;
+    font-size: 5rem;
+    line-height: 8rem;
+    letter-spacing: 0.0167em;
+    font-weight: bold;
+    font-family: "Noto Serif JP", sans-serif;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    @include pc() {
+      text-align: left;
+      font-size: 3.4rem;
+      line-height: 5.95rem;
+      letter-spacing: 0.25em;
+    }
+  }
+  .concept-content {
+    @include sp() {
+      position: relative;
+    }
+    p {
+      font-size: 2.6rem;
+      line-height: 4.6rem;
+      text-align: justify;
+      @include sp() {
+        margin-left: 5rem;
+        margin-right: 5rem;
+      }
+      @include pc() {
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+        width: 58rem;
+      }
+    }
+    .concept__img {
+      margin-top: -6.1rem;
+    }
+    p.note {
+      position: absolute;
+      width: 100%;
+      left: 0;
+      bottom: 2rem;
+      font-size: 1.6rem;
+      line-height: 3.2rem;
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 5rem;
+      padding-right: 5rem;
+      @include pc() {
+        width: auto;
+        left: auto;
+        margin-left: 60rem;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        letter-spacing: 0.025em;
+        z-index: 99;
+      }
+    }
+  }
+}
