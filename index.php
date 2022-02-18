@@ -31,7 +31,7 @@ $pageName_url = './';
   <?php include(__DIR__ . '/inc/gtm_head.php'); ?>
 </head>
 
-<body>
+<body class="page-lp">
   <?php include(__DIR__ . '/inc/gtm_body.php'); ?>
   <?php include(__DIR__ . '/inc/header.php'); ?>
 
@@ -352,7 +352,7 @@ $pageName_url = './';
                 <img src="<?php echo $Path; ?>/images/lp/equipment/logo_lixil.svg" alt="LIXIL">
               </div>
               <div class="sub__title">
-                エクセンシア アルターノ<br />
+                黒彩、グレイミックス、<br />
                 インテリアモザイク
               </div>
               <p>
@@ -449,12 +449,14 @@ $pageName_url = './';
       </section>
       <section id="structure">
         <div class="structure_wrap">
-          <h2 class="structure__title">
-            <img src="<?php echo $Path; ?>/images/lp/structure/txt_structure.svg" alt="STRUCTURE">
-            <span>［構　造］</span>
-          </h2>
-          <div class="_logo">
-            <img src="<?php echo $Path; ?>/images/lp/structure/logo_structure.svg" alt="法定耐用年数47年">
+          <div class="structure_top">
+            <h2 class="structure__title">
+              <img src="<?php echo $Path; ?>/images/lp/structure/txt_structure.svg" alt="STRUCTURE">
+              <span>［構　造］</span>
+            </h2>
+            <div class="_logo">
+              <img src="<?php echo $Path; ?>/images/lp/structure/logo_structure.svg" alt="法定耐用年数47年">
+            </div>
           </div>
           <div class="st_content">
             「RC住宅」とは、セメントと砂・砂利などの骨材に水を混ぜて固まるコンクリートに鉄筋を入れ、異なる性質をもった材料が一体となって建物を支えます。<br />
@@ -462,18 +464,118 @@ $pageName_url = './';
             RC造には、木造住宅を大幅に上回る外力に対する強さがあり、中でもRC壁式構造（モノコック構造）は、壁・床・天井の6面体（ダイアフラム）全体をRCで構成。面全体で地震や台風などの外力を受け止めるため強度的にも最も優れていると評価されています。<br />
             さらに柱や梁に干渉されないすっきりとした空間も保てます。
           </div>
+          <div class="strong_point">
+            <div class="point_item">
+              <div class="point">
+                <img src="<?php echo $Path; ?>/images/lp/structure/strong_point_1.svg" alt="STRONG POINT 1">
+                <div class="point_txt">
+                  その性質により地震の力で伸縮する建物に対し、鉄筋が持つ引張力とコンクリートが持つ圧縮力が支えとなり耐震性を発揮。
+                </div>
+              </div>
+            </div>
+            <div class="point_item">
+              <div class="point">
+                <img src="<?php echo $Path; ?>/images/lp/structure/strong_point_2.svg" alt="STRONG POINT 2">
+                <div class="point_txt">
+                  不燃材ですので、万一火災に見舞われた場合は、構造から建て替えするのではなくリフォームで済むことが多くなります。
+                </div>
+              </div>
+            </div>
+            <div class="point_item">
+              <div class="point">
+                <img src="<?php echo $Path; ?>/images/lp/structure/strong_point_3.svg" alt="STRONG POINT 3">
+                <div class="point_txt">
+                  気密性が高いため内外ともに音の透過が少なく、木造住宅に比べて高い遮音性を発揮。比較的近隣を気にせず生活できます。
+                </div>
+              </div>
+            </div>
+            <div class="point_item">
+              <div class="point">
+                <img src="<?php echo $Path; ?>/images/lp/structure/strong_point_4.svg" alt="STRONG POINT 4">
+                <div class="point_txt">
+                  台風は強大な力で建物を破壊します。RC住宅は建物の重厚さでその強さを発揮。沖縄県ではRC造が主流となっています。
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="structure_bot">
+            <div class="layer">
+              <img src="<?php echo $Path; ?>/images/lp/structure/layer.svg" alt="layer">
+            </div>
+            <div class="structure_bot_wrap">
+              <img class="hidden-pc" src="<?php echo $Path; ?>/images/lp/structure/img.png" alt="モノコック構造を採用しています">
+              <div class="structure_bot_wrap_txt">
+                <div class="txt_black_bg center">
+                  <p>
+                    タイアンレジデンスは地震の力を面に分散し軽減させる
+                    <span>モノコック構造を採用しています</span>
+                  </p>
+                </div>
+                <div class="imgs">
+                  <img src="<?php echo $Path; ?>/images/lp/structure/img2.png" alt="モノコック構造を採用しています 2">
+                  <img src="<?php echo $Path; ?>/images/lp/structure/img3.png" alt="モノコック構造を採用しています 3">
+                </div>
+              </div>
+              <div class="structure_bot_wrap_img hidden-sp">
+                <img src="<?php echo $Path; ?>/images/lp/structure/img_pc.png" alt="モノコック構造を採用しています">
+              </div>
+            </div>
+            <div class="structure_content">
+              <h3>
+                <span>国土交通省 住宅局</span>
+                「熊本地震における建築物被害の原因<br class="hidden-pc" />分析を行う委員会」報告書
+              </h3>
+              <p>
+                平成28年4月14日及び16日に発生した熊本地震においては、益城町中心部で震度7が2回観測されるなど、過去に例を見ない大きな地震により、建築物に甚大な被害が発生。 本委員会においては、大地震が2回発生したことを前提として被害原因の分析を行った。
+              </p>
+              <p>
+                <strong>木造建築物の倒壊の原因分析（新耐震基準）</strong>
+                新耐震基準導入以降で倒壊した建築物（83棟）のうち、建築物の状況が把握できなかったもの（6棟）を除いた77棟について、被害要因分析を行った。
+              </p>
+              <p>
+                ○分析の結果、被害要因として、著しい地盤変状の影響（2棟）、隣接建物の衝突による影響（1棟）、蟻害（2棟）、現行規定の仕様となっていない接合部（73棟）が確認できた。また、震源や地盤の特性に起因して局所的に大きな地震動が建築物に作用した可能性があるもの※も一定数あった。（被害要因の重複含む）
+              </p>
+              <p>○また、接合部の仕様を明確化した平成12年6月以降に建築されたもので倒壊したもの（7棟）のみで見ると、被害要因は、現行規定の仕様となっていない接合部（3棟）、著しい地盤変状の影響（1棟）、震源や地盤の特性に起因して局所的に大きな地震動が建築物に作用した可能性があるもの※（3棟）であった。
+
+              </p>
+              <p>
+                <small>※引き続き、特定の地盤が地震動に与える影響を詳細に調査・分析。</small>
+              </p>
+            </div>
+            <div class="txt_blue_bg center">
+              <p>
+                鉄筋コンクリート造建築物は新耐震基準導入以<br class="hidden-pc" />降で倒壊が確認されたものはなかった
+              </p>
+            </div>
+            <div class="txt__bottom">
+              と報告されています。<br class="hidden-pc" />
+              このことからも木造に比べRC住宅は<br class="hidden-pc" />
+              各段に安心であると言えます。
+            </div>
+          </div>
         </div>
       </section>
-    </div>
-    <section id="warranty">
-      <img src="<?php echo $Path; ?>/images/common/txt-menu_warranty.svg" alt="WARRANTY">
-      <span>保　証</span>
-    </section>
-    <section class="security-gua" id="security-gua">
-      <div class="container">
-        <div class="secrurity-ttl">
-          第三者機関による安心保証制度
+      <div class="warranty__top">
+        <div class="warranty__top_wrap">
+          <h2 class="__ttl">
+            <img src="<?php echo $Path; ?>/images/lp/warranty/txt_warranty.png" alt="WARRANTY">
+            <span>［保　証］</span>
+          </h2>
+          <p class="__subttl">その性質がゆえの安心を付随。</p>
         </div>
+        <p class="__btn">
+          <img src="<?php echo $Path; ?>/images/lp/warranty/btn.svg" alt="建物・地盤10年保証">
+        </p>
+      </div>
+    </div>
+
+    <section class="security-gua" id="warranty">
+      <h3 class="secrurity-ttl">
+        第三者機関による安心保証制度
+      </h3>
+      <div class="container">
+
+
         <div class="security-content">
           <div class="secu-col ">
             <div class="secu-info">
@@ -526,9 +628,9 @@ $pageName_url = './';
       </div>
     </section>
     <section class="location" id="location">
-      <div class="img-heading">
+      <h2 class="img-heading">
         <img src="./images/lp/location/location-heading.png" alt="">
-      </div>
+      </h2>
       <div class="container">
         <div class="location-ttl">
           <img src="./images/lp/location/location-ttl.svg" alt="LOCATION" width="400">
@@ -617,7 +719,7 @@ $pageName_url = './';
                 <img src="./images/lp/life_information/life-01.png" alt="「湘南台」駅東口　約500m">
               </div>
               <div class="text">
-                「湘南台」駅東口　約500m
+                <span class="txt-big">「湘南台」</span>駅東口　約<span class="num-500 txt-big">500</span>m
               </div>
             </div>
             <div class="item">
@@ -626,7 +728,7 @@ $pageName_url = './';
               </div>
               <div class="text">
                 藤沢市立六会小学校<br>
-                約650m
+                <span class="unit-txt">約<span class="txt-num">650</span>m</span>
               </div>
             </div>
             <div class="item">
@@ -635,7 +737,7 @@ $pageName_url = './';
               </div>
               <div class="text">
                 藤沢市立湘南台中学校<br>
-                約650m
+                <span class="unit-txt">約<span class="txt-num">650</span>m</span>
               </div>
             </div>
             <div class="item">
@@ -644,7 +746,7 @@ $pageName_url = './';
               </div>
               <div class="text">
                 ヨークプライス湘南台店<br>
-                約200m
+                <span class="unit-txt">約<span class="txt-num">200</span>m</span>
               </div>
             </div>
             <div class="item">
@@ -653,7 +755,7 @@ $pageName_url = './';
               </div>
               <div class="text">
                 湘南台公園<br>
-                約500m
+                <span class="unit-txt">約<span class="txt-num">500</span>m</span>
               </div>
             </div>
             <div class="item">
@@ -662,7 +764,7 @@ $pageName_url = './';
               </div>
               <div class="text">
                 ダイエー湘南台店<br>
-                約550m
+                <span class="unit-txt">約<span class="txt-num">550</span>m</span>
               </div>
             </div>
             <div class="item">
@@ -671,7 +773,7 @@ $pageName_url = './';
               </div>
               <div class="text">
                 サンドラッグ湘南台一丁目店<br>
-                約210m
+                <span class="unit-txt">約<span class="txt-num">210</span>m</span>
               </div>
             </div>
             <div class="item">
@@ -680,7 +782,7 @@ $pageName_url = './';
               </div>
               <div class="text">
                 湘南台市民図書館<br>
-                約350m
+                <span class="unit-txt">約<span class="txt-num">350</span>m</span>
               </div>
             </div>
             <div class="item">
@@ -689,25 +791,25 @@ $pageName_url = './';
               </div>
               <div class="text">
                 湘南台文化センター<br>
-                約500m
+                <span class="unit-txt">約<span class="txt-num">500</span>m</span>
               </div>
             </div>
           </div>
           <ul class="list-station-txt">
-            <li class="item">湘南台よつば保育園･･･約550m</li>
-            <li class="item">湘南台郵便局･･･約850m</li>
-            <li class="item">きらぼし銀行 湘南台支店･･･約500m</li>
-            <li class="item">横浜銀行 湘南台支店･･･約650m</li>
-            <li class="item">みずほ銀行 湘南台支店･･･約850m</li>
-            <li class="item">静岡銀行 湘南台支店･･･約850m</li>
-            <li class="item">湘南台第一病院･･･約300m</li>
-            <li class="item">OK湘南台店･･･約450m</li>
-            <li class="item">そうてつローゼン･･･約500m</li>
-            <li class="item">ウエストプラザ･･･約800m</li>
-            <li class="item">なかよし薬局湘南台店･･･約130m</li>
-            <li class="item">青葉公園･･･約180m</li>
-            <li class="item">四ツ辻公園･･･約200m</li>
-            <li class="item">原谷公園･･･約500m</li>
+            <li class="item">湘南台よつば保育園･･･<span class="unit-txt">約<span class="txt-num">550</span>m</span></li>
+            <li class="item">湘南台郵便局･･･<span class="unit-txt">約<span class="txt-num">850</span>m</span></li>
+            <li class="item">きらぼし銀行 湘南台支店･･･<span class="unit-txt">約<span class="txt-num">500</span>m</span></li>
+            <li class="item">横浜銀行 湘南台支店･･･<span class="unit-txt">約<span class="txt-num">650</span>m</span></li>
+            <li class="item">みずほ銀行 湘南台支店･･･<span class="unit-txt">約<span class="txt-num">850</span>m</span></li>
+            <li class="item">静岡銀行 湘南台支店･･･<span class="unit-txt">約<span class="txt-num">850</span>m</span></li>
+            <li class="item">湘南台第一病院･･･<span class="unit-txt">約<span class="txt-num">300</span>m</span></li>
+            <li class="item">OK湘南台店･･･<span class="unit-txt">約<span class="txt-num">450</span>m</span></li>
+            <li class="item">そうてつローゼン･･･<span class="unit-txt">約<span class="txt-num">500</span>m</span></li>
+            <li class="item">ウエストプラザ･･･<span class="unit-txt">約<span class="txt-num">800</span>m</span></li>
+            <li class="item">なかよし薬局湘南台店･･･<span class="unit-txt">約<span class="txt-num">130</span>m</span></li>
+            <li class="item">青葉公園･･･<span class="unit-txt">約<span class="txt-num">180</span>m</span></li>
+            <li class="item">四ツ辻公園･･･<span class="unit-txt">約<span class="txt-num">200</span>m</span></li>
+            <li class="item">原谷公園･･･<span class="unit-txt">約<span class="txt-num">500</span>m</span></li>
           </ul>
         </div>
       </section>
@@ -730,7 +832,7 @@ $pageName_url = './';
             市内有数の安心できるエリアでもあります。</p>
           <p class="img"><img src="./images/lp/life_information/shonan_area-img.png" alt="湘南エリア有数の人気アドレス"></p>
           <p>
-            詳しくはFUJISAWA MAPからもご確認いただけます。<br class="hidden-pc" /><a href="https://webgis.alandis.jp/fujisawa14/portal/kikendo/index.html">https://webgis.alandis.jp/fujisawa14/portal/kikendo/index.html</a>
+            詳しくはFUJISAWA MAPからもご確認いただけます。<br class="hidden-pc" /><a href="https://webgis.alandis.jp/fujisawa14/portal/kikendo/index.html" target="_blank">https://webgis.alandis.jp/fujisawa14/portal/kikendo/index.html</a>
           </p>
         </div>
       </div>

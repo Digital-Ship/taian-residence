@@ -1,4 +1,11 @@
 @charset "UTF-8";
+body.page-lp {
+  #site-header {
+    .site-header__inner {
+      justify-content: end;
+    }
+  }
+}
 @import "variable";
 @import "main";
 @import "concept";

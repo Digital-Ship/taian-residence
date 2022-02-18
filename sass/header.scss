@@ -1,16 +1,82 @@
 @charset "UTF-8";
 @import "variable";
 #site-header {
-  position: absolute;
   z-index: 9;
   width: 100%;
   @include pc() {
+    position: absolute;
     min-width: 160rem;
   }
   .site-header__inner {
-    max-width: 153rem;
-    display: flex;
-    justify-content: end;
+    @include pc() {
+      max-width: 153rem;
+      height: 39rem;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+    }
+    .ta-logo {
+      position: relative;
+      margin-top: 10rem;
+      margin-left: -1.5rem;
+      @include pc() {
+        margin-top: 0;
+      }
+      .img {
+        width: 41rem;
+        @include pc() {
+          width: 26rem;
+        }
+      }
+      .residence {
+        font-family: "Noto Serif JP", sans-serif;
+        font-size: 2.2rem;
+        line-height: 3.6rem;
+        text-align: center;
+        display: block;
+        width: 46rem;
+        margin-top: -20rem;
+        margin-left: auto;
+        text-align: center;
+        margin-right: 0;
+        @include pc() {
+          width: 26rem;
+          margin-top: -13rem;
+          margin-left: 18rem;
+          font-weight: bold;
+        }
+        .residence__txt {
+          font-size: 2.6rem;
+          letter-spacing: 0.2em;
+          @include pc() {
+            font-size: 1.8rem;
+            letter-spacing: 0;
+            line-height: 1;
+          }
+        }
+        .residence__txt-small {
+          font-size: 2.2rem;
+          letter-spacing: 0.025em;
+          @include pc() {
+            font-size: 1.3rem;
+            letter-spacing: 0;
+            line-height: 1;
+          }
+        }
+        .residence__img {
+          margin-top: 2rem;
+          @include pc() {
+            margin-top: 1rem;
+          }
+          img {
+            width: 43rem;
+            @include pc() {
+              width: 33.3rem;
+            }
+          }
+        }
+      }
+    }
     .site-header__contact-box {
       display: none;
       @include pc() {
@@ -36,5 +102,89 @@
         }
       }
     }
+  }
+}
+.site-action {
+  position: absolute;
+  right: 0;
+  top: 0;
+  @include pc() {
+    top: auto;
+    bottom: 0;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 15rem;
+    @include sp() {
+      img {
+        width: 8.25rem;
+      }
+    }
+    @include pc() {
+      width: 10rem;
+      height: 10rem;
+    }
+
+    &#btn_open_menu {
+      background-color: #fff;
+      @include pc() {
+        border-top-left-radius: 1.5rem;
+      }
+    }
+    &.btn-tel {
+      background-color: #1a53ff;
+      @include pc() {
+        display: none;
+      }
+    }
+    &.btn-inquiry {
+      background-color: #ffff00;
+      @include sp() {
+        border-bottom-left-radius: 1.5rem;
+      }
+    }
+  }
+}
+#page-heading {
+  .page-heading__inner {
+    height: 39rem;
+    background-image: url(../images/common/page_heading_bg.png);
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .page-ttl {
+      text-align: center;
+      margin-top: 4rem;
+      position: relative;
+      z-index: 999;
+
+      .en {
+        display: block;
+        margin-bottom: 2rem;
+        font-size: 6.6rem;
+        line-height: 1;
+        font-weight: bold;
+        img {
+          height: 5.6rem;
+        }
+      }
+      .ja {
+        font-size: 2.2rem;
+        line-height: 1.86;
+      }
+    }
+  }
+}
+body.page-lp {
+  .ta-logo {
+    display: none;
+  }
+  #page-heading {
+    display: none;
   }
 }
