@@ -11,9 +11,19 @@ jQuery(function ($) {
     scrollTo();
   })
   $(".anchor-link").click(function (event) {
-    event.preventDefault(); const targetId = $(this).attr('href');
+    event.preventDefault();
+    const targetId = $(this).attr('href');
     const goTo = $(targetId).offset().top
     scrollTo(goTo);
+  })
+  $(".btn_close_popup, .plan-popup .layer").click(function () {
+    $(this).closest(".plan-popup").removeClass("open")
+  })
+  $(".btn_open_popup").click(function () {
+    console.log('btn_open_popup')
+    const targetId = $(this).data('popup');
+    console.log(targetId)
+    $(targetId).addClass('open');
   })
   function scrollTo(goTo = 0) {
     $('html,body').animate({ scrollTop: goTo }, 'slow');

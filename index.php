@@ -1,10 +1,10 @@
 <?php
 $Path = './';
 $pageID = 'lp';
-$pageTitle = 'タイトルタグ用';
+$pageTitle = 'タイアンレジデンス湘南台　RC造のデザイナーズ新築分譲住宅全2邸｜藤沢市湘南台1丁目｜ワンズリアルティ株式会社';
 $pageSlug = 'ヘッダーの文言用';
-$keyword = 'META,キーワード';
-$description = 'METAディスクリプション用';
+$keyword = '新築分譲住宅,一戸建て,不動産,デザイナーズ,RC造,湘南台,藤沢市,湘南台駅,小田急江ノ島線,ブルーライン,相鉄いずみ野線,ワンズリアルティ株式会社';
+$description = 'タイアンレジデンス湘南台　RC造のデザイナーズ新築分譲住宅全2邸の物件情報サイトです。湘南台駅徒歩7分。耐久性に優れた安全安心な住まい。';
 $h1 = 'ヘッダー内にH1がある時用';
 
 //ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
@@ -197,15 +197,15 @@ $pageName_url = './';
           <img src="<?php echo $Path; ?>/images/lp/plan/txt_plan.svg" alt="Plan">
         </h2>
       </div>
-      <div class="__plan _plan_a">
-        <div class="plan__content">
+      <div class="__plan _plan_a btn_open_popup" data-popup="#popup-plan-a">
+        <div class="plan__content ">
           <img class="plan_txt" src="<?php echo $Path; ?>/images/lp/plan/txt_taian_residence.svg" alt="TAIAN RESIDENCE">
           <img class="plan_name" src="<?php echo $Path; ?>/images/lp/plan/txt_plan_a.svg" alt="PLAN A">
           <p>タップでA棟間取図をご覧いただけます</p>
         </div>
       </div>
-      <div class="__plan _plan_b">
-        <div class="plan__content">
+      <div class="__plan _plan_b btn_open_popup" data-popup="#popup-plan-b">
+        <div class="plan__content ">
           <img class="plan_txt" src="<?php echo $Path; ?>/images/lp/plan/txt_taian_residence.svg" alt="TAIAN RESIDENCE">
           <img class="plan_name" src="<?php echo $Path; ?>/images/lp/plan/txt_plan_b.svg" alt="PLAN B">
           <p>タップでB棟間取図をご覧いただけます</p>
@@ -234,9 +234,9 @@ $pageName_url = './';
             <div class="box__img">
               <img class="hidden-pc" src="<?php echo $Path; ?>/images/lp/equipment/img_kitchen.png" alt="KITCHEN">
               <img class="hidden-sp" src="<?php echo $Path; ?>/images/lp/equipment/img_kitchen_2.png" alt="KITCHEN">
-              <p class="_txt">
+              <a class="_txt" href="<?php echo $Path; ?>pdf/設備／システムキッチン.pdf" target="_blank">
                 PDFで詳しく見る
-              </p>
+              </a>
             </div>
             <div class="box__desc">
               <div class="desc_logo panasonic">
@@ -271,9 +271,9 @@ $pageName_url = './';
             <div class="box__img">
               <img class="hidden-pc" src="<?php echo $Path; ?>/images/lp/equipment/img_bath_room.png" alt="BATH ROOM">
               <img class="hidden-sp" src="<?php echo $Path; ?>/images/lp/equipment/img_bath_room_2.png" alt="BATH ROOM">
-              <p class="_txt">
+              <a class="_txt" href="<?php echo $Path; ?>pdf/設備／ユニットバス.pdf" target="_blank">
                 PDFで詳しく見る
-              </p>
+              </a>
             </div>
             <div class="box__desc">
               <div class="desc_logo">
@@ -306,10 +306,10 @@ $pageName_url = './';
             </h3>
             <div class="box__img">
               <img class="hidden-pc" src="<?php echo $Path; ?>/images/lp/equipment/img_wash_stand.png" alt="WASH STAND">
-              <img class="hidden-sp" src="<?php echo $Path; ?>/images/lp/equipment/img_wash_stand.png" alt="WASH STAND">
-              <p class="_txt">
+              <img class="hidden-sp" src="<?php echo $Path; ?>/images/lp/equipment/img_wash_stand_2.png" alt="WASH STAND">
+              <a class="_txt" href="<?php echo $Path; ?>pdf/設備／洗面化粧台.pdf" target="_blank">
                 PDFで詳しく見る
-              </p>
+              </a>
             </div>
             <div class="box__desc">
               <div class="desc_logo">
@@ -343,9 +343,7 @@ $pageName_url = './';
             <div class="box__img">
               <img class="hidden-pc" src="<?php echo $Path; ?>/images/lp/equipment/img_accent_tile.png" alt="ACCENT TILE">
               <img class="hidden-sp" src="<?php echo $Path; ?>/images/lp/equipment/img_accent_tile_2.png" alt="ACCENT TILE">
-              <p class="_txt">
-                PDFで詳しく見る
-              </p>
+
             </div>
             <div class="box__desc">
               <div class="desc_logo">
@@ -875,7 +873,8 @@ $pageName_url = './';
             分筆前につき敷地面積が増減する場合があります、<br />
             建築確認番号A：第21KAK建確03365号（令和3年11月25日）・<br class="hidden-pc" />
             B：第21KAK建確03366号（令和3年11月25日）<br />
-            □取引態様／専任媒介
+            □取引態様／専任媒介<br />
+            □情報公開日／2022年2月OO日<br class="hidden-pc" />　□次回更新予定日／2022年3月OO日
           </p>
           <p class="text-center">
             ［販売・仲介］<br />
@@ -904,7 +903,77 @@ $pageName_url = './';
     </section>
 
   </main>
+  <div class="plan-popup" id="popup-plan-a">
+    <div class="btn_close_popup"></div>
+    <div class="plan-popup-content">
+      <div class="__txt">
+        <p class="__txt_ttl">
+          <img src="<?php echo $Path; ?>images/lp/plan/popup_plan_a.svg" alt="TAIAN RESIDENCE PLAN A">
+        </p>
+        <p>
+          <span class="txt_tt">販売価格</span>
+          8,480万円（税込）
+        </p>
+        <p>
+          <span class="txt_tt">敷地面積</span>
+          100.32㎡
+        </p>
+        <p>
+          <span class="txt_tt">建物面積</span>
+          124.70㎡
+          <span class="txt_sm">（駐車場部分25.33㎡含む）</span>
+        </p>
+        <p>
+          <span class="txt_tt">間　取</span>
+          4LDK+SIC+パントリー
+        </p>
+        <div class="movie">
+          <img src="<?php echo $Path; ?>images/lp/plan/movie_a.svg" alt="Movie A">
+        </div>
+      </div>
+      <div class="__img">
+        <img src="<?php echo $Path; ?>images/lp/plan/popup_plan_a.png" alt="Plan A">
+      </div>
 
+    </div>
+    <div class="layer"></div>
+  </div>
+
+  <div class="plan-popup" id="popup-plan-b">
+    <div class="btn_close_popup"></div>
+    <div class="plan-popup-content">
+      <div class="__txt">
+        <p class="__txt_ttl">
+          <img src="<?php echo $Path; ?>images/lp/plan/popup_plan_b.svg" alt="TAIAN RESIDENCE PLAN B">
+        </p>
+        <p>
+          <span class="txt_tt">販売価格</span>
+          8,480万円（税込）
+        </p>
+        <p>
+          <span class="txt_tt">敷地面積</span>
+          100.32㎡
+        </p>
+        <p>
+          <span class="txt_tt">建物面積</span>
+          124.70㎡
+          <span class="txt_sm">（駐車場部分25.33㎡含む）</span>
+        </p>
+        <p>
+          <span class="txt_tt">間　取</span>
+          4LDK+SIC+パントリー
+        </p>
+        <div class="movie">
+          <img src="<?php echo $Path; ?>images/lp/plan/movie_b.svg" alt="Movie B">
+        </div>
+      </div>
+      <div class="__img">
+        <img src="<?php echo $Path; ?>images/lp/plan/popup_plan_a.png" alt="Plan A">
+      </div>
+
+    </div>
+    <div class="layer"></div>
+  </div>
 
   <?php include(__DIR__ . '/inc/footer.php'); ?>
   <?php include(__DIR__ . '/inc/scripts.php'); ?>
