@@ -1,80 +1,88 @@
 @charset "UTF-8";
 @import "variable";
-.main-heading{
+
+.main-heading {
     background-color: #000;
 
-    .main-heading__inner{
+    .main-heading__inner {
         position: relative;
         background-image: url(../images/common/family_image_top.png);
         background-position: center right 165px;
         background-repeat: no-repeat;
         background-size: contain;
-        .ta-logo{
-            .img{
 
-            }
+        .ta-logo {
+            .img {}
         }
-        .residence{
-            .residence-txt{
+
+        .residence {
+            .residence-txt {
                 font-weight: bold;
-                span{
+
+                span {
                     display: block;
                     font-weight: 600;
                 }
             }
-            .img{
 
-            }
+            .img {}
         }
-        .page-ttl{
+
+        .page-ttl {
             text-align: center;
-            .en{
 
-            }
-            .ja{
+            .en {}
 
-            }
-            span{
+            .ja {}
+
+            span {
                 display: block;
             }
         }
     }
-    @include pc{
-        .main-heading__inner{
+
+    @include pc {
+        .main-heading__inner {
             max-width: 1475px;
             margin-inline: auto;
-            .ta-logo{
-               
-            }
-            .residence{
+
+            .ta-logo {}
+
+            .residence {
                 position: absolute;
                 left: 200px;
                 bottom: 34px;
-                .residence-txt{
+
+                .residence-txt {
                     font-weight: bold;
                     font-size: 16px;
                     font-family: 'Noto Serif JP', sans-serif;
                     text-align: center;
-                    .txt01{
+
+                    .txt01 {
                         letter-spacing: 0.15em;
 
                     }
-                    span{
+
+                    span {
                         font-weight: 600;
                         font-size: 13px;
-                       letter-spacing: 0.02em;
+                        letter-spacing: 0.02em;
                     }
                 }
-                .img{
+
+                .img {
                     margin-top: 15px;
                 }
             }
-            .page-ttl{
+
+            .page-ttl {
                 position: absolute;
                 left: 50%;
                 top: 50%;
                 transform: translateX(-50%) translateY(-50%);
-                .en{
+
+                .en {
                     text-indent: -999em;
                     background: url(../images/contact/contact-ttl.svg) no-repeat center/contain;
                     width: 380px;
@@ -82,12 +90,13 @@
                     font-size: 64px;
                     font-weight: 500;
                 }
-                .ja{
+
+                .ja {
                     font-size: 22px;
                     line-height: 1.86;
                     margin-top: 25px;
                 }
-              
+
             }
         }
     }
