@@ -1,217 +1,232 @@
 #lp-main {
-    position: relative;
-    background-image: url(../images/lp/main/background.png);
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  position: relative;
+  background-image: url(../images/lp/main/background.png);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    @include pc() {
-        background-image: url(../images/lp/main/backgroud-pc.png);
-        height: 78rem;
-        background-size: initial;
+  @include pc() {
+    background-image: url(../images/lp/main/backgroud-pc.png);
+    height: 78rem;
+    background-size: 200rem;
+  }
+
+  .lp-main-content_box_inner {
+    max-width: 153rem;
+    position: relative;
+    min-height: 78rem;
+    height: 145.5rem;
+
+    @media screen and (max-width: 430px) {
+      height: calc(100vh - 15rem);
     }
 
-    .lp-main-content_box_inner {
-        max-width: 153rem;
-        position: relative;
-        min-height: 78rem;
-        height: 145.5rem;
+    @include pc() {
+      height: 78rem;
+    }
 
-        @media screen and (max-width:430px) {
-            height: calc(100vh - 15rem);
+    .abs-item {
+      position: absolute;
+
+      > img {
+        width: 100%;
+      }
+    }
+
+    .taian-logo {
+      display: inline-block;
+      top: 70rem;
+      left: 0;
+      width: 41rem;
+
+      @include pc() {
+        top: 0;
+        width: 40.4rem;
+      }
+    }
+
+    .txt_debut {
+      top: 0;
+      left: 0;
+
+      @include sp() {
+        width: 8.8rem;
+        height: 45rem;
+      }
+
+      @include pc() {
+        top: 50%;
+        transform: translateY(-50%);
+        img {
+          width: 5.9rem;
+        }
+      }
+    }
+
+    .lp-main__txt {
+      left: 50%;
+      top: 6.4rem;
+      transform: translateX(-50%);
+
+      @include sp() {
+        width: 28.6rem;
+        height: 56.4rem;
+      }
+      @include pc() {
+        img {
+          width: 24.8rem;
+        }
+      }
+    }
+
+    .site-action {
+      right: 0;
+      top: 0;
+      @include sp() {
+        position: fixed;
+        z-index: 9999;
+      }
+      @include pc() {
+        position: absolute;
+        top: auto;
+        bottom: 0;
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15rem;
+        height: 15rem;
+
+        @include sp() {
+          img {
+            width: 8.25rem;
+          }
         }
 
         @include pc() {
-            height: 78rem;
+          width: 10rem;
+          height: 10rem;
         }
 
-        .abs-item {
-            position: absolute;
+        &#btn_open_menu {
+          background-color: #fff;
 
-            >img {
-                width: 100%;
-            }
+          @include pc() {
+            border-top-left-radius: 1.5rem;
+          }
         }
 
-        .taian-logo {
-            display: inline-block;
-            top: 70rem;
-            left: 0;
-            width: 41rem;
+        &.btn-tel {
+          background-color: #1a53ff;
 
-            @include pc() {
-                top: 0;
-                width: 40.4rem;
-            }
-        }
-
-        .txt_debut {
-            top: 0;
-            left: 0;
-
-            @include sp() {
-                width: 8.8rem;
-                height: 45rem;
-            }
-
-            @include pc() {
-                top: 50%;
-                transform: translateY(-50%);
-            }
-        }
-
-        .lp-main__txt {
-            left: 50%;
-            top: 6.4rem;
-            transform: translateX(-50%);
-
-            @include sp() {
-                width: 28.6rem;
-                height: 56.4rem;
-            }
-        }
-
-        .group-action {
-            position: absolute;
-            right: 0;
-            top: 0;
-
-            @include pc() {
-                top: auto;
-                bottom: 0;
-            }
-
-            a {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 15rem;
-                height: 15rem;
-
-                @include sp() {
-                    img {
-                        width: 8.25rem;
-                    }
-                }
-
-                @include pc() {
-                    width: 10rem;
-                    height: 10rem;
-                }
-
-                &#btn_open_menu {
-                    background-color: #fff;
-
-                    @include pc() {
-                        border-top-left-radius: 1.5rem;
-                    }
-                }
-
-                &.btn-tel {
-                    background-color: #1a53ff;
-
-                    @include pc() {
-                        display: none;
-                    }
-                }
-
-                &.btn-inquiry {
-                    background-color: #ffff00;
-
-                    @include sp() {
-                        border-bottom-left-radius: 1.5rem;
-                    }
-                }
-            }
-        }
-
-        .residence {
-            bottom: 0;
-            left: 0;
-            font-size: 2.2rem;
-            line-height: 3.6rem;
-            text-align: center;
-            display: inline-block;
-            font-family: "Noto Serif JP", sans-serif;
-            margin-left: 7rem;
-            margin-bottom: 3rem;
-
-            @include sp() {
-                width: 46rem;
-                top: 110rem;
-                left: auto;
-                right: 0;
-                margin-left: auto;
-            }
-
-            .residence__txt {
-                font-size: 2.6rem;
-                letter-spacing: 0.2em;
-
-                @include pc() {
-                    font-size: 2.2rem;
-                }
-            }
-
-            .residence__txt-small {
-                font-size: 2.2rem;
-                letter-spacing: 0.025em;
-
-                @include pc() {
-                    font-size: 1.8rem;
-                }
-            }
-
-            .residence__img {
-                margin-top: 2rem;
-
-                img {
-                    width: 43rem;
-
-                    @include pc() {
-                        width: 33.3rem;
-                    }
-                }
-            }
-        }
-
-        .news {
-            @include sp {
-                left: 0;
-                bottom: 5rem;
-                width: 100%;
-                text-align: center;
-
-                p {
-                    font-size: 2.4rem;
-                }
-            }
-
-            @include pc {
-                bottom: 0;
-                right: 20rem;
-                display: flex;
-                align-items: center;
-                height: 10rem;
-            }
-        }
-
-        .scroll {
+          @include pc() {
             display: none;
-
-            @include pc() {
-                display: block;
-                bottom: 0;
-                right: 13rem;
-                height: 10rem;
-
-                img {
-                    position: relative;
-                    z-index: 999;
-                    top: 0;
-                    left: 0;
-                }
-            }
+          }
         }
+
+        &.btn-inquiry {
+          background-color: #ffff00;
+
+          @include sp() {
+            border-bottom-left-radius: 1.5rem;
+          }
+        }
+      }
     }
+
+    .residence {
+      bottom: 0;
+      left: 0;
+      font-size: 2.2rem;
+      line-height: 3.6rem;
+      text-align: center;
+      display: inline-block;
+      font-family: "Noto Serif JP", sans-serif;
+      margin-left: 7rem;
+      margin-bottom: 3rem;
+
+      @include sp() {
+        width: 46rem;
+        top: 110rem;
+        left: auto;
+        right: 0;
+        margin-left: auto;
+      }
+
+      .residence__txt {
+        font-size: 2.6rem;
+        letter-spacing: 0.2em;
+        font-weight: 700;
+
+        @include pc() {
+          font-size: 2.2rem;
+        }
+      }
+
+      .residence__txt-small {
+        font-size: 2.2rem;
+        letter-spacing: 0.025em;
+        font-weight: 600;
+
+        @include pc() {
+          font-size: 1.8rem;
+        }
+      }
+
+      .residence__img {
+        margin-top: 2rem;
+
+        img {
+          width: 43rem;
+
+          @include pc() {
+            width: 33.3rem;
+          }
+        }
+      }
+    }
+
+    .news {
+      font-weight: 500;
+      @include sp {
+        left: 0;
+        bottom: 5rem;
+        width: 100%;
+        text-align: center;
+
+        p {
+          font-size: 2.4rem;
+        }
+      }
+
+      @include pc {
+        bottom: 0;
+        right: 20rem;
+        display: flex;
+        align-items: center;
+        height: 10rem;
+      }
+    }
+
+    .scroll {
+      display: none;
+
+      @include pc() {
+        display: block;
+        bottom: 0;
+        right: 13rem;
+        height: 10rem;
+
+        img {
+          position: relative;
+          z-index: 999;
+          top: 0;
+          left: 0;
+          width: 2rem;
+        }
+      }
+    }
+  }
 }

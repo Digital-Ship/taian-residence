@@ -32,6 +32,7 @@
         margin: 0 auto;
       }
       span {
+        font-weight: 500;
         display: block;
         font-size: 2.8rem;
         line-height: 3.36rem;
@@ -51,8 +52,8 @@
         letter-spacing: 0.05em;
         line-height: 4.6rem;
         text-align: center;
-        font-family: "Noto Serif JP", sans-serif;
-        font-weight: bold;
+        font-family: "Noto Serif JP";
+        font-weight: 600;
         @include pc() {
           text-align: right;
           padding-right: 5rem;
@@ -131,6 +132,7 @@
       }
       .box__desc {
         padding: 4.5rem;
+        font-weight: 400;
         @include pc() {
           width: 52.5rem;
           padding: 3.5rem;
@@ -419,6 +421,7 @@
             margin-bottom: 1rem;
           }
           .tag {
+            font-weight: 500;
             height: 4.3rem;
             background-color: #e2413b;
             color: #fff;

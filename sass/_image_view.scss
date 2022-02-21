@@ -37,6 +37,7 @@
       }
     }
     .image_view__subtitle {
+      font-weight: 500;
       font-size: 2.6rem;
       line-height: 3.8rem;
       position: absolute;
@@ -86,6 +87,7 @@
       }
       p {
         font-size: 1.4rem;
+        font-weight: 300;
       }
       .movie-box {
         position: relative;
@@ -133,7 +135,8 @@
     }
 
     .note-bottom {
-      font-family: $font-noto-serif;
+      font-family: "Noto Serif JP";
+      font-weight: 600;
       font-size: 3rem;
       line-height: 5rem;
       letter-spacing: -0.075em;
