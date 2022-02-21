@@ -107,10 +107,13 @@
 
         .point_txt {
           color: #000;
-          font-size: 2.4rem;
-          line-height: 2.8rem;
           position: relative;
-
+          p {
+            position: relative;
+            z-index: 1;
+            font-size: 2.4rem;
+            line-height: 2.8rem;
+          }
           @include pc() {
             font-size: 1.6rem;
             line-height: 2.4rem;
@@ -154,6 +157,7 @@
     @include pc() {
       .structure_bot_wrap {
         display: flex;
+        overflow-x: clip;
 
         > div {
           width: 50%;
@@ -212,7 +216,8 @@
       display: flex;
 
       img {
-        width: calc(1 / 2 * 100%);
+        width: 50%;
+        height: auto;
       }
     }
 

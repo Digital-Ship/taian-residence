@@ -35,10 +35,12 @@
 
     .taian-logo {
       display: inline-block;
-      top: 70rem;
+
       left: 0;
       width: 41rem;
-
+      @include sp() {
+        bottom: 5rem;
+      }
       @include pc() {
         top: 0;
         width: 40.4rem;
@@ -149,7 +151,7 @@
 
       @include sp() {
         width: 46rem;
-        top: 110rem;
+        bottom: 8rem;
         left: auto;
         right: 0;
         margin-left: auto;
@@ -192,7 +194,7 @@
       font-weight: 500;
       @include sp {
         left: 0;
-        bottom: 5rem;
+        bottom: 2rem;
         width: 100%;
         text-align: center;
 

@@ -1,6 +1,7 @@
 
 
 jQuery(function ($) {
+  new WOW().init();
   $("#btn_open_menu").click(() => {
     $('body').addClass('nav-open')
   });
@@ -20,9 +21,17 @@ jQuery(function ($) {
     $(this).closest(".plan-popup").removeClass("open")
   })
   $(".btn_open_popup").click(function () {
-    console.log('btn_open_popup')
     const targetId = $(this).data('popup');
-    console.log(targetId)
+    $(targetId).addClass('open');
+  })
+
+  $(".btn_close_mv_popup, .movie-popup .layer").click(function () {
+    $(this).closest(".movie-popup").removeClass("open")
+  })
+
+  $(".btn_open_movie").click(function () {
+    console
+    const targetId = $(this).data('popup');
     $(targetId).addClass('open');
   })
   function scrollTo(goTo = 0) {

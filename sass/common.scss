@@ -25,8 +25,32 @@ body {
   line-height: 1.8;
   font-size: 1.6rem;
   -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+  position: relative;
 }
 
+.animated {
+  animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeUp {
+  from {
+    transform: translateY(10rem);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.fadeUp {
+  -webkit-animation-name: fadeUp;
+  animation-name: fadeUp;
+}
 p {
   margin-top: 0;
   margin-bottom: 1rem;

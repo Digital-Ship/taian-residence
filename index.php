@@ -42,7 +42,7 @@ $pageName_url = './';
           <img src="<?php echo $Path; ?>/images/lp/main/taian-img.svg" alt="TAIAN" width="404" height="600">
         </div>
         <div class="abs-item lp-main__txt">
-          <img src="<?php echo $Path; ?>/images/lp/main/lp-main-txt.svg" alt="TAIAN" width="248" height="490">
+          <img class="wow fadeUp" src="<?php echo $Path; ?>/images/lp/main/lp-main-txt.svg" alt="TAIAN" width="248" height="490">
         </div>
         <div class="abs-item txt_debut">
           <img src="<?php echo $Path; ?>/images/lp/main/grand-debut-txt.svg" alt="2022.GRAND DEBUT" width="59" height="272">
@@ -86,10 +86,10 @@ $pageName_url = './';
           </span>
         </h2>
         <div class="concept-content">
-          <h3 class="concept-title__txt">
+          <h3 class="concept-title__txt  wow fadeUp">
             安心・安全で世代を超える<br class="hidden-pc" />住まいを創造
           </h3>
-          <p>
+          <p class="wow fadeUp">
             世界でも類を見ない4つのプレートが交わり地震が頻発する日本。南海トラフなども警戒が必要です。さらには大雨・豪雨は30年前の1.6倍に増加。過去10年間では全国の市町村の97％以上で水害・土砂災害を確認、世界で起こる自然災害の2割が日本で発生している現状です（日本国土は世界の広さの0.25％ほど）。そもそも古くから日本は災害に見舞われやすい環境下にあり、さらには災害頻度や被害規模も活発化する地震活動、気候変動、都市化などに起因し、まずます甚大なものとなっています。<br />
             住まいに携わる私たちはこの事態を急務と捉え“日本の住宅市場に耐久性に優れ安全で安心できる住まいを届けたい”そんな思いからタイアンレジデンスプロジェクトを始動いたしました。
           </p>
@@ -104,50 +104,52 @@ $pageName_url = './';
     </section>
     <section id="image-view">
       <div class="image_view_wrap">
-        <h2 class="image_view__title"><img src="<?php echo $Path; ?>/images/lp/image_view/txt_image_view.svg" alt="IMAGE VIEW" width="417" height="47"></h2>
-        <div class="image_view_content">
-          <p class="image_view__subtitle">
-            建物竣工イメージを<br />
-            動画でご確認いただけます
-          </p>
-          <p class="image_view__txt_jp">
-            <img src="<?php echo $Path; ?>/images/lp/image_view/txt_image_view_jp.svg" alt="" width="153" height="415">
-          </p>
-          <div class="movie movie-a">
-            <div class="movie-box">
-              <img src="<?php echo $Path; ?>/images/lp/image_view/movie.jpg" alt="Movie A">
-              <div class="movie_content">
-                <h3 class="movie_name">
-                  <img src="<?php echo $Path; ?>/images/lp/image_view/txt_movie_a.svg" alt="Movie A">
-                </h3>
-              </div>
-            </div>
-            <p class="hidden-sp">
-              完成後イメージ動画につき実際と異なる際は現況を優先といたします。<br />
-              家具付き販売ではございませんので予めご了承ください。</p>
-          </div>
-          <div class="taian-logo">
-            <img src="<?php echo $Path; ?>/images/lp/image_view/taian-logo.svg" alt="TAIAN">
-          </div>
-          <div class="movie movie-b">
-            <p class="hidden-sp">
-              完成後イメージ動画につき実際と異なる際は現況を優先といたします。<br />
-              家具付き販売ではございませんので予めご了承ください。</p>
-            <div class="movie-box">
-              <img src="<?php echo $Path; ?>/images/lp/image_view/movie.jpg" alt="Movie B">
-              <div class="movie_content">
-                <h3 class="movie_name">
-                  <img src="<?php echo $Path; ?>/images/lp/image_view/txt_movie_b.svg" alt="Movie B">
-                </h3>
-              </div>
-            </div>
-            <p class="sp_txt hidden-pc">
-              ※完成後イメージ動画につき実際と異なる際は現況を優先といたします。<br />
-              ※家具付き販売ではございませんので予めご了承ください。
+        <div class="wow fadeUp">
+          <h2 class="image_view__title"><img src="<?php echo $Path; ?>/images/lp/image_view/txt_image_view.svg" alt="IMAGE VIEW" width="417" height="47"></h2>
+          <div class="image_view_content">
+            <p class="image_view__subtitle">
+              建物竣工イメージを<br />
+              動画でご確認いただけます
             </p>
+            <p class="image_view__txt_jp">
+              <img src="<?php echo $Path; ?>/images/lp/image_view/txt_image_view_jp.svg" alt="" width="153" height="415">
+            </p>
+            <div class="movie movie-a">
+              <div class="movie-box">
+                <img src="<?php echo $Path; ?>/images/lp/image_view/movie.jpg" alt="Movie A">
+                <div class="movie_content btn_open_movie" data-popup="#movie-a">
+                  <h3 class="movie_name">
+                    <img src="<?php echo $Path; ?>/images/lp/image_view/txt_movie_a.svg" alt="Movie A">
+                  </h3>
+                </div>
+              </div>
+              <p class="hidden-sp">
+                完成後イメージ動画につき実際と異なる際は現況を優先といたします。<br />
+                家具付き販売ではございませんので予めご了承ください。</p>
+            </div>
+            <div class="taian-logo">
+              <img src="<?php echo $Path; ?>/images/lp/image_view/taian-logo.svg" alt="TAIAN">
+            </div>
+            <div class="movie movie-b">
+              <p class="hidden-sp">
+                完成後イメージ動画につき実際と異なる際は現況を優先といたします。<br />
+                家具付き販売ではございませんので予めご了承ください。</p>
+              <div class="movie-box">
+                <img src="<?php echo $Path; ?>/images/lp/image_view/movie.jpg" alt="Movie B">
+                <div class="movie_content btn_open_movie" data-popup="#movie-b">
+                  <h3 class="movie_name">
+                    <img src="<?php echo $Path; ?>/images/lp/image_view/txt_movie_b.svg" alt="Movie B">
+                  </h3>
+                </div>
+              </div>
+              <p class="sp_txt hidden-pc">
+                ※完成後イメージ動画につき実際と異なる際は現況を優先といたします。<br />
+                ※家具付き販売ではございませんので予めご了承ください。
+              </p>
+            </div>
           </div>
         </div>
-        <div class="plan_design">
+        <div class="plan_design wow fadeUp">
           <h3 class="plan_design_txt">
             <img src="<?php echo $Path; ?>/images/lp/image_view/txt_plan_design.svg" alt="PLAN DESIGN">
           </h3>
@@ -167,28 +169,29 @@ $pageName_url = './';
       <div class="layer rhomb"></div>
     </section>
     <section id="landscape">
-      <div class="wrap">
-        <h2 class="__title">
-          <img src="<?php echo $Path; ?>/images/lp/landscape/txt_landscape.svg" alt="LANDSCAPE">
-          <span>［区画図］</span>
-        </h2>
-        <div class="__img">
-          <img src="<?php echo $Path; ?>/images/lp/landscape/img.png" alt="［区画図］">
-        </div>
-        <div class="__txt">
-          2台分の駐車スペースを確保<br />
-          <span>※車種による</span>
-        </div>
-        <div class="__car">
-          <div class="__car_content">
-            開放感を存分に満喫する前面道路公道幅員約16ｍ。<br />
-            お子様の送迎や来客時などにも困らない2台分の駐車<br class="hidden-pc" />スペースも確保（車種による）。<br class="hidden-pc" />ビルトインカーポートですので<br class="hidden-pc" />愛車にも優しい駐車スペース<br class="hidden-pc" />となっております。
-            <img src="<?php echo $Path; ?>/images/lp/landscape/car.jpg" alt="Image Photo Car" class="sp">
-            <img src="<?php echo $Path; ?>/images/lp/landscape/car_pc.png" alt="Image Photo Car" class="pc">
+      <div class="wow fadeUp">
+        <div class="wrap ">
+          <h2 class="__title">
+            <img src="<?php echo $Path; ?>/images/lp/landscape/txt_landscape.svg" alt="LANDSCAPE">
+            <span>［区画図］</span>
+          </h2>
+          <div class="__img">
+            <img src="<?php echo $Path; ?>/images/lp/landscape/img.png" alt="［区画図］">
           </div>
-        </div>
-        <div class="layer hidden-sp">
-          <img src="<?php echo $Path; ?>/images/lp/landscape/layer-circle.svg" alt="layer circle">
+          <div class="__txt">
+            2台分の駐車スペースを確保<br />
+            <span>※車種による</span>
+          </div>
+          <div class="__car">
+            <div class="__car_content">
+              開放感を存分に満喫する前面道路公道幅員約16ｍ。<br />
+              お子様の送迎や来客時などにも困らない2台分の駐車<br class="hidden-pc" />スペースも確保（車種による）。<br class="hidden-pc" />ビルトインカーポートですので<br class="hidden-pc" />愛車にも優しい駐車スペース<br class="hidden-pc" />となっております。
+              <img src="<?php echo $Path; ?>/images/lp/landscape/car.jpg" alt="Image Photo Car" class="sp">
+              <img src="<?php echo $Path; ?>/images/lp/landscape/car_pc.png" alt="Image Photo Car" class="pc">
+            </div>
+          </div>
+          <div class="layer hidden-sp">
+          </div>
         </div>
       </div>
     </section>
@@ -198,14 +201,14 @@ $pageName_url = './';
           <img src="<?php echo $Path; ?>/images/lp/plan/txt_plan.svg" width="170" height="527" alt="Plan">
         </h2>
       </div>
-      <div class="__plan _plan_a btn_open_popup" data-popup="#popup-plan-a">
+      <div class="__plan _plan_a btn_open_popup wow fadeUp" data-popup="#popup-plan-a">
         <div class="plan__content ">
           <img class="plan_txt" src="<?php echo $Path; ?>/images/lp/plan/txt_taian_residence.svg" alt="TAIAN RESIDENCE">
           <img class="plan_name" src="<?php echo $Path; ?>/images/lp/plan/txt_plan_a.svg" alt="PLAN A">
           <p>タップでA棟間取図をご覧いただけます</p>
         </div>
       </div>
-      <div class="__plan _plan_b btn_open_popup" data-popup="#popup-plan-b">
+      <div class="__plan _plan_b btn_open_popup wow fadeUp" data-popup="#popup-plan-b">
         <div class="plan__content ">
           <img class="plan_txt" src="<?php echo $Path; ?>/images/lp/plan/txt_taian_residence.svg" alt="TAIAN RESIDENCE">
           <img class="plan_name" src="<?php echo $Path; ?>/images/lp/plan/txt_plan_b.svg" alt="PLAN B">
@@ -216,19 +219,21 @@ $pageName_url = './';
     <div id="equipment-structure-wrap">
       <section id="equipment">
         <div class="equipment-wrap">
-          <h2 class="equipment__title">
-            <img src="<?php echo $Path; ?>/images/common/txt-menu_equipment.svg" alt="EQUIPMENT">
-            <span>［設備・仕様］</span>
-          </h2>
-          <div class="equipment-top">
-            <div class="top__content">
-              日常に快適さを添え、家事の捗る設備・仕様は<br />
-              <span>上質クラスをご用意いたしました。</span><br />
-              空間のバランスもアクセントも加味した<br />
-              <span>自慢の設備・仕様です。</span>
+          <div class=" wow fadeUp">
+            <h2 class="equipment__title">
+              <img src="<?php echo $Path; ?>/images/common/txt-menu_equipment.svg" alt="EQUIPMENT">
+              <span>［設備・仕様］</span>
+            </h2>
+            <div class="equipment-top">
+              <div class="top__content">
+                日常に快適さを添え、家事の捗る設備・仕様は<br />
+                <span>上質クラスをご用意いたしました。</span><br />
+                空間のバランスもアクセントも加味した<br />
+                <span>自慢の設備・仕様です。</span>
+              </div>
             </div>
           </div>
-          <div class="equipment-box right">
+          <div class="equipment-box right wow fadeUp">
             <h3 class="box__title">
               <img src="<?php echo $Path; ?>/images/lp/equipment/txt_kitchen.svg" alt="KITCHEN">
             </h3>
@@ -265,7 +270,7 @@ $pageName_url = './';
             </div>
           </div>
 
-          <div class="equipment-box left">
+          <div class="equipment-box left wow fadeUp">
             <h3 class="box__title">
               <img src="<?php echo $Path; ?>/images/lp/equipment/txt_bath_room.svg" alt="BATH ROOM">
             </h3>
@@ -302,7 +307,7 @@ $pageName_url = './';
             </div>
           </div>
 
-          <div class="equipment-box right">
+          <div class="equipment-box right wow fadeUp">
             <h3 class="box__title">
               <img src="<?php echo $Path; ?>/images/lp/equipment/txt_wash_stand.svg" alt="WASH STAND">
             </h3>
@@ -338,7 +343,7 @@ $pageName_url = './';
               </div>
             </div>
           </div>
-          <div class="equipment-box left last">
+          <div class="equipment-box left last wow fadeUp">
             <h3 class="box__title">
               <img src="<?php echo $Path; ?>/images/lp/equipment/txt_accent_tile.svg" alt="ACCENT TILE">
             </h3>
@@ -368,132 +373,138 @@ $pageName_url = './';
               </div>
             </div>
           </div>
-          <div class="btn__group equipment-btn-group">
-            <div class="btn_item">
-              <span class="btn"> 間接照明・ダウンライト</span>
-            </div>
-            <div class="btn_item">
-              <span class="btn">各階タンクレストイレ・手洗い器</span>
-            </div>
-            <div class="btn_item">
-              <span class="btn">二重床・二重天井</span>
-            </div>
-            <div class="btn_item">
-              <span class="btn">LDK床暖房（TES温水式）</span>
-            </div>
-            <div class="btn_item">
-              <span class="btn">エコジョーズ</span>
-            </div>
-            <div class="btn_item">
-              <span class="btn">マルチメディアコンセント</span>
-            </div>
-            <div class="btn_item">
-              <span class="btn">屋上・バルコニー10年保証</span>
-            </div>
-            <div class="btn_item">
-              <span class="btn">石目調フロアタイル</span>
-            </div>
-          </div>
-          <div class="equitement__note">
-            RC造住宅は、夏は暑くて、冬は寒く結露もしやすい<br class="hidden-pc" />
-            イメージをお持ちではございませんか？
-          </div>
-          <div class="equitement__bot">
-            <div class="bot_content">
-              <div class="__img">
-                <img src="<?php echo $Path; ?>/images/lp/equipment/logo_jpd.png" alt="JPD">
+          <div class=" wow fadeUp">
+            <div class="btn__group equipment-btn-group">
+              <div class="btn_item">
+                <span class="btn"> 間接照明・ダウンライト</span>
               </div>
+              <div class="btn_item">
+                <span class="btn">各階タンクレストイレ・手洗い器</span>
+              </div>
+              <div class="btn_item">
+                <span class="btn">二重床・二重天井</span>
+              </div>
+              <div class="btn_item">
+                <span class="btn">LDK床暖房（TES温水式）</span>
+              </div>
+              <div class="btn_item">
+                <span class="btn">エコジョーズ</span>
+              </div>
+              <div class="btn_item">
+                <span class="btn">マルチメディアコンセント</span>
+              </div>
+              <div class="btn_item">
+                <span class="btn">屋上・バルコニー10年保証</span>
+              </div>
+              <div class="btn_item">
+                <span class="btn">石目調フロアタイル</span>
+              </div>
+            </div>
+            <div class="equitement__note">
+              RC造住宅は、夏は暑くて、冬は寒く結露もしやすい<br class="hidden-pc" />
+              イメージをお持ちではございませんか？
+            </div>
+          </div>
+          <div class="wow fadeUp">
+            <div class="equitement__bot">
+              <div class="bot_content">
+                <div class="__img">
+                  <img src="<?php echo $Path; ?>/images/lp/equipment/logo_jpd.png" alt="JPD">
+                </div>
 
-              <div class="red_line">
-                建築物断熱用硬質ウレタンフォーム（ハイブリッドフォーム）
+                <div class="red_line">
+                  建築物断熱用硬質ウレタンフォーム（ハイブリッドフォーム）
+                </div>
+                <p>
+                  ハイブリットフォームは2液の原液で構成されています。<br />
+                  ひとつはベニヤや集成材を作る際に一般的に使われている糊、もうひとつは、水、触媒、樹脂、整泡剤、難燃剤等が含まれるポリオールという水溶液です。ハイブリッドフォームは発泡剤として水を利用しています。温暖化に悪影響を与える高濃度なガスを使わないため、地球にやさしく、そして住宅を高性能に断熱化することにより、省エネで快適で人にも優しい住宅に出来る素材です。
+                </p>
+                <div class="tags">
+                  <div class="tag_item">
+                    <span class="tag center">断熱性能</span>
+                  </div>
+                  <div class="tag_item">
+                    <span class="tag center">気密性能</span>
+                  </div>
+                  <div class="tag_item">
+                    <span class="tag center">健康性能</span>
+                  </div>
+                  <div class="tag_item">
+                    <span class="tag center">経年変化</span>
+                  </div>
+                  <div class="tag_item">
+                    <span class="tag center">結露対策</span>
+                  </div>
+                  <div class="tag_item">
+                    <span class="tag center">耐火性能</span>
+                  </div>
+                </div>
+                <p>
+                  住宅をすっぽり断熱材と空気層断で家を魔法瓶のように気密性を高め断熱するため、冷暖房の効きが良く夏場はより涼しく、冬場はより暖かく快適にお過ごしいただけます。<br />
+                  ハイブリッドフォームはフォースターに準拠した安心、安全な断熱材です。
+                </p>
               </div>
-              <p>
-                ハイブリットフォームは2液の原液で構成されています。<br />
-                ひとつはベニヤや集成材を作る際に一般的に使われている糊、もうひとつは、水、触媒、樹脂、整泡剤、難燃剤等が含まれるポリオールという水溶液です。ハイブリッドフォームは発泡剤として水を利用しています。温暖化に悪影響を与える高濃度なガスを使わないため、地球にやさしく、そして住宅を高性能に断熱化することにより、省エネで快適で人にも優しい住宅に出来る素材です。
-              </p>
-              <div class="tags">
-                <div class="tag_item">
-                  <span class="tag center">断熱性能</span>
-                </div>
-                <div class="tag_item">
-                  <span class="tag center">気密性能</span>
-                </div>
-                <div class="tag_item">
-                  <span class="tag center">健康性能</span>
-                </div>
-                <div class="tag_item">
-                  <span class="tag center">経年変化</span>
-                </div>
-                <div class="tag_item">
-                  <span class="tag center">結露対策</span>
-                </div>
-                <div class="tag_item">
-                  <span class="tag center">耐火性能</span>
-                </div>
+              <div class="bot_img">
+                <p class="ttl">■外周壁の断面図</p>
+                <img src="<?php echo $Path; ?>/images/lp/equipment/img_bot.png" alt="外周壁の断面図">
               </div>
-              <p>
-                住宅をすっぽり断熱材と空気層断で家を魔法瓶のように気密性を高め断熱するため、冷暖房の効きが良く夏場はより涼しく、冬場はより暖かく快適にお過ごしいただけます。<br />
-                ハイブリッドフォームはフォースターに準拠した安心、安全な断熱材です。
-              </p>
             </div>
-            <div class="bot_img">
-              <p class="ttl">■外周壁の断面図</p>
-              <img src="<?php echo $Path; ?>/images/lp/equipment/img_bot.png" alt="外周壁の断面図">
+            <div class="note__out">
+              ※その他設備・仕様につきましてはお気軽にお問い合わせください。<br class="hidden-pc" />
+              ※情勢により予告なく設備・仕様の変更をする場合がございますので予めご了承ください。
             </div>
-          </div>
-          <div class="note__out">
-            ※その他設備・仕様につきましてはお気軽にお問い合わせください。<br class="hidden-pc" />
-            ※情勢により予告なく設備・仕様の変更をする場合がございますので予めご了承ください。
           </div>
         </div>
       </section>
       <section id="structure">
         <div class="structure_wrap">
-          <div class="structure_top">
-            <h2 class="structure__title">
-              <img src="<?php echo $Path; ?>/images/lp/structure/txt_structure.svg" alt="STRUCTURE">
-              <span>［構　造］</span>
-            </h2>
-            <div class="_logo">
-              <img src="<?php echo $Path; ?>/images/lp/structure/logo_structure.svg" alt="法定耐用年数47年">
+          <div class="wow fadeUp">
+            <div class="structure_top">
+              <h2 class="structure__title">
+                <img src="<?php echo $Path; ?>/images/lp/structure/txt_structure.svg" alt="STRUCTURE">
+                <span>［構　造］</span>
+              </h2>
+              <div class="_logo">
+                <img src="<?php echo $Path; ?>/images/lp/structure/logo_structure.svg" alt="法定耐用年数47年">
+              </div>
+            </div>
+            <div class="st_content">
+              「RC住宅」とは、セメントと砂・砂利などの骨材に水を混ぜて固まるコンクリートに鉄筋を入れ、異なる性質をもった材料が一体となって建物を支えます。<br />
+              特徴は、高気密・高断熱・優れた耐久性、そして地震に対して非常に強い構造です。<br />
+              RC造には、木造住宅を大幅に上回る外力に対する強さがあり、中でもRC壁式構造（モノコック構造）は、壁・床・天井の6面体（ダイアフラム）全体をRCで構成。面全体で地震や台風などの外力を受け止めるため強度的にも最も優れていると評価されています。<br />
+              さらに柱や梁に干渉されないすっきりとした空間も保てます。
             </div>
           </div>
-          <div class="st_content">
-            「RC住宅」とは、セメントと砂・砂利などの骨材に水を混ぜて固まるコンクリートに鉄筋を入れ、異なる性質をもった材料が一体となって建物を支えます。<br />
-            特徴は、高気密・高断熱・優れた耐久性、そして地震に対して非常に強い構造です。<br />
-            RC造には、木造住宅を大幅に上回る外力に対する強さがあり、中でもRC壁式構造（モノコック構造）は、壁・床・天井の6面体（ダイアフラム）全体をRCで構成。面全体で地震や台風などの外力を受け止めるため強度的にも最も優れていると評価されています。<br />
-            さらに柱や梁に干渉されないすっきりとした空間も保てます。
-          </div>
           <div class="strong_point">
-            <div class="point_item">
+            <div class="point_item wow fadeUp">
               <div class="point">
                 <img src="<?php echo $Path; ?>/images/lp/structure/strong_point_1.svg" alt="STRONG POINT 1">
                 <div class="point_txt">
-                  その性質により地震の力で伸縮する建物に対し、鉄筋が持つ引張力とコンクリートが持つ圧縮力が支えとなり耐震性を発揮。
+                  <p>その性質により地震の力で伸縮する建物に対し、鉄筋が持つ引張力とコンクリートが持つ圧縮力が支えとなり耐震性を発揮。</p>
                 </div>
               </div>
             </div>
-            <div class="point_item">
+            <div class="point_item wow fadeUp" data-wow-delay="0.2s">
               <div class="point">
                 <img src="<?php echo $Path; ?>/images/lp/structure/strong_point_2.svg" alt="STRONG POINT 2">
                 <div class="point_txt">
-                  不燃材ですので、万一火災に見舞われた場合は、構造から建て替えするのではなくリフォームで済むことが多くなります。
+                  <p>不燃材ですので、万一火災に見舞われた場合は、構造から建て替えするのではなくリフォームで済むことが多くなります。</p>
                 </div>
               </div>
             </div>
-            <div class="point_item">
+            <div class="point_item  wow fadeUp" data-wow-delay="0.4s">
               <div class="point">
                 <img src="<?php echo $Path; ?>/images/lp/structure/strong_point_3.svg" alt="STRONG POINT 3">
                 <div class="point_txt">
-                  気密性が高いため内外ともに音の透過が少なく、木造住宅に比べて高い遮音性を発揮。比較的近隣を気にせず生活できます。
+                  <p>気密性が高いため内外ともに音の透過が少なく、木造住宅に比べて高い遮音性を発揮。比較的近隣を気にせず生活できます。</p>
                 </div>
               </div>
             </div>
-            <div class="point_item">
+            <div class="point_item  wow fadeUp" data-wow-delay="0.6s">
               <div class="point">
                 <img src="<?php echo $Path; ?>/images/lp/structure/strong_point_4.svg" alt="STRONG POINT 4">
                 <div class="point_txt">
-                  台風は強大な力で建物を破壊します。RC住宅は建物の重厚さでその強さを発揮。沖縄県ではRC造が主流となっています。
+                  <p>台風は強大な力で建物を破壊します。RC住宅は建物の重厚さでその強さを発揮。沖縄県ではRC造が主流となっています。</p>
                 </div>
               </div>
             </div>
@@ -502,62 +513,64 @@ $pageName_url = './';
             <div class="layer">
               <img src="<?php echo $Path; ?>/images/lp/structure/layer.svg" alt="layer">
             </div>
-            <div class="structure_bot_wrap">
-              <img class="hidden-pc" src="<?php echo $Path; ?>/images/lp/structure/img.png" alt="モノコック構造を採用しています">
-              <div class="structure_bot_wrap_txt">
-                <div class="txt_black_bg center">
-                  <p>
-                    タイアンレジデンスは地震の力を面に分散し軽減させる
-                    <span>モノコック構造を採用しています</span>
-                  </p>
+            <div class="wow fadeUp">
+              <div class="structure_bot_wrap">
+                <img class="hidden-pc" src="<?php echo $Path; ?>/images/lp/structure/img.png" alt="モノコック構造を採用しています">
+                <div class="structure_bot_wrap_txt">
+                  <div class="txt_black_bg center">
+                    <p>
+                      タイアンレジデンスは地震の力を面に分散し軽減させる
+                      <span>モノコック構造を採用しています</span>
+                    </p>
+                  </div>
+                  <div class="imgs">
+                    <img src="<?php echo $Path; ?>/images/lp/structure/img2.png" alt="モノコック構造を採用しています 2">
+                    <img src="<?php echo $Path; ?>/images/lp/structure/img3.png" alt="モノコック構造を採用しています 3">
+                  </div>
                 </div>
-                <div class="imgs">
-                  <img src="<?php echo $Path; ?>/images/lp/structure/img2.png" alt="モノコック構造を採用しています 2">
-                  <img src="<?php echo $Path; ?>/images/lp/structure/img3.png" alt="モノコック構造を採用しています 3">
+                <div class="structure_bot_wrap_img hidden-sp">
+                  <img src="<?php echo $Path; ?>/images/lp/structure/img_pc.png" alt="モノコック構造を採用しています">
                 </div>
               </div>
-              <div class="structure_bot_wrap_img hidden-sp">
-                <img src="<?php echo $Path; ?>/images/lp/structure/img_pc.png" alt="モノコック構造を採用しています">
-              </div>
-            </div>
-            <div class="structure_content">
-              <h3>
-                <span>国土交通省 住宅局</span>
-                「熊本地震における建築物被害の原因<br class="hidden-pc" />分析を行う委員会」報告書
-              </h3>
-              <p>
-                平成28年4月14日及び16日に発生した熊本地震においては、益城町中心部で震度7が2回観測されるなど、過去に例を見ない大きな地震により、建築物に甚大な被害が発生。
-                本委員会においては、大地震が2回発生したことを前提として被害原因の分析を行った。
-              </p>
-              <p>
-                <strong>木造建築物の倒壊の原因分析（新耐震基準）</strong>
-                新耐震基準導入以降で倒壊した建築物（83棟）のうち、建築物の状況が把握できなかったもの（6棟）を除いた77棟について、被害要因分析を行った。
-              </p>
-              <p>
-                ○分析の結果、被害要因として、著しい地盤変状の影響（2棟）、隣接建物の衝突による影響（1棟）、蟻害（2棟）、現行規定の仕様となっていない接合部（73棟）が確認できた。また、震源や地盤の特性に起因して局所的に大きな地震動が建築物に作用した可能性があるもの※も一定数あった。（被害要因の重複含む）
-              </p>
-              <p>○また、接合部の仕様を明確化した平成12年6月以降に建築されたもので倒壊したもの（7棟）のみで見ると、被害要因は、現行規定の仕様となっていない接合部（3棟）、著しい地盤変状の影響（1棟）、震源や地盤の特性に起因して局所的に大きな地震動が建築物に作用した可能性があるもの※（3棟）であった。
+              <div class="structure_content">
+                <h3>
+                  <span>国土交通省 住宅局</span>
+                  「熊本地震における建築物被害の原因<br class="hidden-pc" />分析を行う委員会」報告書
+                </h3>
+                <p>
+                  平成28年4月14日及び16日に発生した熊本地震においては、益城町中心部で震度7が2回観測されるなど、過去に例を見ない大きな地震により、建築物に甚大な被害が発生。
+                  本委員会においては、大地震が2回発生したことを前提として被害原因の分析を行った。
+                </p>
+                <p>
+                  <strong>木造建築物の倒壊の原因分析（新耐震基準）</strong>
+                  新耐震基準導入以降で倒壊した建築物（83棟）のうち、建築物の状況が把握できなかったもの（6棟）を除いた77棟について、被害要因分析を行った。
+                </p>
+                <p>
+                  ○分析の結果、被害要因として、著しい地盤変状の影響（2棟）、隣接建物の衝突による影響（1棟）、蟻害（2棟）、現行規定の仕様となっていない接合部（73棟）が確認できた。また、震源や地盤の特性に起因して局所的に大きな地震動が建築物に作用した可能性があるもの※も一定数あった。（被害要因の重複含む）
+                </p>
+                <p>○また、接合部の仕様を明確化した平成12年6月以降に建築されたもので倒壊したもの（7棟）のみで見ると、被害要因は、現行規定の仕様となっていない接合部（3棟）、著しい地盤変状の影響（1棟）、震源や地盤の特性に起因して局所的に大きな地震動が建築物に作用した可能性があるもの※（3棟）であった。
 
-              </p>
-              <p>
-                <small>※引き続き、特定の地盤が地震動に与える影響を詳細に調査・分析。</small>
-              </p>
-            </div>
-            <div class="txt_blue_bg center">
-              <p>
-                鉄筋コンクリート造建築物は新耐震基準導入以<br class="hidden-pc" />降で倒壊が確認されたものはなかった
-              </p>
-            </div>
-            <div class="txt__bottom">
-              と報告されています。<br class="hidden-pc" />
-              このことからも木造に比べRC住宅は<br class="hidden-pc" />
-              各段に安心であると言えます。
+                </p>
+                <p>
+                  <small>※引き続き、特定の地盤が地震動に与える影響を詳細に調査・分析。</small>
+                </p>
+              </div>
+              <div class="txt_blue_bg center">
+                <p>
+                  鉄筋コンクリート造建築物は新耐震基準導入以<br class="hidden-pc" />降で倒壊が確認されたものはなかった
+                </p>
+              </div>
+              <div class="txt__bottom">
+                と報告されています。<br class="hidden-pc" />
+                このことからも木造に比べRC住宅は<br class="hidden-pc" />
+                各段に安心であると言えます。
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <div class="warranty__top" id="warranty">
-        <div class="warranty__top_wrap">
+      <div class="warranty__top wow fadeUp" id="warranty">
+        <div class="warranty__top_wrap ">
           <h2 class="__ttl">
             <img src="<?php echo $Path; ?>/images/lp/warranty/txt_warranty.png" alt="WARRANTY">
             <span>［保　証］</span>
@@ -571,89 +584,94 @@ $pageName_url = './';
     </div>
 
     <section class="security-gua">
-      <h3 class="secrurity-ttl">
-        第三者機関による安心保証制度
-      </h3>
-      <div class="container">
+      <div class="wow fadeUp">
+        <h3 class="secrurity-ttl">
+          第三者機関による安心保証制度
+        </h3>
+        <div class="container">
 
 
-        <div class="security-content">
-          <div class="secu-col ">
-            <div class="secu-info">
-              <div class="secu-name">国土交通大臣指定住宅瑕疵担保責任保険法人</div>
-              <div class="secu-logo">
-                <img src="./images/lp/security/img_security-company.svg" alt="">
-              </div>
-              <div class="img01">
-                <img src="./images/lp/security/img_sec-01.svg" alt="" width="182">
+          <div class="security-content">
+            <div class="secu-col ">
+              <div class="secu-info">
+                <div class="secu-name">国土交通大臣指定住宅瑕疵担保責任保険法人</div>
+                <div class="secu-logo">
+                  <img src="./images/lp/security/img_security-company.svg" alt="">
+                </div>
+                <div class="img01">
+                  <img src="./images/lp/security/img_sec-01.svg" alt="" width="182">
+                </div>
               </div>
             </div>
-          </div>
-          <div class="secu-col secu-support">
-            <ul class="list-support">
-              <li class="support-item">
-                <div class="img">
-                  <img src="./images/lp/security/support-01.svg" alt="">
-                </div>
-                <div class="text">
-                  工事中に第三者による現場検査を実施しています
-                </div>
-              </li>
-              <li class="support-item">
-                <div class="img">
-                  <img src="./images/lp/security/support-01.svg" alt="">
-                </div>
-                <div class="text">
-                  万が一瑕疵が見つかった際には修繕費用を保険でサポート
-                </div>
-              </li>
-              <li class="support-item">
-                <div class="img">
-                  <img src="./images/lp/security/support-01.svg" alt="">
-                </div>
-                <div class="text">
-                  万が一業者が倒産してしまった場合には直接保険金が支払われます
-                </div>
-              </li>
-              <li class="support-item">
-                <div class="img">
-                  <img src="./images/lp/security/support-01.svg" alt="">
-                </div>
-                <div class="text">
-                  万が一事業者とのトラブルになっても専門処理制度が利用できます
-                </div>
-              </li>
-            </ul>
+            <div class="secu-col secu-support">
+              <ul class="list-support">
+                <li class="support-item">
+                  <div class="img">
+                    <img src="./images/lp/security/support-01.svg" alt="">
+                  </div>
+                  <div class="text">
+                    工事中に第三者による現場検査を実施しています
+                  </div>
+                </li>
+                <li class="support-item">
+                  <div class="img">
+                    <img src="./images/lp/security/support-02.svg" alt="">
+                  </div>
+                  <div class="text">
+                    万が一瑕疵が見つかった際には修繕費用を保険でサポート
+                  </div>
+                </li>
+                <li class="support-item">
+                  <div class="img">
+                    <img src="./images/lp/security/support-03.svg" alt="">
+                  </div>
+                  <div class="text">
+                    万が一業者が倒産してしまった場合には直接保険金が支払われます
+                  </div>
+                </li>
+                <li class="support-item">
+                  <div class="img">
+                    <img src="./images/lp/security/support-04.svg" alt="">
+                  </div>
+                  <div class="text">
+                    万が一事業者とのトラブルになっても専門処理制度が利用できます
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section class="location" id="location">
-      <h2 class="img-heading">
+
+      <h2 class="img-heading wow fadeUp">
         <img src="./images/lp/location/location-heading.png" alt="">
       </h2>
       <div class="container">
-        <div class="location-ttl">
+        <div class="location-ttl  wow fadeUp">
           <img src="./images/lp/location/location-ttl.svg" alt="LOCATION" width="400">
         </div>
         <div class="location-content">
-          <div class="location-dir">
-            <span class="dr-big">「湘南台」</span>駅<br class="sp">徒歩 <span class="num-7">7</span><span class="bold">分</span>
-          </div>
-          <div class="location-snip">
-            <p class="txt-01">
-              小田急江ノ島線、横浜市営地下鉄ブルーラインと<br class="sp">相鉄いずみ野線の始発駅。
-            </p>
-            <p class="txt-02">
-              3路線利用ならではの快適さが魅力的な「湘南台」駅。<br>
-              「相鉄・JR直通線」の開業によって都心へも<br class="sp">座ってアクセスも可能となっています。
-            </p>
-          </div>
-          <div class="location-map">
-            <img src="./images/lp/location/location-map.png" alt="">
+          <div class="wow fadeUp">
+            <div class="location-dir">
+              <span class="dr-big">「湘南台」</span>駅<br class="sp">徒歩 <span class="num-7">7</span><span class="bold">分</span>
+            </div>
+            <div class="location-snip">
+              <p class="txt-01">
+                小田急江ノ島線、横浜市営地下鉄ブルーラインと<br class="sp">相鉄いずみ野線の始発駅。
+              </p>
+              <p class="txt-02">
+                3路線利用ならではの快適さが魅力的な「湘南台」駅。<br>
+                「相鉄・JR直通線」の開業によって都心へも<br class="sp">座ってアクセスも可能となっています。
+              </p>
+            </div>
+            <div class="location-map">
+              <img src="./images/lp/location/location-map.png" alt="">
+            </div>
           </div>
           <div class="list-station">
-            <div class="station-item">
+            <div class="station-item wow fadeUp">
               <div class="station-item__in">
                 <div class="img">
                   <img src="./images/lp/location/img-station-01.svg" alt="「横浜」駅">
@@ -664,7 +682,7 @@ $pageName_url = './';
                 </div>
               </div>
             </div>
-            <div class="station-item">
+            <div class="station-item wow fadeUp" data-wow-delay="0.2s">
               <div class="station-item__in">
                 <div class="img">
                   <img src="./images/lp/location/img-station-02.svg" alt="「品川」駅">
@@ -675,7 +693,7 @@ $pageName_url = './';
                 </div>
               </div>
             </div>
-            <div class="station-item">
+            <div class="station-item wow fadeUp">
               <div class="station-item__in">
                 <div class="img">
                   <img src="./images/lp/location/img-station-03.svg" alt="「渋谷」駅">
@@ -686,7 +704,7 @@ $pageName_url = './';
                 </div>
               </div>
             </div>
-            <div class="station-item">
+            <div class="station-item wow fadeUp" data-wow-delay="0.2s">
               <div class="station-item__in">
                 <div class="img">
                   <img src="./images/lp/location/img-station-04.svg" alt="「新宿」駅">
@@ -708,95 +726,97 @@ $pageName_url = './';
     <section id="life_information">
       <section class="life-topsecion">
         <div class="container">
-          <div class="life-heading">
-            <div class="life-ttl">
-              <img src="./images/lp/life_information/life-info-ttl.svg" alt="LIFE INFORMATION">
+          <div class="wow fadeUp">
+            <div class="life-heading">
+              <div class="life-ttl">
+                <img src="./images/lp/life_information/life-info-ttl.svg" alt="LIFE INFORMATION">
+              </div>
+              <div class="text-heading">日々の生活にも子育てにも、恵まれた住環境も魅力です。</div>
             </div>
-            <div class="text-heading">日々の生活にも子育てにも、恵まれた住環境も魅力です。</div>
+            <div class="life-gallery">
+              <div class="item-big">
+                <div class="img">
+                  <img src="./images/lp/life_information/life-01.png" alt="「湘南台」駅東口　約500m">
+                </div>
+                <div class="text">
+                  <span class="txt-big">「湘南台」</span>駅東口　約<span class="num-500 txt-big">500</span>m
+                </div>
+              </div>
+              <div class="item">
+                <div class="img">
+                  <img src="./images/lp/life_information/life-gallery-01.png" alt="藤沢市立六会小学校 約650m">
+                </div>
+                <div class="text">
+                  藤沢市立六会小学校<br>
+                  <span class="unit-txt">約<span class="txt-num">650</span>m</span>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img">
+                  <img src="./images/lp/life_information/life-gallery-02.png" alt="藤沢市立湘南台中学校 約650m">
+                </div>
+                <div class="text">
+                  藤沢市立湘南台中学校<br>
+                  <span class="unit-txt">約<span class="txt-num">650</span>m</span>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img">
+                  <img src="./images/lp/life_information/life-gallery-03.png" alt="ヨークプライス湘南台店 約200m">
+                </div>
+                <div class="text">
+                  ヨークプライス湘南台店<br>
+                  <span class="unit-txt">約<span class="txt-num">200</span>m</span>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img">
+                  <img src="./images/lp/life_information/life-gallery-04.png" alt="湘南台公園 約500m">
+                </div>
+                <div class="text">
+                  湘南台公園<br>
+                  <span class="unit-txt">約<span class="txt-num">500</span>m</span>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img">
+                  <img src="./images/lp/life_information/life-gallery-05.png" alt="ダイエー湘南台店 約550m">
+                </div>
+                <div class="text">
+                  ダイエー湘南台店<br>
+                  <span class="unit-txt">約<span class="txt-num">550</span>m</span>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img">
+                  <img src="./images/lp/life_information/life-gallery-06.png" alt="サンドラッグ湘南台一丁目店 約210m">
+                </div>
+                <div class="text">
+                  サンドラッグ湘南台一丁目店<br>
+                  <span class="unit-txt">約<span class="txt-num">210</span>m</span>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img">
+                  <img src="./images/lp/life_information/life-gallery-07.png" alt="湘南台市民図書館 約350m">
+                </div>
+                <div class="text">
+                  湘南台市民図書館<br>
+                  <span class="unit-txt">約<span class="txt-num">350</span>m</span>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img">
+                  <img src="./images/lp/life_information/life-gallery-08.png" alt="湘南台文化センター 約500m">
+                </div>
+                <div class="text">
+                  湘南台文化センター<br>
+                  <span class="unit-txt">約<span class="txt-num">500</span>m</span>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="life-gallery">
-            <div class="item-big">
-              <div class="img">
-                <img src="./images/lp/life_information/life-01.png" alt="「湘南台」駅東口　約500m">
-              </div>
-              <div class="text">
-                <span class="txt-big">「湘南台」</span>駅東口　約<span class="num-500 txt-big">500</span>m
-              </div>
-            </div>
-            <div class="item">
-              <div class="img">
-                <img src="./images/lp/life_information/life-gallery-01.png" alt="藤沢市立六会小学校 約650m">
-              </div>
-              <div class="text">
-                藤沢市立六会小学校<br>
-                <span class="unit-txt">約<span class="txt-num">650</span>m</span>
-              </div>
-            </div>
-            <div class="item">
-              <div class="img">
-                <img src="./images/lp/life_information/life-gallery-02.png" alt="藤沢市立湘南台中学校 約650m">
-              </div>
-              <div class="text">
-                藤沢市立湘南台中学校<br>
-                <span class="unit-txt">約<span class="txt-num">650</span>m</span>
-              </div>
-            </div>
-            <div class="item">
-              <div class="img">
-                <img src="./images/lp/life_information/life-gallery-03.png" alt="ヨークプライス湘南台店 約200m">
-              </div>
-              <div class="text">
-                ヨークプライス湘南台店<br>
-                <span class="unit-txt">約<span class="txt-num">200</span>m</span>
-              </div>
-            </div>
-            <div class="item">
-              <div class="img">
-                <img src="./images/lp/life_information/life-gallery-04.png" alt="湘南台公園 約500m">
-              </div>
-              <div class="text">
-                湘南台公園<br>
-                <span class="unit-txt">約<span class="txt-num">500</span>m</span>
-              </div>
-            </div>
-            <div class="item">
-              <div class="img">
-                <img src="./images/lp/life_information/life-gallery-05.png" alt="ダイエー湘南台店 約550m">
-              </div>
-              <div class="text">
-                ダイエー湘南台店<br>
-                <span class="unit-txt">約<span class="txt-num">550</span>m</span>
-              </div>
-            </div>
-            <div class="item">
-              <div class="img">
-                <img src="./images/lp/life_information/life-gallery-06.png" alt="サンドラッグ湘南台一丁目店 約210m">
-              </div>
-              <div class="text">
-                サンドラッグ湘南台一丁目店<br>
-                <span class="unit-txt">約<span class="txt-num">210</span>m</span>
-              </div>
-            </div>
-            <div class="item">
-              <div class="img">
-                <img src="./images/lp/life_information/life-gallery-07.png" alt="湘南台市民図書館 約350m">
-              </div>
-              <div class="text">
-                湘南台市民図書館<br>
-                <span class="unit-txt">約<span class="txt-num">350</span>m</span>
-              </div>
-            </div>
-            <div class="item">
-              <div class="img">
-                <img src="./images/lp/life_information/life-gallery-08.png" alt="湘南台文化センター 約500m">
-              </div>
-              <div class="text">
-                湘南台文化センター<br>
-                <span class="unit-txt">約<span class="txt-num">500</span>m</span>
-              </div>
-            </div>
-          </div>
-          <ul class="list-station-txt">
+          <ul class="list-station-txt wow fadeUp">
             <li class="item">湘南台よつば保育園･･･<span class="unit-txt">約<span class="txt-num">550</span>m</span>
             </li>
             <li class="item">湘南台郵便局･･･<span class="unit-txt">約<span class="txt-num">850</span>m</span></li>
@@ -822,10 +842,10 @@ $pageName_url = './';
         </div>
       </section>
       <div id="shonan_area">
-        <div class="shonan_area__title">
+        <div class="shonan_area__title wow fadeUp">
           湘南エリア<span>有数の人気アドレス</span>
         </div>
-        <div class="shonan_area__content">
+        <div class="shonan_area__content wow fadeUp ">
           <p>湘南エリアのターミナル的「湘南台」駅より徒歩７分。<br />
             そんな駅近ならではの快適な住環境ですので商業施設はもちろん、<br class="hidden-pc" />
             図書館や湘南台のランドマーク的シンボルであるプラネタリウム、<br />
@@ -838,7 +858,9 @@ $pageName_url = './';
             藤沢市の公表する『地域危険度マップ 湘南台地区』では<br class="hidden-pc" />
             全壊率の危険度は10％以上20％未満と<br />
             市内有数の安心できるエリアでもあります。</p>
-          <p class="img"><img src="./images/lp/life_information/shonan_area-img.png" alt="湘南エリア有数の人気アドレス"></p>
+        </div>
+        <div class="shonan_area__content wow fadeUp ">
+          <p class="img wow fadeUp"><img src="./images/lp/life_information/shonan_area-img.png" alt="湘南エリア有数の人気アドレス"></p>
           <p>
             詳しくはFUJISAWA MAPからもご確認いただけます。<br class="hidden-pc" /><a href="https://webgis.alandis.jp/fujisawa14/portal/kikendo/index.html" target="_blank">https://webgis.alandis.jp/fujisawa14/portal/kikendo/index.html</a>
           </p>
@@ -853,61 +875,63 @@ $pageName_url = './';
           </div>
         </div>
         <div class="gmap-iframe">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3252.4947598844724!2d139.46780041525108!3d35.392985080262626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018511265248757%3A0xf5c60c9ce1304f62!2zTmjhuq10IELhuqNuLCDjgJIyNTItMDgwNCBLYW5hZ2F3YSwgRnVqaXNhd2EsIFNoxY1uYW5kYWksIDEtY2jFjW1l4oiS77yT77yQ4oiSOQ!5e0!3m2!1svi!2s!4v1645409764774!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6504.989526243179!2d139.469989!3d35.392985!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018511265248757%3A0xf5c60c9ce1304f62!2z5pel5pys44CB44CSMjUyLTA4MDQg56We5aWI5bed55yM6Jek5rKi5biC5rmY5Y2X5Y-w77yR5LiB55uu77yT77yQ4oiS77yZ!5e0!3m2!1sja!2s!4v1645430951111!5m2!1sja!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
       </div>
       <div class="outline">
-        <h3 class="outline__title">
-          <img src="./images/lp/outline/txt_outline.svg" alt="OUTLINE">
-          <span>［物件概要］</span>
-        </h3>
-        <div class="container outline__content">
-          <p class="text-center">
-            　□所在地／藤沢市湘南台１丁目30番地8、30番地39<br />
-            　□交通／小田急江ノ島線・相鉄いずみ野線・<br class="hidden-pc" />横浜市営地下鉄ブルーライン「湘南台」駅徒歩7分<br />
-            　□販売価格／各8,480万円（税込）<br class="hidden-pc" />
-            　□敷地面積／各100.32㎡<br class="hidden-pc" />
-            　□建物面積／各124.70㎡（駐車場部分25.33㎡含む）<br class="hidden-pc" />
-            　□間取／各4LDK+SIC+パントリー<br />
-            　□規模構造／鉄筋コンクリート造陸屋根2階建<br class="hidden-pc" />
-            　□現況／建築中　□完成予定／2022年6月下旬完成予定<br class="hidden-pc" />
-            　□引渡／相談　　都市計画／市街化区域<br />
-            　□用途地域／第2種低層住居専用地域<br class="hidden-pc" />
-            　□建蔽率／60％　□容積率／100％<br class="hidden-pc" />
-            　□防火指定／なし（建築基準法第22条の指定区域）<br class="hidden-pc" />
-            　□地目／宅地　□土地権利／所有権<br />
-            　□接道／北側約16ｍ公道に約6.77ｍ接道<br class="hidden-pc" />
-            　□設備／公営水道・公共下水・都市ガス・東京電力<br />
-            □その他／土地家屋調査士・司法書士は売主指定となります、<br class="hidden-pc" />
-            図面と現況が異なる際は現況を優先とします、<br class="hidden-pc" />
-            分筆前につき敷地面積が増減する場合があります、<br />
-            建築確認番号A：第21KAK建確03365号（令和3年11月25日）・<br class="hidden-pc" />
-            B：第21KAK建確03366号（令和3年11月25日）<br />
-            □取引態様／専任媒介<br />
-            □情報公開日／2022年2月OO日<br class="hidden-pc" />　□次回更新予定日／2022年3月OO日
-          </p>
-          <p class="text-center">
-            ［販売・仲介］<br />
-            ワンズリアルティ株式会社<br class="hidden-pc" />
-            〒231-0013 神奈川県横浜市中区住吉町1-12-1<br class="hidden-pc" />
-            神奈川県知事免許（3）第27643号<br />
-            （公社）全国宅地建物取引業保証協会<br class="hidden-pc" />
-            （公社）神奈川県宅地建物取引業協会<br class="hidden-pc" />
-            （公社）首都圏不動産公正取引協議会<br class="hidden-pc" />
-            （公財）東日本不動産流通機構<br />
-            全国不動産ネットワーク「ワンズRETOS」
-          </p>
-          <p class="text-center">
-            ［売主］<br />
-            株式会社廣瀬興業<br />
-            〒235-0021 神奈川県横浜市磯子区岡村3-6-35<br class="hidden-pc" />
-            神奈川県知事（1）第29838号<br />
-            神奈川県知事許可（特-1）第71878号<br class="hidden-pc" />
-            （公社）不動産保証協会 （公社）全日本不動産協会 神奈川県本部
-          </p>
-          <p>
-            ※ご成約の際には別途仲介手数料を申し受けます。※掲載のパース画像は完成イメージパースにつき実際のものとは異なる場合があります。※図面と現況が異なる場合は現況を優先といたします。※先着順につき、売却済みの場合はご容赦ください。※別途諸費用がかかります。※お申し込みの際には、印鑑（認印）と2020年・2021年分の収入証明（源泉徴収票等）、ご本人と確認ができるもの（運転免許証・パスポート等）をご持参ください。※表示の価格には建物に係る消費税相当額が含まれております。※価格は物件の代金総額を表示しており、消費税が課税される場合は税込み価格です。（1,000円未満は切り上げ。※写真に写っている、またはパース（絵）や間取図に描かれている家具や車などは、販売価格に含まれません。※完成予想図はいずれも外構、植栽、外観等実際のものとは多少異なることがあります。※モデルルーム・モデルハウス・展示場・ショールームの画像の場合、今回販売の物件と異なる場合があります。※ＣＧ合成の画像の場合、実際とは多少異なる場合があります。
-          </p>
+        <div class=" wow fadeUp">
+          <h3 class="outline__title">
+            <img src="./images/lp/outline/txt_outline.svg" alt="OUTLINE">
+            <span>［物件概要］</span>
+          </h3>
+          <div class="container outline__content">
+            <p class="text-center">
+              　□所在地／藤沢市湘南台１丁目30番地8、30番地39<br />
+              　□交通／小田急江ノ島線・相鉄いずみ野線・<br class="hidden-pc" />横浜市営地下鉄ブルーライン「湘南台」駅徒歩7分<br />
+              　□販売価格／各8,480万円（税込）<br class="hidden-pc" />
+              　□敷地面積／各100.32㎡<br class="hidden-pc" />
+              　□建物面積／各124.70㎡（駐車場部分25.33㎡含む）<br class="hidden-pc" />
+              　□間取／各4LDK+SIC+パントリー<br />
+              　□規模構造／鉄筋コンクリート造陸屋根2階建<br class="hidden-pc" />
+              　□現況／建築中　□完成予定／2022年6月下旬完成予定<br class="hidden-pc" />
+              　□引渡／相談　　都市計画／市街化区域<br />
+              　□用途地域／第2種低層住居専用地域<br class="hidden-pc" />
+              　□建蔽率／60％　□容積率／100％<br class="hidden-pc" />
+              　□防火指定／なし（建築基準法第22条の指定区域）<br class="hidden-pc" />
+              　□地目／宅地　□土地権利／所有権<br />
+              　□接道／北側約16ｍ公道に約6.77ｍ接道<br class="hidden-pc" />
+              　□設備／公営水道・公共下水・都市ガス・東京電力<br />
+              □その他／土地家屋調査士・司法書士は売主指定となります、<br class="hidden-pc" />
+              図面と現況が異なる際は現況を優先とします、<br class="hidden-pc" />
+              分筆前につき敷地面積が増減する場合があります、<br />
+              建築確認番号A：第21KAK建確03365号（令和3年11月25日）・<br class="hidden-pc" />
+              B：第21KAK建確03366号（令和3年11月25日）<br />
+              □取引態様／専任媒介<br />
+              □情報公開日／2022年2月OO日<br class="hidden-pc" />　□次回更新予定日／2022年3月OO日
+            </p>
+            <p class="text-center">
+              ［販売・仲介］<br />
+              ワンズリアルティ株式会社<br class="hidden-pc" />
+              〒231-0013 神奈川県横浜市中区住吉町1-12-1<br class="hidden-pc" />
+              神奈川県知事免許（3）第27643号<br />
+              （公社）全国宅地建物取引業保証協会<br class="hidden-pc" />
+              （公社）神奈川県宅地建物取引業協会<br class="hidden-pc" />
+              （公社）首都圏不動産公正取引協議会<br class="hidden-pc" />
+              （公財）東日本不動産流通機構<br />
+              全国不動産ネットワーク「ワンズRETOS」
+            </p>
+            <p class="text-center">
+              ［売主］<br />
+              株式会社廣瀬興業<br />
+              〒235-0021 神奈川県横浜市磯子区岡村3-6-35<br class="hidden-pc" />
+              神奈川県知事（1）第29838号<br />
+              神奈川県知事許可（特-1）第71878号<br class="hidden-pc" />
+              （公社）不動産保証協会 （公社）全日本不動産協会 神奈川県本部
+            </p>
+            <p>
+              ※ご成約の際には別途仲介手数料を申し受けます。※掲載のパース画像は完成イメージパースにつき実際のものとは異なる場合があります。※図面と現況が異なる場合は現況を優先といたします。※先着順につき、売却済みの場合はご容赦ください。※別途諸費用がかかります。※お申し込みの際には、印鑑（認印）と2020年・2021年分の収入証明（源泉徴収票等）、ご本人と確認ができるもの（運転免許証・パスポート等）をご持参ください。※表示の価格には建物に係る消費税相当額が含まれております。※価格は物件の代金総額を表示しており、消費税が課税される場合は税込み価格です。（1,000円未満は切り上げ。※写真に写っている、またはパース（絵）や間取図に描かれている家具や車などは、販売価格に含まれません。※完成予想図はいずれも外構、植栽、外観等実際のものとは多少異なることがあります。※モデルルーム・モデルハウス・展示場・ショールームの画像の場合、今回販売の物件と異なる場合があります。※ＣＧ合成の画像の場合、実際とは多少異なる場合があります。
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -937,7 +961,7 @@ $pageName_url = './';
           <span class="txt_tt">間　取</span>
           4LDK+SIC+パントリー
         </p>
-        <div class="movie">
+        <div class="movie btn_open_movie" data-popup="#movie-a">
           <img src="<?php echo $Path; ?>images/lp/plan/movie_a.svg" alt="Movie A">
         </div>
       </div>
@@ -973,7 +997,7 @@ $pageName_url = './';
           <span class="txt_tt">間　取</span>
           4LDK+SIC+パントリー
         </p>
-        <div class="movie">
+        <div class="movie btn_open_movie" data-popup="#movie-b">
           <img src="<?php echo $Path; ?>images/lp/plan/movie_b.svg" alt="Movie B">
         </div>
       </div>
@@ -985,6 +1009,20 @@ $pageName_url = './';
     <div class="layer"></div>
   </div>
 
+  <div class="movie-popup" id="movie-a">
+    <div class="btn_close_mv_popup"></div>
+    <div class="movie-popup--content">
+      <iframe src="https://www.youtube.com/embed/6qVBjZrAIX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="movie-popup--layer"></div>
+  </div>
+  <div class="movie-popup" id="movie-b">
+    <div class="btn_close_mv_popup"></div>
+    <div class="movie-popup--content">
+      <iframe src="https://www.youtube.com/embed/2lArtb6xFzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="movie-popup--layer"></div>
+  </div>
   <?php include __DIR__ . '/inc/footer.php'; ?>
   <?php include __DIR__ . '/inc/scripts.php'; ?>
 </body>

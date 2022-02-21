@@ -23,7 +23,7 @@
 <link rel="stylesheet" href="<?php echo $Path; ?>css/footer.css">
 <?php if ($pageID === 'lp') : //IDがsampleのページのみに反映
 ?>
-  <link rel="stylesheet" href="<?php echo $Path; ?>css/lp.css">
+  <link rel="stylesheet" href="<?php echo $Path; ?>css/lp.css?<?php echo filemtime(__DIR__ . "/../css/lp.css"); ?>">
 <?php else : ?>
   <link rel="stylesheet" href="<?php echo $Path; ?>css/<?php echo $pageID; //pageIDと同じ名前のCSS読み込み
                                                         ?>.css">

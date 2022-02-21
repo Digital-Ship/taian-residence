@@ -26,6 +26,7 @@
       width: 100%;
       max-width: 120rem;
       margin: 0 auto;
+      overflow-x: clip;
       .image_view_content {
         position: relative;
       }
@@ -154,8 +155,8 @@
     user-select: none;
     &.circle {
       top: -6rem;
-      right: -9rem;
-      width: 21.7rem;
+      right: 0;
+      width: 12rem;
       height: 21.7rem;
       opacity: 0.25;
       background-image: url(../images/lp/image_view/circle.svg);
@@ -165,6 +166,10 @@
         right: -18rem;
         width: 49.5rem;
         height: 49.5rem;
+      }
+      @media screen and (min-width: 751px) and (max-width: 1600px) {
+        width: 17rem;
+        right: 0;
       }
     }
     &.rhomb {
@@ -217,8 +222,81 @@
         display: flex;
         img {
           display: inline-block;
+          width: 32.5rem;
         }
       }
+    }
+  }
+}
+.btn_open_movie {
+  cursor: pointer;
+}
+.movie-popup {
+  position: fixed;
+  z-index: 999999;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  visibility: hidden;
+  opacity: 0;
+  &.open {
+    visibility: visible;
+    opacity: 1;
+  }
+  &--layer {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  &--content {
+    max-height: 80vh;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 640px;
+    max-width: 100%;
+    background: #fff;
+    padding: 1.5rem;
+    position: relative;
+    iframe {
+      width: 100%;
+      aspect-ratio: 6/4;
+    }
+  }
+  .btn_close_mv_popup {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    &::before,
+    &::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 1px;
+      background: #fff;
+      transform: rotate(45deg);
+      transform-origin: 0% 50%;
+      position: absolute;
+      top: calc(14% - 0.5px);
+      left: 14%;
+    }
+    &::after {
+      transform: rotate(-45deg);
+      transform-origin: 100% 50%;
+      left: auto;
+      right: 14%;
     }
   }
 }
