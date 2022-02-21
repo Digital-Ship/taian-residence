@@ -1,306 +1,371 @@
 #structure {
-  .structure_wrap {
-    padding: 5rem;
-    @include pc() {
-      padding: 5rem 0;
-      max-width: 120rem;
-      margin-left: auto;
-      margin-right: auto;
-      .structure_top {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-    }
-    .structure__title {
-      text-align: center;
-      margin-bottom: 2.5rem;
-      @include pc() {
-        text-align: left;
-        margin-bottom: 0;
-      }
-      img {
-        height: 4.7rem;
-        @include pc() {
-          height: 4.6rem;
-        }
-      }
-      span {
-        font-size: 2.8rem;
-        letter-spacing: 0.2em;
-        line-height: 3.4rem;
-        color: #000;
-        display: block;
-        margin-top: 2rem;
-        @include pc() {
-          font-size: 2rem;
-          line-height: 2.4rem;
-          margin-left: -1rem;
-        }
-      }
-    }
-    ._logo {
-      img {
-        width: 65rem;
-        @include pc() {
-          width: 62rem;
-        }
-      }
-    }
-    .st_content {
-      color: #000;
-      font-size: 2.4rem;
-      letter-spacing: 0.05em;
-      line-height: 2.8rem;
-      text-align: justify;
-      margin-top: 2.5rem;
-      @include pc() {
-        font-size: 1.6rem;
-        letter-spacing: 0.03em;
-        line-height: 2.6rem;
-      }
-    }
-  }
-  .strong_point {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -2.5rem;
-    margin-right: -2.5rem;
-    margin-top: 2.5rem;
-    margin-bottom: 5rem;
-    @include pc() {
-      margin-top: 4.5rem;
-    }
-    .point_item {
-      width: 50%;
-      padding-left: 2.5rem;
-      padding-right: 2.5rem;
-      margin-bottom: 3rem;
+    .structure_wrap {
+        padding: 5rem;
+        padding-bottom: 0;
+        overflow: hidden;
 
-      @include pc() {
-        width: 25%;
-      }
-      .point {
-        img {
-          margin-bottom: 3rem;
-        }
-        .point_txt {
-          color: #000;
-          font-size: 2.4rem;
-          line-height: 2.8rem;
-          position: relative;
-          @include pc() {
-            font-size: 1.6rem;
-            line-height: 2.4rem;
-          }
-          &::before,
-          &::after {
-            content: "";
-            width: 6.8rem;
-            height: 4.5rem;
-            position: absolute;
-            background-size: cover;
-            background-repeat: no-repeat;
-            @include pc() {
-              width: 5.8rem;
-              height: 3.8rem;
+        @include pc() {
+            padding: 5rem 0;
+            padding-bottom: 0;
+            max-width: 120rem;
+            margin-left: auto;
+            margin-right: auto;
+
+            .structure_top {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
             }
-          }
-          &::before {
-            background-image: url(../images/lp/structure/quote_open.svg);
-            top: -2rem;
-            left: -1rem;
-          }
-          &::after {
-            background-image: url(../images/lp/structure/quote_close.svg);
-            bottom: -2rem;
-            right: -1rem;
-          }
         }
-      }
+
+        .structure__title {
+            text-align: center;
+            margin-bottom: 2.5rem;
+
+            @include pc() {
+                text-align: left;
+                margin-bottom: 0;
+            }
+
+            img {
+                height: 4.7rem;
+
+                @include pc() {
+                    height: 4.6rem;
+                }
+            }
+
+            span {
+                font-size: 2.8rem;
+                letter-spacing: 0.2em;
+                line-height: 3.4rem;
+                color: #000;
+                display: block;
+                margin-top: 2rem;
+
+                @include pc() {
+                    font-size: 2rem;
+                    line-height: 2.4rem;
+                    margin-left: -1rem;
+                }
+            }
+        }
+
+        ._logo {
+            img {
+                width: 65rem;
+
+                @include pc() {
+                    width: 62rem;
+                }
+            }
+        }
+
+        .st_content {
+            color: #000;
+            font-size: 2.4rem;
+            letter-spacing: 0.05em;
+            line-height: 2.8rem;
+            text-align: justify;
+            margin-top: 2.5rem;
+
+            @include pc() {
+                font-size: 1.6rem;
+                letter-spacing: 0.03em;
+                line-height: 2.6rem;
+            }
+        }
     }
-  }
-  .structure_bot {
-    background-color: #ffff00;
-    position: relative;
-    @include pc() {
-      .structure_bot_wrap {
+
+    .strong_point {
         display: flex;
-        > div {
-          width: 50%;
-        }
-      }
-    }
-    .layer {
-      position: absolute;
-      width: 26.3rem;
-      height: 26.3rem;
-      right: -10rem;
-      top: -5rem;
-      @include pc() {
-        width: 47rem;
-        height: 47rem;
-        right: -35rem;
-        top: 5rem;
-      }
-    }
-    .txt_black_bg {
-      background-color: #000;
-      color: #fff;
-      text-align: center;
-      height: 11.6rem;
-      flex-wrap: wrap;
-      @include pc() {
-        height: 11.4rem;
-      }
-      p {
-        font-size: 2.4rem;
-        line-height: 1;
+        flex-wrap: wrap;
+        margin-left: -2.5rem;
+        margin-right: -2.5rem;
+        margin-top: 2.5rem;
+        margin-bottom: 5rem;
+
         @include pc() {
-          font-size: 2rem;
+            margin-top: 4.5rem;
+        }
+
+        .point_item {
+            width: 50%;
+            padding-left: 2.5rem;
+            padding-right: 2.5rem;
+            margin-bottom: 3rem;
+
+            @include pc() {
+                width: 25%;
+            }
+
+            .point {
+                img {
+                    margin-bottom: 3rem;
+                }
+
+                .point_txt {
+                    color: #000;
+                    font-size: 2.4rem;
+                    line-height: 2.8rem;
+                    position: relative;
+
+                    @include pc() {
+                        font-size: 1.6rem;
+                        line-height: 2.4rem;
+                    }
+
+                    &::before,
+                    &::after {
+                        content: "";
+                        width: 6.8rem;
+                        height: 4.5rem;
+                        position: absolute;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+
+                        @include pc() {
+                            width: 5.8rem;
+                            height: 3.8rem;
+                        }
+                    }
+
+                    &::before {
+                        background-image: url(../images/lp/structure/quote_open.svg);
+                        top: -2rem;
+                        left: -1rem;
+                    }
+
+                    &::after {
+                        background-image: url(../images/lp/structure/quote_close.svg);
+                        bottom: -2rem;
+                        right: -1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .structure_bot {
+        background-color: #ffff00;
+        position: relative;
+
+        @include pc() {
+            .structure_bot_wrap {
+                display: flex;
+
+                >div {
+                    width: 50%;
+                }
+            }
+        }
+
+        .layer {
+            position: absolute;
+            width: 26.3rem;
+            height: 26.3rem;
+            right: -10rem;
+            top: -5rem;
+
+            @include pc() {
+                width: 47rem;
+                height: 47rem;
+                right: -35rem;
+                top: 5rem;
+            }
+        }
+
+        .txt_black_bg {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            height: 11.6rem;
+            flex-wrap: wrap;
+
+            @include pc() {
+                height: 11.4rem;
+            }
+
+            p {
+                font-size: 2.4rem;
+                line-height: 1;
+
+                @include pc() {
+                    font-size: 2rem;
+                }
+
+                span {
+                    display: block;
+                    font-size: 4rem;
+                    line-height: 1.4em;
+
+                    @include pc() {
+                        font-size: 3.4rem;
+                    }
+                }
+            }
+        }
+
+        .imgs {
+            display: flex;
+
+            img {
+                width: calc(1 / 2 * 100%);
+            }
+        }
+
+        .structure_content {
+            padding: 2rem;
+            color: #000;
+
+            @include pc() {
+                margin-top: -5rem;
+            }
+
+            h3 {
+                text-align: center;
+                font-size: 3.5rem;
+                line-height: 1.4em;
+                font-weight: bold;
+                margin-bottom: 2rem;
+
+                @include pc() {
+                    font-size: 3.8rem;
+                    text-align: left;
+                    font-weight: normal;
+                }
+
+                span {
+                    display: block;
+                    text-align: left;
+                    font-size: 2.8rem;
+                    line-height: 5rem;
+
+                    @include pc() {
+                        font-size: 2.8rem;
+                    }
+                }
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 2.4rem;
+                line-height: 2.8rem;
+                margin-bottom: 1rem;
+
+                @include pc() {
+                    font-size: 1.4rem;
+                    line-height: 1.4em;
+                    margin-bottom: 1.5rem;
+                }
+
+                strong {
+                    font-weight: bold;
+                    display: block;
+                    margin-bottom: 0.5rem;
+
+                    @include pc() {
+                        font-size: 2.4rem;
+                        margin-bottom: 1rem;
+                    }
+                }
+
+                small {
+                    font-size: 0.8em;
+                    font-weight: normal;
+                }
+            }
+        }
+
+        .txt_blue_bg {
+            background-color: #1a53ff;
+            color: #fff;
+            height: 10rem;
+
+            @include pc() {
+                height: 6.8rem;
+            }
+
+            p {
+                text-align: center;
+                font-size: 2.4rem;
+                line-height: 4rem;
+                letter-spacing: 0.03em;
+            }
+        }
+
+        .txt__bottom {
+            padding: 2rem 0;
+            color: #000;
+            text-align: center;
+            font-size: 2.8rem;
+            line-height: 3.6rem;
+            letter-spacing: 00.05em;
+
+            @include pc() {
+                font-size: 2.4rem;
+            }
+        }
+    }
+}
+
+.warranty__top {
+    color: #000;
+    padding-top: 5rem;
+
+    @include pc() {
+        max-width: 120rem;
+        margin-left: auto;
+        margin-right: auto;
+
+        .warranty__top_wrap {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .__ttl {
+        text-align: center;
+        margin-bottom: 2rem;
+
+        @include pc() {
+            text-align: left;
+        }
+
+        img {
+            width: 34.8rem;
+            margin-bottom: 1.5rem;
         }
 
         span {
-          display: block;
-          font-size: 4rem;
-          line-height: 1.4em;
-          @include pc() {
-            font-size: 3.4rem;
-          }
-        }
-      }
-    }
-    .imgs {
-      display: flex;
-      img {
-        width: calc(1 / 2 * 100%);
-      }
-    }
-    .structure_content {
-      padding: 2rem;
-      color: #000;
-      @include pc() {
-        margin-top: -5rem;
-      }
-      h3 {
-        text-align: center;
-        font-size: 3.5rem;
-        line-height: 1.4em;
-        font-weight: bold;
-        margin-bottom: 2rem;
-        @include pc() {
-          font-size: 3.8rem;
-          text-align: left;
-          font-weight: normal;
-        }
-        span {
-          display: block;
-          text-align: left;
-          font-size: 2.8rem;
-          line-height: 5rem;
-          @include pc() {
+            display: block;
             font-size: 2.8rem;
-          }
+            letter-spacing: 0.2em;
+            line-height: 3.4rem;
+
+            @include pc() {
+                margin-left: -1.5rem;
+                font-size: 2rem;
+                line-height: 2.4rem;
+            }
         }
-      }
-      p {
-        font-weight: 400;
-        font-size: 2.4rem;
-        line-height: 2.8rem;
-        margin-bottom: 1rem;
-        @include pc() {
-          font-size: 1.4rem;
-          line-height: 1.4em;
-          margin-bottom: 1.5rem;
-        }
-        strong {
-          font-weight: bold;
-          display: block;
-          margin-bottom: 0.5rem;
-          @include pc() {
-            font-size: 2.4rem;
-            margin-bottom: 1rem;
-          }
-        }
-        small {
-          font-size: 0.8em;
-          font-weight: normal;
-        }
-      }
     }
-    .txt_blue_bg {
-      background-color: #1a53ff;
-      color: #fff;
-      height: 10rem;
-      @include pc() {
-        height: 6.8rem;
-      }
-      p {
-        text-align: center;
-        font-size: 2.4rem;
+
+    .__subttl {
+        font-family: "Noto Serif JP", sans-serif;
+        font-size: 3rem;
+        letter-spacing: 0.2em;
         line-height: 4rem;
-        letter-spacing: 0.03em;
-      }
+        text-align: center;
+        margin-bottom: 2rem;
     }
-    .txt__bottom {
-      padding: 2rem 0;
-      color: #000;
-      text-align: center;
-      font-size: 2.8rem;
-      line-height: 3.6rem;
-      letter-spacing: 00.05em;
-      @include pc() {
-        font-size: 2.4rem;
-      }
+
+    .__btn {
+        margin-bottom: 4rem;
+        text-align: center;
+
+        img {
+            height: 13rem;
+        }
     }
-  }
-}
-.warranty__top {
-  color: #000;
-  @include pc() {
-    max-width: 120rem;
-    margin-left: auto;
-    margin-right: auto;
-    .warranty__top_wrap {
-      display: flex;
-      justify-content: space-between;
-    }
-  }
-  .__ttl {
-    text-align: center;
-    margin-bottom: 2rem;
-    @include pc() {
-      text-align: left;
-    }
-    img {
-      width: 34.8rem;
-      margin-bottom: 1.5rem;
-    }
-    span {
-      display: block;
-      font-size: 2.8rem;
-      letter-spacing: 0.2em;
-      line-height: 3.4rem;
-      @include pc() {
-        margin-left: -1.5rem;
-        font-size: 2rem;
-        line-height: 2.4rem;
-      }
-    }
-  }
-  .__subttl {
-    font-family: "Noto Serif JP", sans-serif;
-    font-size: 3rem;
-    letter-spacing: 0.2em;
-    line-height: 4rem;
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  .__btn {
-    margin-bottom: 4rem;
-    text-align: center;
-    img {
-      height: 13rem;
-    }
-  }
 }
