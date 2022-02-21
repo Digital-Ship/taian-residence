@@ -52,10 +52,10 @@ $pageName_url = './';
           <a href="javascript:void(0);" id="btn_open_menu">
             <img src="<?php echo $Path; ?>/images/lp/main/icon-menu.svg" alt="Menu" width="55" height="40">
           </a>
-          <a href="inquiry" class="btn-tel">
+          <a href="tel:045-227-5031" class="btn-tel">
             <img src="<?php echo $Path; ?>/images/lp/main/icon-tel.svg" alt="メールマーク" width="55" height="42">
           </a>
-          <a href="inquiry" class="btn-inquiry">
+          <a href="<?php echo $Path; ?>inquiry.php" class="btn-inquiry">
             <img src="<?php echo $Path; ?>/images/lp/main/icon-letter.svg" alt="メールマーク" width="55" height="42">
           </a>
         </div>
@@ -222,9 +222,9 @@ $pageName_url = './';
           <div class="equipment-top">
             <div class="top__content">
               日常に快適さを添え、家事の捗る設備・仕様は<br />
-              上質クラスをご用意いたしました。<br />
+              <span>上質クラスをご用意いたしました。</span><br />
               空間のバランスもアクセントも加味した<br />
-              自慢の設備・仕様です。
+              <span>自慢の設備・仕様です。</span>
             </div>
           </div>
           <div class="equipment-box right">
@@ -553,7 +553,7 @@ $pageName_url = './';
           </div>
         </div>
       </section>
-      <div class="warranty__top">
+      <div class="warranty__top" id="warranty">
         <div class="warranty__top_wrap">
           <h2 class="__ttl">
             <img src="<?php echo $Path; ?>/images/lp/warranty/txt_warranty.png" alt="WARRANTY">
@@ -567,7 +567,7 @@ $pageName_url = './';
       </div>
     </div>
 
-    <section class="security-gua" id="warranty">
+    <section class="security-gua">
       <h3 class="secrurity-ttl">
         第三者機関による安心保証制度
       </h3>
@@ -843,7 +843,7 @@ $pageName_url = './';
           </div>
         </div>
         <div class="gmap-iframe">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.4256901484637!2d139.61714501525162!3d35.41948348025624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185ca4b14eb889%3A0x21879ac3a3523aaf!2z5pel5pys44CB44CSMjM1LTAwMjEg56We5aWI5bed55yM5qiq5rWc5biC56Ov5a2Q5Yy65bKh5p2R77yT5LiB55uu77yW4oiS77yT77yV!5e0!3m2!1sja!2s!4v1644984629884!5m2!1sja!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3252.4947598844724!2d139.46780041525108!3d35.392985080262626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018511265248757%3A0xf5c60c9ce1304f62!2zTmjhuq10IELhuqNuLCDjgJIyNTItMDgwNCBLYW5hZ2F3YSwgRnVqaXNhd2EsIFNoxY1uYW5kYWksIDEtY2jFjW1l4oiS77yT77yQ4oiSOQ!5e0!3m2!1svi!2s!4v1645409764774!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
       </div>
       <div class="outline">

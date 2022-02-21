@@ -235,6 +235,9 @@
   &#popup-plan-b {
     .plan-popup-content {
       background-color: #ffff00;
+      &::after {
+        background-image: url(../images/lp/plan/popup-icon-b.svg);
+      }
     }
     @include sp() {
       .btn_close_popup {
