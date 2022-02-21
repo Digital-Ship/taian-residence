@@ -39,50 +39,37 @@ $pageName_url = './';
     <section id="lp-main">
       <div class="container lp-main-content_box_inner">
         <div class="abs-item taian-logo">
-          <img src="<?php echo $Path; ?>/images/lp/main/taian-img.svg" alt="TAIAN" width="404" height="600">
+          <img src="<?php echo $Path; ?>images/lp/main/taian-img.svg" alt="TAIAN" width="404" height="600">
         </div>
         <div class="abs-item lp-main__txt">
-          <img class="wow fadeUp" src="<?php echo $Path; ?>/images/lp/main/lp-main-txt.svg" alt="TAIAN" width="248" height="490">
+          <img class="wow fadeUp" src="<?php echo $Path; ?>images/lp/main/lp-main-txt.svg" alt="TAIAN" width="248" height="490">
         </div>
         <div class="abs-item txt_debut">
-          <img src="<?php echo $Path; ?>/images/lp/main/grand-debut-txt.svg" alt="2022.GRAND DEBUT" width="59" height="272">
+          <img src="<?php echo $Path; ?>images/lp/main/grand-debut-txt.svg" alt="2022.GRAND DEBUT" width="59" height="272">
         </div>
 
-        <div class="abs-item site-action">
-          <a href="javascript:void(0);" id="btn_open_menu">
-            <img src="<?php echo $Path; ?>/images/lp/main/icon-menu.svg" alt="Menu" width="55" height="40">
-          </a>
-          <a href="tel:045-227-5031" class="btn-tel">
-            <img src="<?php echo $Path; ?>/images/lp/main/icon-tel.svg" alt="メールマーク" width="55" height="42">
-          </a>
-          <a href="<?php echo $Path; ?>inquiry.php" class="btn-inquiry">
-            <img src="<?php echo $Path; ?>/images/lp/main/icon-letter.svg" alt="メールマーク" width="55" height="42">
-          </a>
-        </div>
+
         <div class="abs-item residence">
           <h1 class="residence__txt">［タイアンレジデンス 湘南台］</h1>
           <span class="residence__txt-small">
             RC造のデザイナーズ新築分譲住宅 全２邸
           </span>
           <div class="residence__img">
-            <img src="<?php echo $Path; ?>/images/lp/main/lp-residence-txt.svg" alt="RESIDENCE" width="333" height="47">
+            <img src="<?php echo $Path; ?>images/lp/main/lp-residence-txt.svg" alt="RESIDENCE" width="333" height="47">
           </div>
         </div>
         <div class="abs-item  news">
           <p>2022.2.○○ オフィシャルサイト公開</p>
-        </div>
-        <div class="abs-item scroll">
-          <img src="<?php echo $Path; ?>/images/lp/main/icon-scroll.svg" alt="scroll" width="20" height="200">
         </div>
       </div>
     </section>
     <section id="concept">
       <div class="container">
         <h2 class="concept-title__img">
-          <img class="hidden-pc" src="<?php echo $Path; ?>/images/lp/concept/concept-txt.svg" alt="CONCEPT">
+          <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/concept/concept-txt.svg" alt="CONCEPT">
           <span class="hidden-sp">CONCEPT</span>
           <span class="hidden-sp icon">
-            <img src="<?php echo $Path; ?>/images/lp/concept/icon.svg" alt="Icon" width="166" height="47">
+            <img src="<?php echo $Path; ?>images/lp/concept/icon.svg" alt="Icon" width="166" height="47">
           </span>
         </h2>
         <div class="concept-content">
@@ -93,8 +80,8 @@ $pageName_url = './';
             世界でも類を見ない4つのプレートが交わり地震が頻発する日本。南海トラフなども警戒が必要です。さらには大雨・豪雨は30年前の1.6倍に増加。過去10年間では全国の市町村の97％以上で水害・土砂災害を確認、世界で起こる自然災害の2割が日本で発生している現状です（日本国土は世界の広さの0.25％ほど）。そもそも古くから日本は災害に見舞われやすい環境下にあり、さらには災害頻度や被害規模も活発化する地震活動、気候変動、都市化などに起因し、まずます甚大なものとなっています。<br />
             住まいに携わる私たちはこの事態を急務と捉え“日本の住宅市場に耐久性に優れ安全で安心できる住まいを届けたい”そんな思いからタイアンレジデンスプロジェクトを始動いたしました。
           </p>
-          <img class="hidden-pc" src="<?php echo $Path; ?>/images/lp/concept/img1.png" alt="安心・安全で世代を超える住まいを創造" width="750" height="250" />
-          <img class="concept__img hidden-pc" src="<?php echo $Path; ?>/images/lp/concept/img2.png" alt="安心・安全で世代を超える住まいを創造" width="750" height="580" />
+          <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/concept/img1.png" alt="安心・安全で世代を超える住まいを創造" width="750" height="250" />
+          <img class="concept__img hidden-pc" src="<?php echo $Path; ?>images/lp/concept/img2.png" alt="安心・安全で世代を超える住まいを創造" width="750" height="580" />
           <p class="note">
             完成後イメージパースにつき実際と異なる際は現況を優先といたします。<br />
             景観・設備等一部省略しておりますので予めご了承ください。
@@ -105,21 +92,21 @@ $pageName_url = './';
     <section id="image-view">
       <div class="image_view_wrap">
         <div class="wow fadeUp">
-          <h2 class="image_view__title"><img src="<?php echo $Path; ?>/images/lp/image_view/txt_image_view.svg" alt="IMAGE VIEW" width="417" height="47"></h2>
+          <h2 class="image_view__title"><img src="<?php echo $Path; ?>images/lp/image_view/txt_image_view.svg" alt="IMAGE VIEW" width="417" height="47"></h2>
           <div class="image_view_content">
             <p class="image_view__subtitle">
               建物竣工イメージを<br />
               動画でご確認いただけます
             </p>
             <p class="image_view__txt_jp">
-              <img src="<?php echo $Path; ?>/images/lp/image_view/txt_image_view_jp.svg" alt="" width="153" height="415">
+              <img src="<?php echo $Path; ?>images/lp/image_view/txt_image_view_jp.svg" alt="" width="153" height="415">
             </p>
             <div class="movie movie-a">
               <div class="movie-box">
-                <img src="<?php echo $Path; ?>/images/lp/image_view/movie.jpg" alt="Movie A">
+                <img src="<?php echo $Path; ?>images/lp/image_view/movie.jpg" alt="Movie A">
                 <div class="movie_content btn_open_movie" data-popup="#movie-a">
                   <h3 class="movie_name">
-                    <img src="<?php echo $Path; ?>/images/lp/image_view/txt_movie_a.svg" alt="Movie A">
+                    <img src="<?php echo $Path; ?>images/lp/image_view/txt_movie_a.svg" alt="Movie A">
                   </h3>
                 </div>
               </div>
@@ -128,17 +115,17 @@ $pageName_url = './';
                 家具付き販売ではございませんので予めご了承ください。</p>
             </div>
             <div class="taian-logo">
-              <img src="<?php echo $Path; ?>/images/lp/image_view/taian-logo.svg" alt="TAIAN">
+              <img src="<?php echo $Path; ?>images/lp/image_view/taian-logo.svg" alt="TAIAN">
             </div>
             <div class="movie movie-b">
               <p class="hidden-sp">
                 完成後イメージ動画につき実際と異なる際は現況を優先といたします。<br />
                 家具付き販売ではございませんので予めご了承ください。</p>
               <div class="movie-box">
-                <img src="<?php echo $Path; ?>/images/lp/image_view/movie.jpg" alt="Movie B">
+                <img src="<?php echo $Path; ?>images/lp/image_view/movie.jpg" alt="Movie B">
                 <div class="movie_content btn_open_movie" data-popup="#movie-b">
                   <h3 class="movie_name">
-                    <img src="<?php echo $Path; ?>/images/lp/image_view/txt_movie_b.svg" alt="Movie B">
+                    <img src="<?php echo $Path; ?>images/lp/image_view/txt_movie_b.svg" alt="Movie B">
                   </h3>
                 </div>
               </div>
@@ -151,17 +138,17 @@ $pageName_url = './';
         </div>
         <div class="plan_design wow fadeUp">
           <h3 class="plan_design_txt">
-            <img src="<?php echo $Path; ?>/images/lp/image_view/txt_plan_design.svg" alt="PLAN DESIGN">
+            <img src="<?php echo $Path; ?>images/lp/image_view/txt_plan_design.svg" alt="PLAN DESIGN">
           </h3>
           <div class="note-bottom">
             末永く愛される住まいは、<br />
             機能・意匠性にもこだわりが<br class="hidden-pc" />あります。
           </div>
           <div class="plan_design_imgs">
-            <img src="<?php echo $Path; ?>/images/lp/image_view/plan_img1.png" alt="PLAN DESIGN 1">
-            <img src="<?php echo $Path; ?>/images/lp/image_view/plan_img2.png" alt="PLAN DESIGN 2">
-            <img src="<?php echo $Path; ?>/images/lp/image_view/plan_img3.png" alt="PLAN DESIGN 3">
-            <img src="<?php echo $Path; ?>/images/lp/image_view/plan_img4.png" alt="PLAN DESIGN 4">
+            <img src="<?php echo $Path; ?>images/lp/image_view/plan_img1.png" alt="PLAN DESIGN 1">
+            <img src="<?php echo $Path; ?>images/lp/image_view/plan_img2.png" alt="PLAN DESIGN 2">
+            <img src="<?php echo $Path; ?>images/lp/image_view/plan_img3.png" alt="PLAN DESIGN 3">
+            <img src="<?php echo $Path; ?>images/lp/image_view/plan_img4.png" alt="PLAN DESIGN 4">
           </div>
         </div>
       </div>
@@ -172,11 +159,11 @@ $pageName_url = './';
       <div class="wow fadeUp">
         <div class="wrap ">
           <h2 class="__title">
-            <img src="<?php echo $Path; ?>/images/lp/landscape/txt_landscape.svg" alt="LANDSCAPE">
+            <img src="<?php echo $Path; ?>images/lp/landscape/txt_landscape.svg" alt="LANDSCAPE">
             <span>［区画図］</span>
           </h2>
           <div class="__img">
-            <img src="<?php echo $Path; ?>/images/lp/landscape/img.png" alt="［区画図］">
+            <img src="<?php echo $Path; ?>images/lp/landscape/img.png" alt="［区画図］">
           </div>
           <div class="__txt">
             2台分の駐車スペースを確保<br />
@@ -186,8 +173,8 @@ $pageName_url = './';
             <div class="__car_content">
               開放感を存分に満喫する前面道路公道幅員約16ｍ。<br />
               お子様の送迎や来客時などにも困らない2台分の駐車<br class="hidden-pc" />スペースも確保（車種による）。<br class="hidden-pc" />ビルトインカーポートですので<br class="hidden-pc" />愛車にも優しい駐車スペース<br class="hidden-pc" />となっております。
-              <img src="<?php echo $Path; ?>/images/lp/landscape/car.jpg" alt="Image Photo Car" class="sp">
-              <img src="<?php echo $Path; ?>/images/lp/landscape/car_pc.png" alt="Image Photo Car" class="pc">
+              <img src="<?php echo $Path; ?>images/lp/landscape/car.jpg" alt="Image Photo Car" class="sp">
+              <img src="<?php echo $Path; ?>images/lp/landscape/car_pc.png" alt="Image Photo Car" class="pc">
             </div>
           </div>
           <div class="layer hidden-sp">
@@ -198,20 +185,20 @@ $pageName_url = './';
     <section id="plan">
       <div class="heading hidden-sp">
         <h2>
-          <img src="<?php echo $Path; ?>/images/lp/plan/txt_plan.svg" width="170" height="527" alt="Plan">
+          <img src="<?php echo $Path; ?>images/lp/plan/txt_plan.svg" width="170" height="527" alt="Plan">
         </h2>
       </div>
       <div class="__plan _plan_a btn_open_popup wow fadeUp" data-popup="#popup-plan-a">
         <div class="plan__content ">
-          <img class="plan_txt" src="<?php echo $Path; ?>/images/lp/plan/txt_taian_residence.svg" alt="TAIAN RESIDENCE">
-          <img class="plan_name" src="<?php echo $Path; ?>/images/lp/plan/txt_plan_a.svg" alt="PLAN A">
+          <img class="plan_txt" src="<?php echo $Path; ?>images/lp/plan/txt_taian_residence.svg" alt="TAIAN RESIDENCE">
+          <img class="plan_name" src="<?php echo $Path; ?>images/lp/plan/txt_plan_a.svg" alt="PLAN A">
           <p>タップでA棟間取図をご覧いただけます</p>
         </div>
       </div>
       <div class="__plan _plan_b btn_open_popup wow fadeUp" data-popup="#popup-plan-b">
         <div class="plan__content ">
-          <img class="plan_txt" src="<?php echo $Path; ?>/images/lp/plan/txt_taian_residence.svg" alt="TAIAN RESIDENCE">
-          <img class="plan_name" src="<?php echo $Path; ?>/images/lp/plan/txt_plan_b.svg" alt="PLAN B">
+          <img class="plan_txt" src="<?php echo $Path; ?>images/lp/plan/txt_taian_residence.svg" alt="TAIAN RESIDENCE">
+          <img class="plan_name" src="<?php echo $Path; ?>images/lp/plan/txt_plan_b.svg" alt="PLAN B">
           <p>タップでB棟間取図をご覧いただけます</p>
         </div>
       </div>
@@ -219,197 +206,212 @@ $pageName_url = './';
     <div id="equipment-structure-wrap">
       <section id="equipment">
         <div class="equipment-wrap">
-          <div class=" wow fadeUp">
-            <h2 class="equipment__title">
-              <img src="<?php echo $Path; ?>/images/common/txt-menu_equipment.svg" alt="EQUIPMENT">
-              <span>［設備・仕様］</span>
-            </h2>
-            <div class="equipment-top">
-              <div class="top__content">
-                日常に快適さを添え、家事の捗る設備・仕様は<br />
-                <span>上質クラスをご用意いたしました。</span><br />
-                空間のバランスもアクセントも加味した<br />
-                <span>自慢の設備・仕様です。</span>
-              </div>
-            </div>
-          </div>
-          <div class="equipment-box right wow fadeUp">
-            <h3 class="box__title">
-              <img src="<?php echo $Path; ?>/images/lp/equipment/txt_kitchen.svg" alt="KITCHEN">
-            </h3>
-            <div class="box__img">
-              <img class="hidden-pc" src="<?php echo $Path; ?>/images/lp/equipment/img_kitchen.png" alt="KITCHEN">
-              <img class="hidden-sp" src="<?php echo $Path; ?>/images/lp/equipment/img_kitchen_2.png" alt="KITCHEN">
-              <a class="_txt" href="<?php echo $Path; ?>pdf/設備／システムキッチン.pdf" target="_blank">
-                PDFで詳しく見る
-              </a>
-            </div>
-            <div class="box__desc">
-              <div class="desc_logo panasonic">
-                <img src="<?php echo $Path; ?>/images/lp/equipment/logo_panasonic.svg" alt="Panasonic">
-              </div>
-              <div class="sub__title">L-CLASS KITCHEN</div>
-              <p>
-                先進の機能と、空間の美しさを両立するスタイリングを追求、目指したのは最上の機能美。<br />
-                美しい空間をかなえる無駄のないディティール、”らしさ”が活きる空間づくり、先進機器による快適性を備え、さらにはお掃除やメンテナンス性にも優れたⅡ型システムキッチンです。
-              </p>
-              <div class="btn__group">
-                <div class="btn_item">
-                  <span class="btn">食器洗い乾燥機</span>
+          <div class="equipment-wrap--rp">
+            <div class=" wow fadeUp">
+              <div class="equipment-rp">
+                <div class="equipment-rp--img">
+                  <img src="<?php echo $Path; ?>images/lp/equipment/img.png" alt="［設備・仕様］">
                 </div>
-                <div class="btn_item">
-                  <span class="btn">混合水栓ワイドシャワー</span>
-                </div>
-                <div class="btn_item">
-                  <span class="btn">浄水器一体型</span>
-                </div>
-                <div class="btn_item">
-                  <span class="btn">トリプルワイドIH</span>
+                <div class="equipment-rp--content">
+                  <h2 class="equipment__title">
+                    <img src="<?php echo $Path; ?>images/common/txt-menu_equipment.svg" alt="EQUIPMENT">
+                    <span>［設備・仕様］</span>
+                  </h2>
+                  <div class="equipment-top">
+                    <div class="top__content">
+                      日常に快適さを添え、家事の捗る設備・仕様は<br />
+                      <span>上質クラスをご用意いたしました。</span><br />
+                      空間のバランスもアクセントも加味した<br />
+                      <span>自慢の設備・仕様です。</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+            <div class="wow fadeUp">
+              <div class="equipment-box right ">
+                <h3 class="box__title">
+                  <img src="<?php echo $Path; ?>images/lp/equipment/txt_kitchen.svg" alt="KITCHEN">
+                </h3>
+                <div class="box__img">
+                  <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/equipment/img_kitchen.png" alt="KITCHEN">
+                  <img class="hidden-sp" src="<?php echo $Path; ?>images/lp/equipment/img_kitchen_2.png" alt="KITCHEN">
+                  <a class="_txt" href="<?php echo $Path; ?>pdf/設備／システムキッチン.pdf" target="_blank">
+                    PDFで詳しく見る
+                  </a>
+                </div>
+                <div class="box__desc">
+                  <div class="desc_logo panasonic">
+                    <img src="<?php echo $Path; ?>images/lp/equipment/logo_panasonic.svg" alt="Panasonic">
+                  </div>
+                  <div class="sub__title">L-CLASS KITCHEN</div>
+                  <p>
+                    先進の機能と、空間の美しさを両立するスタイリングを追求、目指したのは最上の機能美。<br />
+                    美しい空間をかなえる無駄のないディティール、”らしさ”が活きる空間づくり、先進機器による快適性を備え、さらにはお掃除やメンテナンス性にも優れたⅡ型システムキッチンです。
+                  </p>
+                  <div class="btn__group">
+                    <div class="btn_item">
+                      <span class="btn">食器洗い乾燥機</span>
+                    </div>
+                    <div class="btn_item">
+                      <span class="btn">混合水栓ワイドシャワー</span>
+                    </div>
+                    <div class="btn_item">
+                      <span class="btn">浄水器一体型</span>
+                    </div>
+                    <div class="btn_item">
+                      <span class="btn">トリプルワイドIH</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="wow fadeUp">
+              <div class="equipment-box left ">
+                <h3 class="box__title">
+                  <img src="<?php echo $Path; ?>images/lp/equipment/txt_bath_room.svg" alt="BATH ROOM">
+                </h3>
+                <div class="box__img">
+                  <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/equipment/img_bath_room.png" alt="BATH ROOM">
+                  <img class="hidden-sp" src="<?php echo $Path; ?>images/lp/equipment/img_bath_room_2.png" alt="BATH ROOM">
+                  <a class="_txt" href="<?php echo $Path; ?>pdf/設備／ユニットバス.pdf" target="_blank">
+                    PDFで詳しく見る
+                  </a>
+                </div>
+                <div class="box__desc">
+                  <div class="desc_logo">
+                    <img src="<?php echo $Path; ?>images/lp/equipment/logo_lixil.svg" alt="LIXIL">
+                  </div>
+                  <div class="sub__title">SPAGE 〈スパージュ〉</div>
+                  <p>
+                    お風呂を愛する国のバスルーム。湯を、愉しむ。時を、味わう。
+                    SPAGE〈スパージュ〉。くつろぎを育み空間を構成するすべてにこだわりましたベール吐水「肩湯」・ウェーブ吐水「肩ほぐし湯」・ウェーブ吐水「腰ほぐし湯」3種類の吐水により心地よさが想像を超えるリラックステクノロジー搭載。
+                  </p>
+                  <div class="btn__group">
+                    <div class="btn_item">
+                      <span class="btn">32型TV</span>
+                    </div>
+                    <div class="btn_item">
+                      <span class="btn">浴室暖房乾燥機</span>
+                    </div>
+                    <div class="btn_item">
+                      <span class="btn">フルデジタルサウンドシステム</span>
+                    </div>
+                    <div class="btn_item">
+                      <span class="btn">1620サイズ</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="wow fadeUp">
+              <div class="equipment-box right ">
+                <h3 class="box__title">
+                  <img src="<?php echo $Path; ?>images/lp/equipment/txt_wash_stand.svg" alt="WASH STAND">
+                </h3>
+                <div class="box__img">
+                  <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/equipment/img_wash_stand.png" alt="WASH STAND">
+                  <img class="hidden-sp" src="<?php echo $Path; ?>images/lp/equipment/img_wash_stand_2.png" alt="WASH STAND">
+                  <a class="_txt" href="<?php echo $Path; ?>pdf/設備／洗面化粧台.pdf" target="_blank">
+                    PDFで詳しく見る
+                  </a>
+                </div>
+                <div class="box__desc">
+                  <div class="desc_logo">
+                    <img src="<?php echo $Path; ?>images/lp/equipment/logo_lixil.svg" alt="LIXIL">
+                  </div>
+                  <div class="sub__title">LUMISIS ボウル一体タイプ</div>
+                  <p>
+                    上質な大理石カウンターの風合い。美しい納まり。ホテルのような洗練された洗面空間が日常を豊かにします。大理石の質感と素材感を再現した人造大理石カウンター。<br />
+                    上質なボウルデザインで、優雅で豊かな洗面空間を楽しみたい方におすすめです。
+                  </p>
+                  <div class="btn__group">
+                    <div class="btn_item">
+                      <span class="btn">三面鏡  上部LED照明</span>
+                    </div>
+                    <div class="btn_item">
+                      <span class="btn">フェイスフルライト</span>
+                    </div>
+                    <div class="btn_item">
+                      <span class="btn">タッチレス水栓ナビッシュ</span>
+                    </div>
+                    <div class="btn_item">
+                      <span class="btn">W1200</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="wow fadeUp">
+              <div class="equipment-box left last ">
+                <h3 class="box__title">
+                  <img src="<?php echo $Path; ?>images/lp/equipment/txt_accent_tile.svg" alt="ACCENT TILE">
+                </h3>
+                <div class="box__img">
+                  <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/equipment/img_accent_tile.png" alt="ACCENT TILE">
+                  <img class="hidden-sp" src="<?php echo $Path; ?>images/lp/equipment/img_accent_tile_2.png" alt="ACCENT TILE">
 
-          <div class="equipment-box left wow fadeUp">
-            <h3 class="box__title">
-              <img src="<?php echo $Path; ?>/images/lp/equipment/txt_bath_room.svg" alt="BATH ROOM">
-            </h3>
-            <div class="box__img">
-              <img class="hidden-pc" src="<?php echo $Path; ?>/images/lp/equipment/img_bath_room.png" alt="BATH ROOM">
-              <img class="hidden-sp" src="<?php echo $Path; ?>/images/lp/equipment/img_bath_room_2.png" alt="BATH ROOM">
-              <a class="_txt" href="<?php echo $Path; ?>pdf/設備／ユニットバス.pdf" target="_blank">
-                PDFで詳しく見る
-              </a>
-            </div>
-            <div class="box__desc">
-              <div class="desc_logo">
-                <img src="<?php echo $Path; ?>/images/lp/equipment/logo_lixil.svg" alt="LIXIL">
-              </div>
-              <div class="sub__title">SPAGE 〈スパージュ〉</div>
-              <p>
-                お風呂を愛する国のバスルーム。湯を、愉しむ。時を、味わう。
-                SPAGE〈スパージュ〉。くつろぎを育み空間を構成するすべてにこだわりましたベール吐水「肩湯」・ウェーブ吐水「肩ほぐし湯」・ウェーブ吐水「腰ほぐし湯」3種類の吐水により心地よさが想像を超えるリラックステクノロジー搭載。
-              </p>
-              <div class="btn__group">
-                <div class="btn_item">
-                  <span class="btn">32型TV</span>
                 </div>
-                <div class="btn_item">
-                  <span class="btn">浴室暖房乾燥機</span>
-                </div>
-                <div class="btn_item">
-                  <span class="btn">フルデジタルサウンドシステム</span>
-                </div>
-                <div class="btn_item">
-                  <span class="btn">1620サイズ</span>
+                <div class="box__desc">
+                  <div class="desc_logo">
+                    <img src="<?php echo $Path; ?>images/lp/equipment/logo_lixil.svg" alt="LIXIL">
+                  </div>
+                  <div class="sub__title">
+                    黒彩、グレイミックス、<br />
+                    インテリアモザイク
+                  </div>
+                  <p>
+                    インテリアコーディネーターを兼任する建築士の手によって、住み手にとって優越を誇れる優美なる意匠のためのアクセントにも注力いたしました。<br />
+                    各所の設備との相性も良く、重厚感を醸し出す角タイル部材。そして、カラーアクセントクロスとの相性も◎です。
+                  </p>
+                  <div class="btn__group">
+                    <div class="btn_item"><img src="<?php echo $Path; ?>images/lp/equipment/img_accent_tile_img1.png" alt="ACCENT TILE 1">
+                    </div>
+                    <div class="btn_item">
+                      <img src="<?php echo $Path; ?>images/lp/equipment/img_accent_tile_img2.png" alt="ACCENT TILE 2">
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-
-          <div class="equipment-box right wow fadeUp">
-            <h3 class="box__title">
-              <img src="<?php echo $Path; ?>/images/lp/equipment/txt_wash_stand.svg" alt="WASH STAND">
-            </h3>
-            <div class="box__img">
-              <img class="hidden-pc" src="<?php echo $Path; ?>/images/lp/equipment/img_wash_stand.png" alt="WASH STAND">
-              <img class="hidden-sp" src="<?php echo $Path; ?>/images/lp/equipment/img_wash_stand_2.png" alt="WASH STAND">
-              <a class="_txt" href="<?php echo $Path; ?>pdf/設備／洗面化粧台.pdf" target="_blank">
-                PDFで詳しく見る
-              </a>
-            </div>
-            <div class="box__desc">
-              <div class="desc_logo">
-                <img src="<?php echo $Path; ?>/images/lp/equipment/logo_lixil.svg" alt="LIXIL">
-              </div>
-              <div class="sub__title">LUMISIS ボウル一体タイプ</div>
-              <p>
-                上質な大理石カウンターの風合い。美しい納まり。ホテルのような洗練された洗面空間が日常を豊かにします。大理石の質感と素材感を再現した人造大理石カウンター。<br />
-                上質なボウルデザインで、優雅で豊かな洗面空間を楽しみたい方におすすめです。
-              </p>
-              <div class="btn__group">
+            <div class=" wow fadeUp">
+              <div class="btn__group equipment-btn-group">
                 <div class="btn_item">
-                  <span class="btn">三面鏡  上部LED照明</span>
+                  <span class="btn"> 間接照明・ダウンライト</span>
                 </div>
                 <div class="btn_item">
-                  <span class="btn">フェイスフルライト</span>
+                  <span class="btn">各階タンクレストイレ・手洗い器</span>
                 </div>
                 <div class="btn_item">
-                  <span class="btn">タッチレス水栓ナビッシュ</span>
+                  <span class="btn">二重床・二重天井</span>
                 </div>
                 <div class="btn_item">
-                  <span class="btn">W1200</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="equipment-box left last wow fadeUp">
-            <h3 class="box__title">
-              <img src="<?php echo $Path; ?>/images/lp/equipment/txt_accent_tile.svg" alt="ACCENT TILE">
-            </h3>
-            <div class="box__img">
-              <img class="hidden-pc" src="<?php echo $Path; ?>/images/lp/equipment/img_accent_tile.png" alt="ACCENT TILE">
-              <img class="hidden-sp" src="<?php echo $Path; ?>/images/lp/equipment/img_accent_tile_2.png" alt="ACCENT TILE">
-
-            </div>
-            <div class="box__desc">
-              <div class="desc_logo">
-                <img src="<?php echo $Path; ?>/images/lp/equipment/logo_lixil.svg" alt="LIXIL">
-              </div>
-              <div class="sub__title">
-                黒彩、グレイミックス、<br />
-                インテリアモザイク
-              </div>
-              <p>
-                インテリアコーディネーターを兼任する建築士の手によって、住み手にとって優越を誇れる優美なる意匠のためのアクセントにも注力いたしました。<br />
-                各所の設備との相性も良く、重厚感を醸し出す角タイル部材。そして、カラーアクセントクロスとの相性も◎です。
-              </p>
-              <div class="btn__group">
-                <div class="btn_item"><img src="<?php echo $Path; ?>/images/lp/equipment/img_accent_tile_img1.png" alt="ACCENT TILE 1">
+                  <span class="btn">LDK床暖房（TES温水式）</span>
                 </div>
                 <div class="btn_item">
-                  <img src="<?php echo $Path; ?>/images/lp/equipment/img_accent_tile_img2.png" alt="ACCENT TILE 2">
+                  <span class="btn">エコジョーズ</span>
+                </div>
+                <div class="btn_item">
+                  <span class="btn">マルチメディアコンセント</span>
+                </div>
+                <div class="btn_item">
+                  <span class="btn">屋上・バルコニー10年保証</span>
+                </div>
+                <div class="btn_item">
+                  <span class="btn">石目調フロアタイル</span>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class=" wow fadeUp">
-            <div class="btn__group equipment-btn-group">
-              <div class="btn_item">
-                <span class="btn"> 間接照明・ダウンライト</span>
+              <div class="equitement__note">
+                RC造住宅は、夏は暑くて、冬は寒く結露もしやすい<br class="hidden-pc" />
+                イメージをお持ちではございませんか？
               </div>
-              <div class="btn_item">
-                <span class="btn">各階タンクレストイレ・手洗い器</span>
-              </div>
-              <div class="btn_item">
-                <span class="btn">二重床・二重天井</span>
-              </div>
-              <div class="btn_item">
-                <span class="btn">LDK床暖房（TES温水式）</span>
-              </div>
-              <div class="btn_item">
-                <span class="btn">エコジョーズ</span>
-              </div>
-              <div class="btn_item">
-                <span class="btn">マルチメディアコンセント</span>
-              </div>
-              <div class="btn_item">
-                <span class="btn">屋上・バルコニー10年保証</span>
-              </div>
-              <div class="btn_item">
-                <span class="btn">石目調フロアタイル</span>
-              </div>
-            </div>
-            <div class="equitement__note">
-              RC造住宅は、夏は暑くて、冬は寒く結露もしやすい<br class="hidden-pc" />
-              イメージをお持ちではございませんか？
             </div>
           </div>
           <div class="wow fadeUp">
             <div class="equitement__bot">
               <div class="bot_content">
                 <div class="__img">
-                  <img src="<?php echo $Path; ?>/images/lp/equipment/logo_jpd.png" alt="JPD">
+                  <img src="<?php echo $Path; ?>images/lp/equipment/logo_jpd.png" alt="JPD">
                 </div>
 
                 <div class="red_line">
@@ -446,7 +448,7 @@ $pageName_url = './';
               </div>
               <div class="bot_img">
                 <p class="ttl">■外周壁の断面図</p>
-                <img src="<?php echo $Path; ?>/images/lp/equipment/img_bot.png" alt="外周壁の断面図">
+                <img src="<?php echo $Path; ?>images/lp/equipment/img_bot.png" alt="外周壁の断面図">
               </div>
             </div>
             <div class="note__out">
@@ -461,11 +463,11 @@ $pageName_url = './';
           <div class="wow fadeUp">
             <div class="structure_top">
               <h2 class="structure__title">
-                <img src="<?php echo $Path; ?>/images/lp/structure/txt_structure.svg" alt="STRUCTURE">
+                <img src="<?php echo $Path; ?>images/lp/structure/txt_structure.svg" alt="STRUCTURE">
                 <span>［構　造］</span>
               </h2>
               <div class="_logo">
-                <img src="<?php echo $Path; ?>/images/lp/structure/logo_structure.svg" alt="法定耐用年数47年">
+                <img src="<?php echo $Path; ?>images/lp/structure/logo_structure.svg" alt="法定耐用年数47年">
               </div>
             </div>
             <div class="st_content">
@@ -478,7 +480,7 @@ $pageName_url = './';
           <div class="strong_point">
             <div class="point_item wow fadeUp">
               <div class="point">
-                <img src="<?php echo $Path; ?>/images/lp/structure/strong_point_1.svg" alt="STRONG POINT 1">
+                <img src="<?php echo $Path; ?>images/lp/structure/strong_point_1.svg" alt="STRONG POINT 1">
                 <div class="point_txt">
                   <p>その性質により地震の力で伸縮する建物に対し、鉄筋が持つ引張力とコンクリートが持つ圧縮力が支えとなり耐震性を発揮。</p>
                 </div>
@@ -486,7 +488,7 @@ $pageName_url = './';
             </div>
             <div class="point_item wow fadeUp" data-wow-delay="0.2s">
               <div class="point">
-                <img src="<?php echo $Path; ?>/images/lp/structure/strong_point_2.svg" alt="STRONG POINT 2">
+                <img src="<?php echo $Path; ?>images/lp/structure/strong_point_2.svg" alt="STRONG POINT 2">
                 <div class="point_txt">
                   <p>不燃材ですので、万一火災に見舞われた場合は、構造から建て替えするのではなくリフォームで済むことが多くなります。</p>
                 </div>
@@ -494,7 +496,7 @@ $pageName_url = './';
             </div>
             <div class="point_item  wow fadeUp" data-wow-delay="0.4s">
               <div class="point">
-                <img src="<?php echo $Path; ?>/images/lp/structure/strong_point_3.svg" alt="STRONG POINT 3">
+                <img src="<?php echo $Path; ?>images/lp/structure/strong_point_3.svg" alt="STRONG POINT 3">
                 <div class="point_txt">
                   <p>気密性が高いため内外ともに音の透過が少なく、木造住宅に比べて高い遮音性を発揮。比較的近隣を気にせず生活できます。</p>
                 </div>
@@ -502,7 +504,7 @@ $pageName_url = './';
             </div>
             <div class="point_item  wow fadeUp" data-wow-delay="0.6s">
               <div class="point">
-                <img src="<?php echo $Path; ?>/images/lp/structure/strong_point_4.svg" alt="STRONG POINT 4">
+                <img src="<?php echo $Path; ?>images/lp/structure/strong_point_4.svg" alt="STRONG POINT 4">
                 <div class="point_txt">
                   <p>台風は強大な力で建物を破壊します。RC住宅は建物の重厚さでその強さを発揮。沖縄県ではRC造が主流となっています。</p>
                 </div>
@@ -511,11 +513,11 @@ $pageName_url = './';
           </div>
           <div class="structure_bot">
             <div class="layer">
-              <img src="<?php echo $Path; ?>/images/lp/structure/layer.svg" alt="layer">
+              <img src="<?php echo $Path; ?>images/lp/structure/layer.svg" alt="layer">
             </div>
             <div class="wow fadeUp">
               <div class="structure_bot_wrap">
-                <img class="hidden-pc" src="<?php echo $Path; ?>/images/lp/structure/img.png" alt="モノコック構造を採用しています">
+                <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/structure/img.png" alt="モノコック構造を採用しています">
                 <div class="structure_bot_wrap_txt">
                   <div class="txt_black_bg center">
                     <p>
@@ -524,12 +526,12 @@ $pageName_url = './';
                     </p>
                   </div>
                   <div class="imgs">
-                    <img src="<?php echo $Path; ?>/images/lp/structure/img2.png" alt="モノコック構造を採用しています 2">
-                    <img src="<?php echo $Path; ?>/images/lp/structure/img3.png" alt="モノコック構造を採用しています 3">
+                    <img src="<?php echo $Path; ?>images/lp/structure/img2.png" alt="モノコック構造を採用しています 2">
+                    <img src="<?php echo $Path; ?>images/lp/structure/img3.png" alt="モノコック構造を採用しています 3">
                   </div>
                 </div>
                 <div class="structure_bot_wrap_img hidden-sp">
-                  <img src="<?php echo $Path; ?>/images/lp/structure/img_pc.png" alt="モノコック構造を採用しています">
+                  <img src="<?php echo $Path; ?>images/lp/structure/img_pc.png" alt="モノコック構造を採用しています">
                 </div>
               </div>
               <div class="structure_content">
@@ -572,13 +574,13 @@ $pageName_url = './';
       <div class="warranty__top wow fadeUp" id="warranty">
         <div class="warranty__top_wrap ">
           <h2 class="__ttl">
-            <img src="<?php echo $Path; ?>/images/lp/warranty/txt_warranty.png" alt="WARRANTY">
+            <img src="<?php echo $Path; ?>images/lp/warranty/txt_warranty.png" alt="WARRANTY">
             <span>［保　証］</span>
           </h2>
           <p class="__subttl">その性質がゆえの安心を付随。</p>
         </div>
         <p class="__btn">
-          <img src="<?php echo $Path; ?>/images/lp/warranty/btn.svg" alt="建物・地盤10年保証">
+          <img src="<?php echo $Path; ?>images/lp/warranty/btn.svg" alt="建物・地盤10年保証">
         </p>
       </div>
     </div>

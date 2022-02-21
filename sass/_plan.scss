@@ -151,13 +151,14 @@
       }
       .__txt_ttl {
         text-align: left;
-        margin-bottom: 2rem;
+        margin-bottom: 5rem;
         @include pc() {
           margin-top: 2rem;
-          margin-bottom: 5rem;
         }
         img {
           width: 25.6rem;
+          margin: 0 auto;
+          display: block;
         }
       }
 

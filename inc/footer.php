@@ -26,7 +26,7 @@
         <a href="mailto:otoiawase@taian-residence.com" class="footer__mailto">otoiawase@taian-residence.com</a>
       </div>
       <div class="footer-info">
-        お問合せ先／<span class="txt__underline">ワンズリアルティ株式会社</span><br />
+        お問合せ先／<a href="http://onesrealty.co.jp/" target="_blank" class="txt__underline">ワンズリアルティ株式会社</a><br />
         <span class="txt__small">営業時間／10:00-18:00 定休日／火・水曜日</span>
 
       </div>

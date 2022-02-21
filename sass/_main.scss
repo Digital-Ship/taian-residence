@@ -1,9 +1,9 @@
 #lp-main {
   position: relative;
   background-image: url(../images/lp/main/background.png);
-  background-position: bottom center;
+  background-position: top center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 75rem;
 
   @include pc() {
     background-image: url(../images/lp/main/backgroud-pc.png);
@@ -77,63 +77,6 @@
       @include pc() {
         img {
           width: 24.8rem;
-        }
-      }
-    }
-
-    .site-action {
-      right: 0;
-      top: 0;
-      @include sp() {
-        position: fixed;
-        z-index: 9999;
-      }
-      @include pc() {
-        position: absolute;
-        top: auto;
-        bottom: 0;
-      }
-
-      a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 15rem;
-        height: 15rem;
-
-        @include sp() {
-          img {
-            width: 8.25rem;
-          }
-        }
-
-        @include pc() {
-          width: 10rem;
-          height: 10rem;
-        }
-
-        &#btn_open_menu {
-          background-color: #fff;
-
-          @include pc() {
-            border-top-left-radius: 1.5rem;
-          }
-        }
-
-        &.btn-tel {
-          background-color: #1a53ff;
-
-          @include pc() {
-            display: none;
-          }
-        }
-
-        &.btn-inquiry {
-          background-color: #ffff00;
-
-          @include sp() {
-            border-bottom-left-radius: 1.5rem;
-          }
         }
       }
     }

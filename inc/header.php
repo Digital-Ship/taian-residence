@@ -27,20 +27,20 @@
       </div>
     </div>
     <!-- /.site-header__contact-box -->
-
-    <?php if ($pageID != 'lp') : ?>
-      <div class="site-action">
-        <a href="javascript:void(0);" id="btn_open_menu">
-          <img src="<?php echo $Path; ?>/images/lp/main/icon-menu.svg" alt="Menu" width="55" height="40">
-        </a>
-        <a href="tel:045-227-5031" class="btn-tel">
-          <img src="<?php echo $Path; ?>/images/lp/main/icon-tel.svg" alt="メールマーク" width="55" height="42">
-        </a>
-        <a href="<?php echo $Path; ?>inquiry.php" class="btn-inquiry">
-          <img src="<?php echo $Path; ?>/images/lp/main/icon-letter.svg" alt="メールマーク" width="55" height="42">
-        </a>
-      </div>
-    <?php endif; ?>
+    <div class="scroll">
+      <img src="<?php echo $Path; ?>images/common/icon-scroll.svg" alt="scroll" width="20" height="200">
+    </div>
+    <div class="site-action">
+      <a href="javascript:void(0);" id="btn_open_menu">
+        <img src="<?php echo $Path; ?>/images/lp/main/icon-menu.svg" alt="Menu" width="55" height="40">
+      </a>
+      <a href="tel:045-227-5031" class="btn-tel">
+        <img src="<?php echo $Path; ?>/images/lp/main/icon-tel.svg" alt="メールマーク" width="55" height="42">
+      </a>
+      <a href="<?php echo $Path; ?>inquiry.php" class="btn-inquiry">
+        <img src="<?php echo $Path; ?>/images/lp/main/icon-letter.svg" alt="メールマーク" width="55" height="42">
+      </a>
+    </div>
   </div>
   <!-- /.site-header__inner -->
 </header>

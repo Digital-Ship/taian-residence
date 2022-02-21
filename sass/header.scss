@@ -123,20 +123,26 @@
           font-size: 1.4rem;
         }
       }
+      @media screen and (min-width: 751px) and (max-width: 1740px) {
+        margin-right: 10rem;
+        margin-left: auto;
+      }
     }
   }
 }
-
+.scroll {
+  position: fixed;
+  right: 12rem;
+  top: 10rem;
+  img {
+    width: 2rem;
+  }
+}
 .site-action {
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 0;
-
-  @include pc() {
-    top: auto;
-    bottom: 0;
-  }
-
+  z-index: 998;
   a {
     display: flex;
     align-items: center;
@@ -160,15 +166,10 @@
 
     &#btn_open_menu {
       background-color: #fff;
-
-      @include pc() {
-        border-top-left-radius: 1.5rem;
-      }
     }
 
     &.btn-tel {
       background-color: #1a53ff;
-
       @include pc() {
         display: none;
       }
@@ -176,10 +177,7 @@
 
     &.btn-inquiry {
       background-color: #ffff00;
-
-      @include sp() {
-        border-bottom-left-radius: 1.5rem;
-      }
+      border-bottom-left-radius: 1.5rem;
     }
   }
 }

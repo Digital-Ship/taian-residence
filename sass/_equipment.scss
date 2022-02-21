@@ -284,6 +284,10 @@
             font-size: 1.4rem;
             line-height: 2.8rem;
           }
+          @include rp() {
+            height: 100%;
+            padding: 2px;
+          }
         }
       }
     }
@@ -341,6 +345,9 @@
       color: #000;
       padding: 2.5rem;
       padding-bottom: 3.5rem;
+      @include sp() {
+        background-color: #fff;
+      }
       @include pc() {
         display: flex;
         flex-wrap: wrap;
@@ -382,6 +389,11 @@
         @include pc() {
           font-size: 1.8rem;
           height: 4.5rem;
+        }
+        @include rp() {
+          height: auto;
+          min-height: 6rem;
+          padding: 5px;
         }
       }
       p {
@@ -453,5 +465,43 @@
         text-align: center;
       }
     }
+  }
+}
+.equipment-rp--img {
+  display: none;
+}
+@include rp() {
+  #equipment-structure-wrap {
+    background-image: url(../images/lp/equipment-structure-bg-rp.png);
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .equipment-rp {
+    position: relative;
+    &--img {
+      width: 66rem;
+      position: absolute;
+      left: 0;
+      bottom: -3rem;
+      display: block;
+    }
+    &--content {
+      padding-top: 1.5rem;
+    }
+  }
+  #equipment .equipment-wrap {
+    &--rp {
+      background-color: #1951fe;
+    }
+    .equitement__note {
+      background-color: #000;
+    }
+    .equitement__bot {
+      background-color: #fff;
+    }
+  }
+  .warranty__top {
+    margin-bottom: 10rem;
   }
 }

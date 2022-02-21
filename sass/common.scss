@@ -230,21 +230,3 @@ body.nav-open {
     backdrop-filter: blur(5px);
   }
 }
-@include pc() {
-  body.menu-fixed {
-    .site-action {
-      position: fixed !important;
-      top: 0 !important;
-      right: calc((100vw - 155rem) / 2) !important;
-      bottom: auto !important;
-      z-index: 9999;
-      #btn_open_menu {
-        border-top-left-radius: 0 !important;
-      }
-      .btn-inquiry {
-        border-bottom-left-radius: 1.5rem;
-        border-bottom-right-radius: 1.5rem;
-      }
-    }
-  }
-}

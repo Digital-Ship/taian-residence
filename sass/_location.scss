@@ -225,3 +225,8 @@
     }
   }
 }
+@include rp() {
+  .location .img-heading img {
+    width: 110rem;
+  }
+}
