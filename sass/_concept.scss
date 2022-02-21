@@ -5,6 +5,7 @@
     background-position: bottom center;
     height: 78rem;
     position: relative;
+    background-size: 200rem;
   }
   @include sp() {
     .container {
@@ -25,6 +26,7 @@
       background-color: transparent;
       width: 89.3rem;
       position: relative;
+      background-size: 89.3rem 11rem;
       span {
         display: block;
         overflow: hidden;
@@ -46,12 +48,12 @@
     }
   }
   .concept-title__txt {
+    font-family: "Noto Serif JP";
+    font-weight: 600;
     text-align: center;
     font-size: 5rem;
     line-height: 8rem;
     letter-spacing: 0.0167em;
-    font-weight: bold;
-    font-family: "Noto Serif JP", sans-serif;
     margin-top: 5rem;
     margin-bottom: 5rem;
     @include pc() {
@@ -93,6 +95,7 @@
       margin-right: 0;
       padding-left: 5rem;
       padding-right: 5rem;
+      font-weight: 300;
       @include pc() {
         width: auto;
         left: auto;

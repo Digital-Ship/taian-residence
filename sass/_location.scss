@@ -1,223 +1,227 @@
 .location {
-    background-image: url(../images/lp/location/location-bg_sp.png);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 100%;
-    position: relative;
+  background-image: url(../images/lp/location/location-bg_sp.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  position: relative;
 
-    &::before {
-        content: "";
-        position: absolute;
-        inset: 0;
-        background-color: #0000000a;
-        z-index: 0;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #0000000a;
+    z-index: 0;
+  }
+
+  .img-heading {
+    position: relative;
+    z-index: 2;
+    padding-left: 2.5rem;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .location-ttl {
+    margin-top: -7.5rem;
+    margin-left: 3.5rem;
+    position: relative;
+    z-index: 5;
+
+    img {
+      width: 40rem;
+    }
+  }
+
+  .location-content {
+    position: relative;
+    z-index: 2;
+    margin-top: 6rem;
+
+    .location-dir {
+      font-family: "Noto Serif JP", sans-serif;
+      font-size: 4.8rem;
+      text-align: center;
+      line-height: 1.4;
+      font-weight: 400;
+
+      .dr-big {
+        font-size: 10rem;
+        margin-right: -2.7rem;
+      }
+      .bold {
+        font-weight: 700;
+      }
+
+      .num-7 {
+        font-size: 10rem;
+        width: 6.7rem;
+        height: 10.5rem;
+        background: url(../images/lp/location/number7.svg) no-repeat center/contain;
+        text-indent: -9999em;
+        position: relative;
+        display: inline-block;
+        top: 9px;
+      }
     }
 
-    .img-heading {
-        position: relative;
-        z-index: 2;
-        padding-left: 2.5rem;
+    .location-snip {
+      margin-top: 4rem;
 
-        img {
-            width: 100%;
+      .txt-01 {
+        font-family: "Noto Serif JP";
+        font-weight: 600;
+        font-size: 3rem;
+        line-height: 1.67;
+        text-align: center;
+      }
+
+      .txt-02 {
+        font-size: 2.4rem;
+        text-align: center;
+        line-height: 1.41;
+        font-weight: 500;
+        margin-top: 5.1rem;
+      }
+    }
+
+    .location-map {
+      margin-top: 5rem;
+    }
+
+    .list-station {
+      margin-top: 7rem;
+
+      .station-item {
+        &:not(:first-child) {
+          margin-top: 4rem;
         }
+
+        .img {
+          margin-inline: auto;
+        }
+
+        .text {
+          margin-top: 5rem;
+          text-align: center;
+          font-size: 2.4rem;
+          font-weight: 300;
+          line-height: 1.17;
+        }
+      }
+    }
+
+    .train-station-note {
+      margin-top: 2.4rem;
+      text-align: center;
+      font-size: 2.4rem;
+      font-weight: 300;
+      line-height: 1.17;
+    }
+  }
+
+  @include pc {
+    position: relative;
+    background-image: url(../images/lp/location/location-bg.png);
+
+    .img-heading {
+      max-width: 200rem;
+      margin-inline: auto;
+
+      img {
+        max-width: 120rem;
+        margin-left: auto;
+        display: block;
+      }
     }
 
     .location-ttl {
-        margin-top: -7.5rem;
-        margin-left: 3.5rem;
-        position: relative;
-        z-index: 5;
-
-        img {
-            width: 40rem;
-        }
+      margin-top: -25.5rem;
+      margin-left: -17.5rem;
     }
 
     .location-content {
-        position: relative;
-        z-index: 2;
-        margin-top: 6rem;
+      margin-top: -3.2rem;
 
-        .location-dir {
-            font-family: "Noto Serif JP", sans-serif;
-            font-size: 4.8rem;
-            text-align: center;
-            line-height: 1.4;
+      .location-dir {
+        font-size: 6rem;
+        line-height: 1;
 
-            .dr-big {
-                font-size: 10rem;
-                font-weight: 600;
-                margin-right: -2.7rem;
-            }
-
-            .num-7 {
-                font-weight: 500;
-                font-size: 10rem;
-                width: 6.7rem;
-                height: 10.5rem;
-                background: url(../images/lp/location/number7.svg) no-repeat center/contain;
-                text-indent: -9999em;
-                position: relative;
-                display: inline-block;
-                top: 9px;
-            }
+        .dr-big {
+          font-size: 9rem;
         }
 
-        .location-snip {
-            margin-top: 4rem;
+        .num-7 {
+          width: 6.1rem;
+          height: 9.5rem;
+          top: 7px;
+        }
+      }
 
-            .txt-01 {
-                font-size: 3rem;
-                line-height: 1.67;
-                text-align: center;
-                font-family: "Noto Serif JP", sans-serif;
-            }
+      .location-snip {
+        margin-top: 5rem;
 
-            .txt-02 {
-                font-size: 2.4rem;
-                text-align: center;
-                line-height: 1.41;
-                font-weight: 500;
-                margin-top: 5.1rem;
-            }
+        .txt-01 {
+          font-size: 2.4rem;
+          line-height: 1.9;
         }
 
-        .location-map {
-            margin-top: 5rem;
+        .txt-02 {
+          margin-top: 5.1rem;
+          font-size: 1.6rem;
+          line-height: 1.75;
         }
+      }
 
-        .list-station {
-            margin-top: 7rem;
+      .location-map {
+        margin-top: 3.2rem;
+      }
 
-            .station-item {
-                &:not(:first-child) {
-                    margin-top: 4rem;
-                }
+      .list-station {
+        margin-top: 3.9rem;
+        max-width: 850px;
+        margin-inline: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
-                .img {
-                    margin-inline: auto;
-                }
+        .station-item {
+          width: calc(50% - 75px);
 
-                .text {
-                    margin-top: 5rem;
-                    text-align: center;
-                    font-size: 2.4rem;
-                    font-weight: 300;
-                    line-height: 1.17;
-                }
-            }
-        }
-
-        .train-station-note {
-            margin-top: 2.4rem;
-            text-align: center;
-            font-size: 2.4rem;
-            font-weight: 300;
-            line-height: 1.17;
-        }
-    }
-
-    @include pc {
-        position: relative;
-        background-image: url(../images/lp/location/location-bg.png);
-
-        .img-heading {
-            max-width: 2000px;
-            margin-inline: auto;
-
-            img {
-                max-width: 1200px;
-                margin-left: auto;
-                display: block;
-            }
-        }
-
-        .location-ttl {
-            margin-top: -25.5rem;
-            margin-left: -17.5rem;
-        }
-
-        .location-content {
-            margin-top: -3.2rem;
-
-            .location-dir {
-                font-size: 6rem;
-                line-height: 1;
-
-                .dr-big {
-                    font-size: 9rem;
-                }
-
-                .num-7 {
-                    width: 6.1rem;
-                    height: 9.5rem;
-                    top: 7px;
-                }
-            }
-
-            .location-snip {
-                margin-top: 5rem;
-
-                .txt-01 {
-                    font-size: 2.4rem;
-                    line-height: 1.9;
-                }
-
-                .txt-02 {
-                    margin-top: 5.1rem;
-                    font-size: 1.6rem;
-                    line-height: 1.75;
-                }
-            }
-
-            .location-map {
-                margin-top: 3.2rem;
-            }
-
-            .list-station {
-                margin-top: 3.9rem;
-                max-width: 850px;
-                margin-inline: auto;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-
-                .station-item {
-                    width: calc(50% - 75px);
-
-                    /*  &__in{
+          /*  &__in{
                       max-width: 350px;
                   } */
-                    &:not(:first-child) {
-                        margin-top: 0;
-                    }
+          &:not(:first-child) {
+            margin-top: 0;
+          }
 
-                    &:not(:nth-child(-n + 2)) {
-                        margin-top: 3.7rem;
-                    }
+          &:not(:nth-child(-n + 2)) {
+            margin-top: 3.7rem;
+          }
 
-                    .img {}
+          .img {
+          }
 
-                    .text {
-                        font-size: 14px;
-                        margin-top: 29px;
-                        margin-left: -10px;
-                        margin-right: -10px;
-                    }
-                }
-            }
-
-            .train-station-note {
-                font-size: 14px;
-                line-height: 1.41;
-            }
+          .text {
+            font-size: 14px;
+            margin-top: 29px;
+            margin-left: -10px;
+            margin-right: -10px;
+          }
         }
-    }
+      }
 
-    @include sp {
-        .location-content .list-station .station-item .img {
-            width: 50rem;
-        }
+      .train-station-note {
+        font-size: 14px;
+        line-height: 1.41;
+      }
     }
+  }
+
+  @include sp {
+    .location-content .list-station .station-item .img {
+      width: 50rem;
+    }
+  }
 }

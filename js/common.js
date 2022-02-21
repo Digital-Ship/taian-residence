@@ -28,4 +28,13 @@ jQuery(function ($) {
   function scrollTo(goTo = 0) {
     $('html,body').animate({ scrollTop: goTo }, 'slow');
   }
+  let menuOffsetTop = $("#btn_open_menu").offset().top;
+
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > menuOffsetTop) {
+      $('body').addClass('menu-fixed')
+    } else {
+      $('body').removeClass('menu-fixed');
+    }
+  });
 })
