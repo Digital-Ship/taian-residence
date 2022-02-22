@@ -1,6 +1,6 @@
 <?php
 $Path = './';
-$pageID = 'sampge';
+$pageID = 'sample';
 $pageTitle = 'タイトルタグ用';
 $pageSlug = 'ヘッダーの文言用';
 $keyword = 'META,キーワード';
@@ -39,8 +39,8 @@ $pageName_url = './';
 <body>
   <?php include __DIR__ . '/inc/gtm_body.php'; ?>
   <?php include __DIR__ . '/inc/header.php'; ?>
-
-  <main style="height: 100rem;">
+  <main>
+    <?/* パンくず用のファイルを作ってインクルードしても問題ございません。 */ ?>
   </main>
   <?php include __DIR__ . '/inc/footer.php'; ?>
 
