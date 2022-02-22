@@ -5,6 +5,9 @@ $pageTitle = 'タイトルタグ用';
 $pageSlug = 'ヘッダーの文言用';
 $keyword = 'META,キーワード';
 $description = 'METAディスクリプション用';
+$canonical = "https://taian-residence.com/";
+$ogUrl = "https://taian-residence.com/";
+$ogEmail = "";
 $h1 = 'ヘッダー内にH1がある時用';
 
 //ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー

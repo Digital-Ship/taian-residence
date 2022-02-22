@@ -16,7 +16,7 @@
           RC造のデザイナーズ新築分譲住宅 全２邸
         </span>
         <div class="residence__img">
-          <img src="./images/lp/main/lp-residence-txt.svg" alt="RESIDENCE" width="333" height="47">
+          <img src="./images/common/txt_residence.svg" alt="RESIDENCE" width="333" height="47">
         </div>
       </div>
     </div>

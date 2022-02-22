@@ -3,15 +3,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="format-detection" content="telephone=no">
 <title><?php echo $pageTitle; ?></title>
-<link rel="canonical" href="">
+<link rel="canonical" href="<?php echo $canonical; ?>">
 <meta name="keywords" content="<?php echo $keyword; ?>">
 <meta name="description" content="<?php echo $description; ?>">
 <meta property="og:title" content="<?php echo $pageTitle; ?>">
 <meta property="og:description" content="<?php echo $description; ?>">
 <meta property="og:type" content="website">
-<meta property="og:url" content="">
+<meta property="og:url" content="<?php echo $ogUrl; ?>">
 <meta property="og:site_name" content="<?php echo $pageName; ?>">
-<meta property="og:email" content="<?php echo $pageName_url; ?>">
+<meta property="og:email" content="<?php echo $ogEmail; ?>">
 <meta property="og:locale" content="ja_JP">
 <link rel="shortcut icon" href="<?php echo $Path; ?>favicon.png">
 <link rel="apple-touch-icon" href="<?php echo $Path; ?>favicon.png">

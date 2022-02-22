@@ -4,7 +4,7 @@
       <div class="ta-logo">
         <div class="img">
           <a href="<?php echo $Path; ?>">
-            <img src="./images/lp/main/taian-img.svg" alt="TAIAN" width="262">
+            <img src="<?php echo $Path; ?>images/common/taian-logo.svg" alt="TAIAN" width="262">
           </a>
         </div>
 
@@ -14,7 +14,7 @@
             RC造のデザイナーズ新築分譲住宅 全２邸
           </span>
           <div class="residence__img">
-            <img src="<?php echo $Path; ?>/images/lp/main/lp-residence-txt.svg" alt="RESIDENCE" width="333" height="47">
+            <img src="<?php echo $Path; ?>/images/common/txt_residence.svg" alt="RESIDENCE" width="333" height="47">
           </div>
         </div>
       </div>
@@ -32,13 +32,13 @@
     </div>
     <div class="site-action">
       <a href="javascript:void(0);" id="btn_open_menu">
-        <img src="<?php echo $Path; ?>/images/lp/main/icon-menu.svg" alt="Menu" width="55" height="40">
+        <img src="<?php echo $Path; ?>/images/common/icon-menu.svg" alt="Menu" width="55" height="40">
       </a>
       <a href="tel:045-227-5031" class="btn-tel">
-        <img src="<?php echo $Path; ?>/images/lp/main/icon-tel.svg" alt="メールマーク" width="55" height="42">
+        <img src="<?php echo $Path; ?>/images/common/icon-tel.svg" alt="TELマーク" width="55" height="42">
       </a>
       <a href="<?php echo $Path; ?>inquiry.php" class="btn-inquiry">
-        <img src="<?php echo $Path; ?>/images/lp/main/icon-letter.svg" alt="メールマーク" width="55" height="42">
+        <img src="<?php echo $Path; ?>/images/common/icon-letter.svg" alt="メールマーク" width="55" height="42">
       </a>
     </div>
   </div>

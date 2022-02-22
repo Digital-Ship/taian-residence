@@ -5,6 +5,9 @@ $pageTitle = 'タイアンレジデンス湘南台　RC造のデザイナーズ�
 $pageSlug = 'ヘッダーの文言用';
 $keyword = '新築分譲住宅,一戸建て,不動産,デザイナーズ,RC造,湘南台,藤沢市,湘南台駅,小田急江ノ島線,ブルーライン,相鉄いずみ野線,ワンズリアルティ株式会社';
 $description = 'タイアンレジデンス湘南台　RC造のデザイナーズ新築分譲住宅全2邸の物件情報サイトです。湘南台駅徒歩7分。耐久性に優れた安全安心な住まい。';
+$canonical = "https://taian-residence.com/";
+$ogUrl = "https://taian-residence.com/";
+$ogEmail = "";
 $h1 = 'ヘッダー内にH1がある時用';
 
 //ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
@@ -39,7 +42,7 @@ $pageName_url = './';
     <section id="lp-main">
       <div class="container lp-main-content_box_inner">
         <div class="abs-item taian-logo">
-          <img src="<?php echo $Path; ?>images/lp/main/taian-img.svg" alt="TAIAN" width="404" height="600">
+          <img src="<?php echo $Path; ?>images/common/taian-logo.svg" alt="TAIAN" width="404" height="600">
         </div>
         <div class="abs-item lp-main__txt">
           <img class="wow fadeUp" src="<?php echo $Path; ?>images/lp/main/lp-main-txt.svg" alt="TAIAN" width="248" height="490">
@@ -55,7 +58,7 @@ $pageName_url = './';
             RC造のデザイナーズ新築分譲住宅 全２邸
           </span>
           <div class="residence__img">
-            <img src="<?php echo $Path; ?>images/lp/main/lp-residence-txt.svg" alt="RESIDENCE" width="333" height="47">
+            <img src="<?php echo $Path; ?>images/common/txt_residence.svg" alt="RESIDENCE" width="333" height="47">
           </div>
         </div>
         <div class="abs-item  news">
@@ -92,21 +95,21 @@ $pageName_url = './';
     <section id="image-view">
       <div class="image_view_wrap">
         <div class="wow fadeUp">
-          <h2 class="image_view__title"><img src="<?php echo $Path; ?>images/lp/image_view/txt_image_view.svg" alt="IMAGE VIEW" width="417" height="47"></h2>
+          <h2 class="image_view__title"><img src="<?php echo $Path; ?>images/lp/image_view/txt_image_view.svg" alt="IMAGE MOVIE" width="417" height="47"></h2>
           <div class="image_view_content">
             <p class="image_view__subtitle">
               建物竣工イメージを<br />
               動画でご確認いただけます
             </p>
             <p class="image_view__txt_jp">
-              <img src="<?php echo $Path; ?>images/lp/image_view/txt_image_view_jp.svg" alt="" width="153" height="415">
+              <img src="<?php echo $Path; ?>images/lp/image_view/txt_image_view_jp.svg" alt="魅了する意匠" width="153" height="415">
             </p>
             <div class="movie movie-a">
               <div class="movie-box">
-                <img src="<?php echo $Path; ?>images/lp/image_view/movie.jpg" alt="Movie A">
+                <img src="<?php echo $Path; ?>images/lp/image_view/movie.jpg" alt="Movie-A">
                 <div class="movie_content btn_open_movie" data-popup="#movie-a">
                   <h3 class="movie_name">
-                    <img src="<?php echo $Path; ?>images/lp/image_view/txt_movie_a.svg" alt="Movie A">
+                    <img src="<?php echo $Path; ?>images/lp/image_view/txt_movie_a.svg" alt="Movie-A">
                   </h3>
                 </div>
               </div>
@@ -115,17 +118,17 @@ $pageName_url = './';
                 家具付き販売ではございませんので予めご了承ください。</p>
             </div>
             <div class="taian-logo">
-              <img src="<?php echo $Path; ?>images/lp/image_view/taian-logo.svg" alt="TAIAN">
+              <img src="<?php echo $Path; ?>images/lp/image_view/taian-logo.svg" alt="TAIAN RESIDENCE">
             </div>
             <div class="movie movie-b">
               <p class="hidden-sp">
                 完成後イメージ動画につき実際と異なる際は現況を優先といたします。<br />
                 家具付き販売ではございませんので予めご了承ください。</p>
               <div class="movie-box">
-                <img src="<?php echo $Path; ?>images/lp/image_view/movie.jpg" alt="Movie B">
+                <img src="<?php echo $Path; ?>images/lp/image_view/movie.jpg" alt="Movie-B">
                 <div class="movie_content btn_open_movie" data-popup="#movie-b">
                   <h3 class="movie_name">
-                    <img src="<?php echo $Path; ?>images/lp/image_view/txt_movie_b.svg" alt="Movie B">
+                    <img src="<?php echo $Path; ?>images/lp/image_view/txt_movie_b.svg" alt="Movie-B">
                   </h3>
                 </div>
               </div>
@@ -191,14 +194,14 @@ $pageName_url = './';
       <div class="__plan _plan_a btn_open_popup wow fadeUp" data-popup="#popup-plan-a">
         <div class="plan__content ">
           <img class="plan_txt" src="<?php echo $Path; ?>images/lp/plan/txt_taian_residence.svg" alt="TAIAN RESIDENCE">
-          <img class="plan_name" src="<?php echo $Path; ?>images/lp/plan/txt_plan_a.svg" alt="PLAN A">
+          <img class="plan_name" src="<?php echo $Path; ?>images/lp/plan/txt_plan_a.svg" alt="PLAN-A">
           <p>タップでA棟間取図をご覧いただけます</p>
         </div>
       </div>
       <div class="__plan _plan_b btn_open_popup wow fadeUp" data-popup="#popup-plan-b">
         <div class="plan__content ">
           <img class="plan_txt" src="<?php echo $Path; ?>images/lp/plan/txt_taian_residence.svg" alt="TAIAN RESIDENCE">
-          <img class="plan_name" src="<?php echo $Path; ?>images/lp/plan/txt_plan_b.svg" alt="PLAN B">
+          <img class="plan_name" src="<?php echo $Path; ?>images/lp/plan/txt_plan_b.svg" alt="PLAN-B">
           <p>タップでB棟間取図をご覧いただけます</p>
         </div>
       </div>
@@ -231,11 +234,11 @@ $pageName_url = './';
             <div class="wow fadeUp">
               <div class="equipment-box right ">
                 <h3 class="box__title">
-                  <img src="<?php echo $Path; ?>images/lp/equipment/txt_kitchen.svg" alt="KITCHEN">
+                  <img src="<?php echo $Path; ?>images/lp/equipment/txt_kitchen.svg" alt="KITCHEN キッチン">
                 </h3>
                 <div class="box__img">
-                  <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/equipment/img_kitchen.png" alt="KITCHEN">
-                  <img class="hidden-sp" src="<?php echo $Path; ?>images/lp/equipment/img_kitchen_2.png" alt="KITCHEN">
+                  <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/equipment/img_kitchen.png" alt="Panasonic L-CLASS KITCHEN">
+                  <img class="hidden-sp" src="<?php echo $Path; ?>images/lp/equipment/img_kitchen_2.png" alt="Panasonic L-CLASS KITCHEN">
                   <a class="_txt" href="<?php echo $Path; ?>pdf/設備／システムキッチン.pdf" target="_blank">
                     PDFで詳しく見る
                   </a>
@@ -269,11 +272,11 @@ $pageName_url = './';
             <div class="wow fadeUp">
               <div class="equipment-box left ">
                 <h3 class="box__title">
-                  <img src="<?php echo $Path; ?>images/lp/equipment/txt_bath_room.svg" alt="BATH ROOM">
+                  <img src="<?php echo $Path; ?>images/lp/equipment/txt_bath_room.svg" alt="BATH ROOM バスルーム">
                 </h3>
                 <div class="box__img">
-                  <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/equipment/img_bath_room.png" alt="BATH ROOM">
-                  <img class="hidden-sp" src="<?php echo $Path; ?>images/lp/equipment/img_bath_room_2.png" alt="BATH ROOM">
+                  <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/equipment/img_bath_room.png" alt="LIXIL SPAGE＜スパージュ＞">
+                  <img class="hidden-sp" src="<?php echo $Path; ?>images/lp/equipment/img_bath_room_2.png" alt="LIXIL SPAGE＜スパージュ＞">
                   <a class="_txt" href="<?php echo $Path; ?>pdf/設備／ユニットバス.pdf" target="_blank">
                     PDFで詳しく見る
                   </a>
@@ -282,10 +285,9 @@ $pageName_url = './';
                   <div class="desc_logo">
                     <img src="<?php echo $Path; ?>images/lp/equipment/logo_lixil.svg" alt="LIXIL">
                   </div>
-                  <div class="sub__title">SPAGE 〈スパージュ〉</div>
+                  <div class="sub__title">SPAGE〈スパージュ〉</div>
                   <p>
-                    お風呂を愛する国のバスルーム。湯を、愉しむ。時を、味わう。
-                    SPAGE〈スパージュ〉。くつろぎを育み空間を構成するすべてにこだわりましたベール吐水「肩湯」・ウェーブ吐水「肩ほぐし湯」・ウェーブ吐水「腰ほぐし湯」3種類の吐水により心地よさが想像を超えるリラックステクノロジー搭載。
+                    お風呂を愛する国のバスルーム。湯を、愉しむ。時を、味わう。SPAGE〈スパージュ〉。くつろぎを育み空間を構成するすべてにこだわりましたベール吐水「肩湯」・ウェーブ吐水「肩ほぐし湯」・ウェーブ吐水「腰ほぐし湯」3種類の吐水により心地よさが想像を超えるリラックステクノロジー搭載。
                   </p>
                   <div class="btn__group">
                     <div class="btn_item">
@@ -307,11 +309,11 @@ $pageName_url = './';
             <div class="wow fadeUp">
               <div class="equipment-box right ">
                 <h3 class="box__title">
-                  <img src="<?php echo $Path; ?>images/lp/equipment/txt_wash_stand.svg" alt="WASH STAND">
+                  <img src="<?php echo $Path; ?>images/lp/equipment/txt_wash_stand.svg" alt="WASH STAND 洗面台">
                 </h3>
                 <div class="box__img">
-                  <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/equipment/img_wash_stand.png" alt="WASH STAND">
-                  <img class="hidden-sp" src="<?php echo $Path; ?>images/lp/equipment/img_wash_stand_2.png" alt="WASH STAND">
+                  <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/equipment/img_wash_stand.png" alt="LIXIL LUMISIS ボウル一体タイプ">
+                  <img class="hidden-sp" src="<?php echo $Path; ?>images/lp/equipment/img_wash_stand_2.png" alt="LIXIL LUMISIS ボウル一体タイプ">
                   <a class="_txt" href="<?php echo $Path; ?>pdf/設備／洗面化粧台.pdf" target="_blank">
                     PDFで詳しく見る
                   </a>
@@ -345,11 +347,11 @@ $pageName_url = './';
             <div class="wow fadeUp">
               <div class="equipment-box left last ">
                 <h3 class="box__title">
-                  <img src="<?php echo $Path; ?>images/lp/equipment/txt_accent_tile.svg" alt="ACCENT TILE">
+                  <img src="<?php echo $Path; ?>images/lp/equipment/txt_accent_tile.svg" alt="ACCENT TILE アクセントタイプ">
                 </h3>
                 <div class="box__img">
-                  <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/equipment/img_accent_tile.png" alt="ACCENT TILE">
-                  <img class="hidden-sp" src="<?php echo $Path; ?>images/lp/equipment/img_accent_tile_2.png" alt="ACCENT TILE">
+                  <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/equipment/img_accent_tile.png" alt="LIXIL 黒彩、グレイミックス、インテリアモザイク">
+                  <img class="hidden-sp" src="<?php echo $Path; ?>images/lp/equipment/img_accent_tile_2.png" alt="LIXIL 黒彩、グレイミックス、インテリアモザイク">
 
                 </div>
                 <div class="box__desc">
@@ -365,10 +367,10 @@ $pageName_url = './';
                     各所の設備との相性も良く、重厚感を醸し出す角タイル部材。そして、カラーアクセントクロスとの相性も◎です。
                   </p>
                   <div class="btn__group">
-                    <div class="btn_item"><img src="<?php echo $Path; ?>images/lp/equipment/img_accent_tile_img1.png" alt="ACCENT TILE 1">
+                    <div class="btn_item"><img src="<?php echo $Path; ?>images/lp/equipment/img_accent_tile_img1.png" alt="LIXIL 黒彩、グレイミックス、インテリアモザイク 1">
                     </div>
                     <div class="btn_item">
-                      <img src="<?php echo $Path; ?>images/lp/equipment/img_accent_tile_img2.png" alt="ACCENT TILE 2">
+                      <img src="<?php echo $Path; ?>images/lp/equipment/img_accent_tile_img2.png" alt="LIXIL 黒彩、グレイミックス、インテリアモザイク 2">
                     </div>
                   </div>
                 </div>
@@ -411,7 +413,7 @@ $pageName_url = './';
             <div class="equitement__bot">
               <div class="bot_content">
                 <div class="__img">
-                  <img src="<?php echo $Path; ?>images/lp/equipment/logo_jpd.png" alt="JPD">
+                  <img src="<?php echo $Path; ?>images/lp/equipment/logo_jpd.png" alt="JPD 株式会社ジャパン断熱 INSULATION JAPAN CO.LTD">
                 </div>
 
                 <div class="red_line">
@@ -467,7 +469,7 @@ $pageName_url = './';
                 <span>［構　造］</span>
               </h2>
               <div class="_logo">
-                <img src="<?php echo $Path; ?>images/lp/structure/logo_structure.svg" alt="法定耐用年数47年">
+                <img src="<?php echo $Path; ?>images/lp/structure/logo_structure.svg" alt="世代を超える住まい 法定耐用年数47年 メンテナンス次第で100年住宅も視野に">
               </div>
             </div>
             <div class="st_content">
@@ -480,7 +482,7 @@ $pageName_url = './';
           <div class="strong_point">
             <div class="point_item wow fadeUp">
               <div class="point">
-                <img src="<?php echo $Path; ?>images/lp/structure/strong_point_1.svg" alt="STRONG POINT 1">
+                <img src="<?php echo $Path; ?>images/lp/structure/strong_point_1.svg" alt="STRONG POINT.01">
                 <div class="point_txt">
                   <p>その性質により地震の力で伸縮する建物に対し、鉄筋が持つ引張力とコンクリートが持つ圧縮力が支えとなり耐震性を発揮。</p>
                 </div>
@@ -488,7 +490,7 @@ $pageName_url = './';
             </div>
             <div class="point_item wow fadeUp" data-wow-delay="0.2s">
               <div class="point">
-                <img src="<?php echo $Path; ?>images/lp/structure/strong_point_2.svg" alt="STRONG POINT 2">
+                <img src="<?php echo $Path; ?>images/lp/structure/strong_point_2.svg" alt="STRONG POINT.02">
                 <div class="point_txt">
                   <p>不燃材ですので、万一火災に見舞われた場合は、構造から建て替えするのではなくリフォームで済むことが多くなります。</p>
                 </div>
@@ -496,7 +498,7 @@ $pageName_url = './';
             </div>
             <div class="point_item  wow fadeUp" data-wow-delay="0.4s">
               <div class="point">
-                <img src="<?php echo $Path; ?>images/lp/structure/strong_point_3.svg" alt="STRONG POINT 3">
+                <img src="<?php echo $Path; ?>images/lp/structure/strong_point_3.svg" alt="STRONG POINT.03">
                 <div class="point_txt">
                   <p>気密性が高いため内外ともに音の透過が少なく、木造住宅に比べて高い遮音性を発揮。比較的近隣を気にせず生活できます。</p>
                 </div>
@@ -504,7 +506,7 @@ $pageName_url = './';
             </div>
             <div class="point_item  wow fadeUp" data-wow-delay="0.6s">
               <div class="point">
-                <img src="<?php echo $Path; ?>images/lp/structure/strong_point_4.svg" alt="STRONG POINT 4">
+                <img src="<?php echo $Path; ?>images/lp/structure/strong_point_4.svg" alt="STRONG POINT.04">
                 <div class="point_txt">
                   <p>台風は強大な力で建物を破壊します。RC住宅は建物の重厚さでその強さを発揮。沖縄県ではRC造が主流となっています。</p>
                 </div>
@@ -517,7 +519,7 @@ $pageName_url = './';
             </div>
             <div class="wow fadeUp">
               <div class="structure_bot_wrap">
-                <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/structure/img.png" alt="モノコック構造を採用しています">
+                <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/structure/img.png" alt="タイアンレジデンスは地震の力を面に分散し軽減させるモノコック構造を採用しています">
                 <div class="structure_bot_wrap_txt">
                   <div class="txt_black_bg center">
                     <p>
@@ -526,12 +528,12 @@ $pageName_url = './';
                     </p>
                   </div>
                   <div class="imgs">
-                    <img src="<?php echo $Path; ?>images/lp/structure/img2.png" alt="モノコック構造を採用しています 2">
-                    <img src="<?php echo $Path; ?>images/lp/structure/img3.png" alt="モノコック構造を採用しています 3">
+                    <img src="<?php echo $Path; ?>images/lp/structure/img2.png" alt="木造軸組み構造">
+                    <img src="<?php echo $Path; ?>images/lp/structure/img3.png" alt="モノコック構造（RC壁式構造）">
                   </div>
                 </div>
                 <div class="structure_bot_wrap_img hidden-sp">
-                  <img src="<?php echo $Path; ?>images/lp/structure/img_pc.png" alt="モノコック構造を採用しています">
+                  <img src="<?php echo $Path; ?>images/lp/structure/img_pc.png" alt="タイアンレジデンスは地震の力を面に分散し軽減させるモノコック構造を採用しています">
                 </div>
               </div>
               <div class="structure_content">
@@ -598,10 +600,10 @@ $pageName_url = './';
               <div class="secu-info">
                 <div class="secu-name">国土交通大臣指定住宅瑕疵担保責任保険法人</div>
                 <div class="secu-logo">
-                  <img src="./images/lp/security/img_security-company.svg" alt="">
+                  <img src="./images/lp/security/img_security-company.svg" alt="安心をささえる。未来へ、つなぐ。住宅保障機構まもりすまい保険">
                 </div>
                 <div class="img01">
-                  <img src="./images/lp/security/img_sec-01.svg" alt="" width="182">
+                  <img src="./images/lp/security/img_sec-01.svg" alt="まもりすまい保険 マスコット" width="182">
                 </div>
               </div>
             </div>
@@ -609,7 +611,7 @@ $pageName_url = './';
               <ul class="list-support">
                 <li class="support-item">
                   <div class="img">
-                    <img src="./images/lp/security/support-01.svg" alt="">
+                    <img src="./images/lp/security/support-01.svg" alt="あんしん SUPPORT.01">
                   </div>
                   <div class="text">
                     工事中に第三者による現場検査を実施しています
@@ -617,7 +619,7 @@ $pageName_url = './';
                 </li>
                 <li class="support-item">
                   <div class="img">
-                    <img src="./images/lp/security/support-02.svg" alt="">
+                    <img src="./images/lp/security/support-02.svg" alt="あんしん SUPPORT.02">
                   </div>
                   <div class="text">
                     万が一瑕疵が見つかった際には修繕費用を保険でサポート
@@ -625,7 +627,7 @@ $pageName_url = './';
                 </li>
                 <li class="support-item">
                   <div class="img">
-                    <img src="./images/lp/security/support-03.svg" alt="">
+                    <img src="./images/lp/security/support-03.svg" alt="あんしん SUPPORT.03">
                   </div>
                   <div class="text">
                     万が一業者が倒産してしまった場合には直接保険金が支払われます
@@ -633,7 +635,7 @@ $pageName_url = './';
                 </li>
                 <li class="support-item">
                   <div class="img">
-                    <img src="./images/lp/security/support-04.svg" alt="">
+                    <img src="./images/lp/security/support-04.svg" alt="あんしん SUPPORT.04">
                   </div>
                   <div class="text">
                     万が一事業者とのトラブルになっても専門処理制度が利用できます
@@ -648,7 +650,7 @@ $pageName_url = './';
     <section class="location" id="location">
 
       <h2 class="img-heading wow fadeUp">
-        <img src="./images/lp/location/location-heading.png" alt="">
+        <img src="./images/lp/location/location-heading.png" alt="湘南台駅 看板">
       </h2>
       <div class="container">
         <div class="location-ttl  wow fadeUp">
@@ -669,7 +671,7 @@ $pageName_url = './';
               </p>
             </div>
             <div class="location-map">
-              <img src="./images/lp/location/location-map.png" alt="">
+              <img src="./images/lp/location/location-map.png" alt="小田急江ノ島線 横浜市営地下鉄ブルーライン 相鉄いずみ野線 路線図">
             </div>
           </div>
           <div class="list-station">
@@ -718,21 +720,20 @@ $pageName_url = './';
             </div>
           </div>
           <div class="train-station-note">
-            ※掲載の電車の所要時間は目安であり、時間帯により異なります。<br class="sp">
-            待ち時間・乗換え時間は含みません。<br>
+            ※掲載の電車の所要時間は目安であり、時間帯により異なります。<br class="sp">待ち時間・乗換え時間は含みません。<br>
             ※Yahoo路線情報 2022年1月調べ
           </div>
         </div>
       </div>
     </section>
     <section id="life_information">
-      <section class="life-topsecion">
+      <div class="life-topsecion">
         <div class="container">
           <div class="wow fadeUp">
             <div class="life-heading">
-              <div class="life-ttl">
+              <h2 class="life-ttl">
                 <img src="./images/lp/life_information/life-info-ttl.svg" alt="LIFE INFORMATION">
-              </div>
+              </h2>
               <div class="text-heading">日々の生活にも子育てにも、恵まれた住環境も魅力です。</div>
             </div>
             <div class="life-gallery">
@@ -842,7 +843,7 @@ $pageName_url = './';
             <li class="item">原谷公園･･･<span class="unit-txt">約<span class="txt-num">500</span>m</span></li>
           </ul>
         </div>
-      </section>
+      </div>
       <div id="shonan_area">
         <div class="shonan_area__title wow fadeUp">
           湘南エリア<span>有数の人気アドレス</span>
@@ -944,7 +945,7 @@ $pageName_url = './';
     <div class="plan-popup-content">
       <div class="__txt">
         <p class="__txt_ttl">
-          <img src="<?php echo $Path; ?>images/lp/plan/popup_plan_a.svg" alt="TAIAN RESIDENCE PLAN A">
+          <img src="<?php echo $Path; ?>images/lp/plan/popup_plan_a.svg" alt="TAIAN RESIDENCE PLAN-A">
         </p>
         <p>
           <span class="txt_tt">販売価格</span>
@@ -964,11 +965,11 @@ $pageName_url = './';
           4LDK+SIC+パントリー
         </p>
         <div class="movie btn_open_movie" data-popup="#movie-a">
-          <img src="<?php echo $Path; ?>images/lp/plan/movie_a.svg" alt="Movie A">
+          <img src="<?php echo $Path; ?>images/lp/plan/movie_a.svg" alt="Movie-A">
         </div>
       </div>
       <div class="__img">
-        <img src="<?php echo $Path; ?>images/lp/plan/popup_plan_a.png" alt="Plan A">
+        <img src="<?php echo $Path; ?>images/lp/plan/popup_plan_a.png" alt="Plan-A A棟間取図">
       </div>
 
     </div>
@@ -980,7 +981,7 @@ $pageName_url = './';
     <div class="plan-popup-content">
       <div class="__txt">
         <p class="__txt_ttl">
-          <img src="<?php echo $Path; ?>images/lp/plan/popup_plan_b.svg" alt="TAIAN RESIDENCE PLAN B">
+          <img src="<?php echo $Path; ?>images/lp/plan/popup_plan_b.svg" alt="TAIAN RESIDENCE PLAN-B">
         </p>
         <p>
           <span class="txt_tt">販売価格</span>
@@ -1000,11 +1001,11 @@ $pageName_url = './';
           4LDK+SIC+パントリー
         </p>
         <div class="movie btn_open_movie" data-popup="#movie-b">
-          <img src="<?php echo $Path; ?>images/lp/plan/movie_b.svg" alt="Movie B">
+          <img src="<?php echo $Path; ?>images/lp/plan/movie_b.svg" alt="Movie-B">
         </div>
       </div>
       <div class="__img">
-        <img src="<?php echo $Path; ?>images/lp/plan/popup_plan_a.png" alt="Plan A">
+        <img src="<?php echo $Path; ?>images/lp/plan/popup_plan_b.png" alt="Plan-B B棟間取図">
       </div>
 
     </div>
@@ -1014,14 +1015,14 @@ $pageName_url = './';
   <div class="movie-popup" id="movie-a">
     <div class="btn_close_mv_popup"></div>
     <div class="movie-popup--content">
-      <iframe src="https://www.youtube.com/embed/6qVBjZrAIX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/6qVBjZrAIX8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="movie-popup--layer"></div>
   </div>
   <div class="movie-popup" id="movie-b">
     <div class="btn_close_mv_popup"></div>
     <div class="movie-popup--content">
-      <iframe src="https://www.youtube.com/embed/2lArtb6xFzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/2lArtb6xFzM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="movie-popup--layer"></div>
   </div>
