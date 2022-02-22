@@ -27,6 +27,9 @@ body {
   -webkit-text-size-adjust: 100%;
   overflow-x: hidden;
   position: relative;
+  &.open-popup {
+    overflow: hidden;
+  }
 }
 
 .animated {

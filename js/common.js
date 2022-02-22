@@ -17,23 +17,59 @@ jQuery(function ($) {
     const goTo = $(targetId).offset().top
     scrollTo(goTo);
   })
-  $(".btn_close_popup, .plan-popup .layer").click(function () {
-    $(this).closest(".plan-popup").removeClass("open")
-  })
+
   $(".btn_open_popup").click(function () {
     const targetId = $(this).data('popup');
+    openPopup();
     $(targetId).addClass('open');
   })
-
-  $(".btn_close_mv_popup, .movie-popup .layer").click(function () {
-    $(this).closest(".movie-popup").removeClass("open")
+  $(".btn_close_popup, .plan-popup .layer").click(function () {
+    $(this).closest(".plan-popup").removeClass("open");
+    closePopup();
   })
+
 
   $(".btn_open_movie").click(function () {
-    console
     const targetId = $(this).data('popup');
+    openPopup();
     $(targetId).addClass('open');
   })
+  $(".btn_close_mv_popup, .movie-popup .layer").click(function () {
+    $(this).closest(".movie-popup").removeClass("open");
+    closePopup();
+  })
+  function openPopup() {
+    const scrollbarWidth = getScrollbarWidth();
+    $('body').css('padding-right', scrollbarWidth);
+    $('body').addClass('open-popup')
+  }
+  function closePopup() {
+    $('body').css('padding-right', 0);
+    $('body').removeClass('open-popup')
+  }
+  function getScrollbarWidth() {
+
+    // Creating invisible container
+    const outer = document.createElement('div');
+    outer.style.visibility = 'hidden';
+    outer.style.overflow = 'scroll'; // forcing scrollbar to appear
+    outer.style.msOverflowStyle = 'scrollbar'; // needed for WinJS apps
+    document.body.appendChild(outer);
+
+    // Creating inner element and placing it in the container
+    const inner = document.createElement('div');
+    outer.appendChild(inner);
+
+    // Calculating difference between container's full width and the child width
+    const scrollbarWidth = (outer.offsetWidth - inner.offsetWidth);
+
+    // Removing temporary elements from the DOM
+    outer.parentNode.removeChild(outer);
+
+    return scrollbarWidth;
+
+  }
+
   function scrollTo(goTo = 0) {
     $('html,body').animate({ scrollTop: goTo }, 'slow');
   }
