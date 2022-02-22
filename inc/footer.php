@@ -2,14 +2,14 @@
   <div class="footer-wrap">
     <div class="menu-group">
       <a href="javascript:void(0);" id="back_to_top">
-        <img src="./images/common/icon-top.svg" alt="TOP">
+        <img src="./images/common/icon-top.svg" alt="TOP" width="38" height="53">
       </a>
       <div class="menu-footer">
         <?php include(__DIR__ . '/menu.php'); ?>
       </div>
     </div>
     <div class="footer-logo">
-      <img class="footer-logo__img" src="./images/common/logo-footer.svg" alt="TAIAN" />
+      <img class="footer-logo__img" src="./images/common/logo-footer.svg" alt="TAIAN" width="405" height="600" />
       <div class="residence">
         <span class="residence__txt">［タイアンレジデンス 湘南台］</span>
         <span class="residence__txt-small">

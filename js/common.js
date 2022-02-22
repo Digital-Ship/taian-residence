@@ -2,6 +2,7 @@
 
 jQuery(function ($) {
   new WOW().init();
+  var layzy = true;
   $("#btn_open_menu").click(() => {
     $('body').addClass('nav-open')
   });
@@ -73,13 +74,18 @@ jQuery(function ($) {
   function scrollTo(goTo = 0) {
     $('html,body').animate({ scrollTop: goTo }, 'slow');
   }
-  let menuOffsetTop = $("#btn_open_menu").offset().top;
 
   $(window).scroll(function () {
-    if ($(window).scrollTop() > menuOffsetTop) {
-      $('body').addClass('menu-fixed')
-    } else {
-      $('body').removeClass('menu-fixed');
+    if (layzy) {
+      loadLayzyIframe();
     }
   });
+
+  function loadLayzyIframe() {
+    layzy = false;
+    const iframes = $(".layzy-iframe");
+    $.each(iframes, (index, iframe) => {
+      $(iframe).attr('src', $(iframe).data('src'));
+    })
+  }
 })

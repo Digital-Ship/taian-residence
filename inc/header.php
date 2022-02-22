@@ -4,7 +4,7 @@
       <div class="ta-logo">
         <div class="img">
           <a href="<?php echo $Path; ?>">
-            <img src="<?php echo $Path; ?>images/common/taian-logo.svg" alt="TAIAN" width="262">
+            <img src="<?php echo $Path; ?>images/common/taian-logo.svg" alt="TAIAN" width="260" height="358">
           </a>
         </div>
 
