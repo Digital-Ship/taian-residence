@@ -119,6 +119,9 @@
     position: relative;
     max-height: 70vh;
     overflow: auto;
+    @include pc() {
+      max-height: 85vh;
+    }
     &::after {
       content: "";
       background-image: url(../images/lp/plan/popup-icon.svg);

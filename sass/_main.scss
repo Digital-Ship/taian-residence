@@ -18,7 +18,7 @@
     height: 145.5rem;
 
     @media screen and (max-width: 430px) {
-      height: calc(100vh - 15rem);
+      height: 90vh;
     }
 
     @include pc() {
@@ -39,7 +39,7 @@
       left: 0;
       width: 41rem;
       @include sp() {
-        bottom: 5rem;
+        bottom: 6rem;
       }
       @include pc() {
         top: 0;
@@ -94,9 +94,10 @@
 
       @include sp() {
         width: 46rem;
+        width: fit-content;
         bottom: 8rem;
         left: auto;
-        right: 0;
+        right: 1rem;
         margin-left: auto;
       }
 

@@ -255,12 +255,27 @@
 .life-topsecion {
   padding-bottom: 4.5rem;
   padding-top: 9.6rem;
-  background-image: url(../images/lp/life_information/life-bg_sp.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
   margin-top: -2rem;
-
+  @include sp() {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      background-image: url(../images/lp/life_information/life-bg_sp.png);
+      background-size: 75rem;
+    }
+    > .container {
+      position: relative;
+      z-index: 2;
+    }
+  }
   .life-heading {
     margin-bottom: -17rem;
 
@@ -280,7 +295,26 @@
       letter-spacing: -0.09em;
     }
   }
+  @include sp() {
+    .item-big {
+      position: relative;
+      margin-left: -5rem;
+      margin-right: -2.5rem;
+      margin-bottom: 5rem;
 
+      .text {
+        font-size: 3.8rem;
+        line-height: 1.2;
+        font-weight: 500;
+        position: absolute;
+        right: 2.8rem;
+        bottom: 2.6rem;
+        span.txt-big {
+          font-size: 5rem;
+        }
+      }
+    }
+  }
   .life-gallery {
     display: flex;
     display: grid;

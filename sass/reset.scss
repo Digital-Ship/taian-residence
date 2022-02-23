@@ -1,0 +1,178 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+main,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+input,
+textarea,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+dd,
+dt,
+td,
+th,
+li,
+p {
+  font-size: 1.6rem;
+}
+
+td td,
+td th,
+td p,
+td li,
+dd dd,
+dd dt,
+dd p,
+dd li,
+li dd,
+li dt,
+li li,
+li p {
+  font-size: 1.6rem;
+}
+
+ul {
+  list-style: none;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+a {
+  color: #7f8080;
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+dd,
+dt,
+td,
+th,
+li,
+p {
+  line-height: 1.6;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: block;
+  overflow: hidden;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="file"]::-webkit-file-upload-button,
+button {
+  padding: 1px 6px;
+}
+
+input[type="checkbox"] {
+  margin: 0;
+}
+
+img {
+  border: 0;
+  height: auto;
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+figure {
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+video {
+  outline: none;
+}

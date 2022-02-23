@@ -138,6 +138,9 @@ $pageName_url = './';
               </p>
             </div>
           </div>
+          <div class="img-family hidden-pc">
+            <img src="./images/lp/image_view/img-family.png" />
+          </div>
         </div>
         <div class="plan_design wow fadeUp">
           <h3 class="plan_design_txt">
@@ -146,6 +149,9 @@ $pageName_url = './';
           <div class="note-bottom">
             末永く愛される住まいは、<br />
             機能・意匠性にもこだわりが<br class="hidden-pc" />あります。
+          </div>
+          <div class="img-family hidden-sp">
+            <img src="./images/lp/image_view/img-family_pc.png" />
           </div>
           <div class="plan_design_imgs">
             <img src="<?php echo $Path; ?>images/lp/image_view/plan_img1.png" alt="PLAN DESIGN 1" width="325" height="215">
@@ -736,10 +742,18 @@ $pageName_url = './';
               </h2>
               <div class="text-heading">日々の生活にも子育てにも、恵まれた住環境も魅力です。</div>
             </div>
+            <div class="item-big hidden-pc">
+              <div class="img">
+                <img src="./images/lp/life_information/life-01.png" alt="「湘南台」駅東口　約500m" width="725" height="540">
+              </div>
+              <div class="text">
+                <span class="txt-big">「湘南台」</span>駅東口　約<span class="num-500 txt-big">500</span>m
+              </div>
+            </div>
             <div class="life-gallery">
-              <div class="item-big">
+              <div class="item-big hidden-sp">
                 <div class="img">
-                  <img src="./images/lp/life_information/life-01.png" alt="「湘南台」駅東口　約500m" width="970" height="572">
+                  <img src="./images/lp/life_information/life-01_pc.png" alt="「湘南台」駅東口　約500m" width="970" height="572">
                 </div>
                 <div class="text">
                   <span class="txt-big">「湘南台」</span>駅東口　約<span class="num-500 txt-big">500</span>m

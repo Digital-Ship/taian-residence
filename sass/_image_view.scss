@@ -1,14 +1,14 @@
 #image-view {
   position: relative;
   background-color: #3466ff;
-  background-image: url(../images/lp/image_view/image_view_bg.jpg);
+  background-image: url(../images/lp/image_view/image_view_bg.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
   overflow-x: clip;
 
   @include pc() {
-    background-image: url(../images/lp/image_view/image_view_bg_pc.jpg);
+    background-image: url(../images/lp/image_view/image_view_bg_pc.png);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 200rem;
@@ -133,7 +133,22 @@
         margin-top: 2rem;
       }
     }
-
+    .img-family {
+      position: absolute;
+      right: -5.5rem;
+      width: 40.4rem;
+      img {
+        margin-top: -3rem;
+      }
+      @include pc() {
+        width: 67rem;
+        bottom: 58.4rem;
+        right: -20rem;
+      }
+      @include rp() {
+        right: -23rem;
+      }
+    }
     .note-bottom {
       font-family: "Noto Serif JP";
       font-weight: 600;
@@ -208,6 +223,8 @@
       }
       @include pc {
         width: 53.7rem;
+        position: relative;
+        z-index: 1;
       }
     }
     .plan_design_imgs {

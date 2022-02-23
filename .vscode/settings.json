@@ -1,13 +1,18 @@
 {
   "liveSassCompile.settings.formats": [
     {
-      "format": "compressed",
+      "format": "expanded",
       "extensionName": ".css",
       "savePath": "./css",
       "savePathSegmentKeys": null,
       "savePathReplaceSegmentsWith": null
     }
   ],
+  "liveSassCompile.settings.excludeList": [ 
+    "/node_modules/**",
+    "/.vscode/**",
+    "/backup/**" 
+],
   "editor.formatOnSave": true,
   "liveServer.settings.port": 5501
 }
