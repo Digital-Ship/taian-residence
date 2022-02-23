@@ -1,7 +1,7 @@
 #lp-main {
   position: relative;
   background-image: url(../images/lp/main/background.png);
-  background-position: top center;
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 75rem;
 
@@ -18,7 +18,7 @@
     height: 145.5rem;
 
     @media screen and (max-width: 430px) {
-      height: 90vh;
+      height: 100vh;
     }
 
     @include pc() {
@@ -39,7 +39,7 @@
       left: 0;
       width: 41rem;
       @include sp() {
-        bottom: 6rem;
+        bottom: 17rem;
       }
       @include pc() {
         top: 0;
@@ -54,6 +54,10 @@
       @include sp() {
         width: 8.8rem;
         height: 45rem;
+        img {
+          width: auto;
+          height: 100%;
+        }
       }
 
       @include pc() {
@@ -95,7 +99,7 @@
       @include sp() {
         width: 46rem;
         width: fit-content;
-        bottom: 8rem;
+        bottom: 17rem;
         left: auto;
         right: 1rem;
         margin-left: auto;

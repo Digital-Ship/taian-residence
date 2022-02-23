@@ -243,10 +243,12 @@ $pageName_url = './';
                   <img src="<?php echo $Path; ?>images/lp/equipment/txt_kitchen.svg" alt="KITCHEN キッチン" width="350" height="280">
                 </h3>
                 <div class="box__img">
-                  <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/equipment/img_kitchen.png" alt="Panasonic L-CLASS KITCHEN" width="700" height="530">
-                  <img class="hidden-sp" src="<?php echo $Path; ?>images/lp/equipment/img_kitchen_2.png" alt="Panasonic L-CLASS KITCHEN" width="525" height="430">
-                  <a class="_txt" href="<?php echo $Path; ?>pdf/設備／システムキッチン.pdf" target="_blank">
-                    PDFで詳しく見る
+                  <a href="<?php echo $Path; ?>pdf/設備／システムキッチン.pdf" target="_blank">
+                    <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/equipment/img_kitchen.png" alt="Panasonic L-CLASS KITCHEN" width="700" height="530">
+                    <img class="hidden-sp" src="<?php echo $Path; ?>images/lp/equipment/img_kitchen_2.png" alt="Panasonic L-CLASS KITCHEN" width="525" height="430">
+                    <span class="_txt">
+                      PDFで詳しく見る
+                    </span>
                   </a>
                 </div>
                 <div class="box__desc">
@@ -281,10 +283,12 @@ $pageName_url = './';
                   <img src="<?php echo $Path; ?>images/lp/equipment/txt_bath_room.svg" alt="BATH ROOM バスルーム" width="350" height="280">
                 </h3>
                 <div class="box__img">
-                  <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/equipment/img_bath_room.png" alt="LIXIL SPAGE＜スパージュ＞" width="700" height="530">
-                  <img class="hidden-sp" src="<?php echo $Path; ?>images/lp/equipment/img_bath_room_2.png" alt="LIXIL SPAGE＜スパージュ＞" width="525" height="430">
-                  <a class="_txt" href="<?php echo $Path; ?>pdf/設備／ユニットバス.pdf" target="_blank">
-                    PDFで詳しく見る
+                  <a href="<?php echo $Path; ?>pdf/設備／ユニットバス.pdf" target="_blank">
+                    <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/equipment/img_bath_room.png" alt="LIXIL SPAGE＜スパージュ＞" width="700" height="530">
+                    <img class="hidden-sp" src="<?php echo $Path; ?>images/lp/equipment/img_bath_room_2.png" alt="LIXIL SPAGE＜スパージュ＞" width="525" height="430">
+                    <span class="_txt">
+                      PDFで詳しく見る
+                    </span>
                   </a>
                 </div>
                 <div class="box__desc">
@@ -318,10 +322,12 @@ $pageName_url = './';
                   <img src="<?php echo $Path; ?>images/lp/equipment/txt_wash_stand.svg" alt="WASH STAND 洗面台" width="350" height="280">
                 </h3>
                 <div class="box__img">
-                  <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/equipment/img_wash_stand.png" alt="LIXIL LUMISIS ボウル一体タイプ" width="700" height="530">
-                  <img class="hidden-sp" src="<?php echo $Path; ?>images/lp/equipment/img_wash_stand_2.png" alt="LIXIL LUMISIS ボウル一体タイプ" width="525" height="430">
-                  <a class="_txt" href="<?php echo $Path; ?>pdf/設備／洗面化粧台.pdf" target="_blank">
-                    PDFで詳しく見る
+                  <a href="<?php echo $Path; ?>pdf/設備／洗面化粧台.pdf" target="_blank">
+                    <img class="hidden-pc" src="<?php echo $Path; ?>images/lp/equipment/img_wash_stand.png" alt="LIXIL LUMISIS ボウル一体タイプ" width="700" height="530">
+                    <img class="hidden-sp" src="<?php echo $Path; ?>images/lp/equipment/img_wash_stand_2.png" alt="LIXIL LUMISIS ボウル一体タイプ" width="525" height="430">
+                    <span class="_txt">
+                      PDFで詳しく見る
+                    </span>
                   </a>
                 </div>
                 <div class="box__desc">
